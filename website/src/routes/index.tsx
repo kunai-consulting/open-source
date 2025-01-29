@@ -4,7 +4,9 @@ import { Card } from "../components/ui/card/card";
 import { Avatar } from "~/components/ui";
 import { cn } from "@qwik-ui/utils";
 import { useNavigate } from "@builder.io/qwik-city";
-
+import { Label } from "~/components/ui/label/label";
+import { Link } from "@builder.io/qwik-city";
+import { Button } from "~/components/ui";
 
 export interface Repo {
   full_name: string;
@@ -13,6 +15,10 @@ export interface Repo {
   url: string;
   language: string;
   description: string;
+  updated_at: string;
+  stargazers_count: number;
+  forks_count: number;
+
 }
 
 export interface Member {
@@ -37,6 +43,7 @@ export const useGetMembers = routeLoader$(async () => {
 
 export const mappedRepos = (repositories: [Repo],nav:RouteNavigate) => {
   return repositories.map((repo: Repo) => (
+    
     <Card.Root key={repo.full_name} class={cn("w-[380px]")}>
       <Card.Header>
         <Card.Title>{repo.name}</Card.Title>
@@ -49,7 +56,13 @@ export const mappedRepos = (repositories: [Repo],nav:RouteNavigate) => {
           </div>
           {/* <Switch /> */}
         </div>
+        <Label key={repo.full_name}>
+            <h1>Last Updated: {repo.updated_at.toLocaleString()}</h1>
+            <h1>Stargazers: {repo.stargazers_count}</h1>
+            <h1>Forks: {repo.forks_count}</h1>
+          </Label>
       </Card.Content>
+      
     </Card.Root>
   ));
 };
@@ -74,12 +87,33 @@ export default component$(() => {
   const nav = useNavigate();
 
   return (
-    <>
-    <title>Qwik Open Source</title>
-      <h1>Repositories</h1>
+    <div>
+    <Label>Kunai Open Source</Label>
+    <h2>brief description of kunais commitment to open source</h2>
+      <Label>Repositories</Label>
       {mappedRepos(getRepos.value,nav)}
-      <h1>Contributors</h1>
+      <Label>Contributors</Label>
       {mappedMembers(getMembers.value,nav)}
-    </>
+      <h1>
+      <Label>Projects</Label>
+      </h1>
+
+      <>
+
+      <Button>
+      <Link href="https://qwik.dev">Qwik</Link>
+      </Button>
+
+<Button>
+<Link href="https://qwik.design">Qwik Design System</Link>
+</Button>
+
+   <Button>
+   <Link href="https://github.com/kunai-consulting/builder-plugin-seo">Builder plugin SEO</Link>
+   </Button>
+
+
+      </>
+    </div>
   );
 });
