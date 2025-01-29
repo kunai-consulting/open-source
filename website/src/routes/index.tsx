@@ -9,6 +9,7 @@ import { useNavigate } from "@builder.io/qwik-city";
 export interface Repo {
   full_name: string;
   name: string;
+  html_url: string;
   url: string;
   language: string;
   description: string;
@@ -34,14 +35,14 @@ export const useGetMembers = routeLoader$(async () => {
   return (await response.json()) as [Member];
 });
 
-export const mappedRepos = (repositories: [Repo]) => {
+export const mappedRepos = (repositories: [Repo],nav:RouteNavigate) => {
   return repositories.map((repo: Repo) => (
     <Card.Root key={repo.full_name} class={cn("w-[380px]")}>
       <Card.Header>
         <Card.Title>{repo.name}</Card.Title>
         <Card.Description>{repo.description}</Card.Description>
       </Card.Header>
-      <Card.Content class="grid gap-4">
+      <Card.Content class="grid gap-4" onClick$={() => nav(repo.html_url)}>
         <div class=" flex items-center space-x-4 rounded-md border p-4">
           <div class="flex-1 space-y-1">
             <p class="text-sm font-medium leading-none">{repo.language}</p>
@@ -76,7 +77,7 @@ export default component$(() => {
     <>
     <title>Qwik Open Source</title>
       <h1>Repositories</h1>
-      {mappedRepos(getRepos.value)}
+      {mappedRepos(getRepos.value,nav)}
       <h1>Contributors</h1>
       {mappedMembers(getMembers.value,nav)}
     </>
