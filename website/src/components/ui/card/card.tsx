@@ -5,10 +5,7 @@ const Root = component$<PropsOf<"div">>((props) => {
   return (
     <div
       {...props}
-      class={cn(
-        "rounded-base border bg-card text-card-foreground shadow-sm",
-        props.class,
-      )}
+      class={cn("w-[380px] bg-[rgba(215,233,217,255)] border-2 border-[rgb(50,64,96)] rounded-[50px]",props.class)}
     >
       <Slot />
     </div>
@@ -27,7 +24,7 @@ const Title = component$<PropsOf<"h3">>((props) => {
   return (
     <h3
       {...props}
-      class={cn("font-medium leading-none tracking-tight", props.class)}
+      class={cn("font-medium leading-none tracking-tight text-[rgb(233,90,81)]", props.class)}
     >
       <Slot />
     </h3>
@@ -44,7 +41,7 @@ const Description = component$<PropsOf<"p">>((props) => {
 
 const Content = component$<PropsOf<"div">>((props) => {
   return (
-    <div {...props} class={cn("p-6 pt-0", props.class)}>
+    <div {...props} class={cn("p-6 pt-0", "grid gap-4",props.class)}>
       <Slot />
     </div>
   );
@@ -72,3 +69,4 @@ export const Card = {
   Footer,
   Image,
 };
+
