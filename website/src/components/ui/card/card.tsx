@@ -5,7 +5,7 @@ const Root = component$<PropsOf<"div">>((props) => {
   return (
     <div
       {...props}
-      class={cn("w-[380px] bg-[rgba(215,233,217,255)] border-2 border-[rgb(50,64,96)] rounded-[50px]",props.class)}
+      class={cn("w-full max-w-[342px] bg-[rgba(215,233,217,255)] border-2 border-[rgb(50,64,96)] rounded-lg break-words",props.class)}
     >
       <Slot />
     </div>
@@ -24,7 +24,7 @@ const Title = component$<PropsOf<"h3">>((props) => {
   return (
     <h3
       {...props}
-      class={cn("font-medium leading-none tracking-tight text-[rgb(233,90,81)]", props.class)}
+      class={cn("font-medium tracking-tight text-[rgb(233,90,81)] break-words whitespace-normal", props.class)}
     >
       <Slot />
     </h3>
@@ -33,7 +33,7 @@ const Title = component$<PropsOf<"h3">>((props) => {
 
 const Description = component$<PropsOf<"p">>((props) => {
   return (
-    <p {...props} class={cn("text-sm text-muted-foreground", props.class)}>
+    <p {...props} class={cn("text-sm text-muted-foreground break-words whitespace-normal", props.class)}>
       <Slot />
     </p>
   );
@@ -41,7 +41,7 @@ const Description = component$<PropsOf<"p">>((props) => {
 
 const Content = component$<PropsOf<"div">>((props) => {
   return (
-    <div {...props} class={cn("p-6 pt-0", "grid gap-4",props.class)}>
+    <div {...props} class={cn("p-6 pt-0", "grid gap-4 break-words",props.class)}>
       <Slot />
     </div>
   );
@@ -49,7 +49,7 @@ const Content = component$<PropsOf<"div">>((props) => {
 
 const Footer = component$<PropsOf<"div">>(({ ...props }) => {
   return (
-    <div {...props} class={cn("flex items-center p-6 pt-0", props.class)}>
+    <div {...props} class={cn("flex items-center p-6 pt-0 break-words whitespace-normal", props.class)}>
       <Slot />
     </div>
   );
@@ -69,4 +69,3 @@ export const Card = {
   Footer,
   Image,
 };
-
