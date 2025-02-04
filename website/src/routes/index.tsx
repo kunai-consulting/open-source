@@ -57,9 +57,9 @@ export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
               </div>
             )}
             <Label key={repo.full_name} class="mt-4 space-y-2">
-              <h1 class="text-[#6B7280]">Last Updated: {new Date(repo.updated_at).toDateString()}</h1>
-              <h1 class="text-[#6B7280]">Stargazers: {repo.stargazers_count}</h1>
-              <h1 class="text-[#6B7280]">Forks: {repo.forks_count}</h1>
+              <h1 class="text-sm"><span class="text-[#324060]">Last Updated:</span> <span class="text-[#6B7280]">{new Date(repo.updated_at).toDateString()}</span></h1>
+              <h1 class="text-sm"><span class="text-[#324060]">Stargazers:</span> <span class="text-[#6B7280]">{repo.stargazers_count}</span></h1>
+              <h1 class="text-sm"><span class="text-[#324060]">Forks:</span> <span class="text-[#6B7280]">{repo.forks_count}</span></h1>
             </Label>
           </Card.Content>
         </Card.Root>
@@ -104,8 +104,8 @@ export default component$(() => {
 
   return (
     <div class="container mx-auto px-4 bg-[#FFFFFF]">
-      <div class="flex flex-col items-center justify-center gap-6 py-12">
-        <div class="flex gap-8 items-center justify-center">
+      <div class="flex flex-col items-center justify-center gap-5 py-10">
+        <div class="flex gap-6 items-center justify-center">
           <Link href="https://www.kunaico.com/" class="bg-[#324060] rounded-full p-4 shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
             <svg width={384} height={384} viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-32 h-32">
               <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -121,15 +121,20 @@ export default component$(() => {
         <Label class="text-4xl font-bold text-[#324060]">Kunai Open Source</Label>
       </div>
       
-      <div class="max-w-4xl mx-auto mb-12">
+      <div class="max-w-4xl mx-auto mb-10">
         <h2 class="text-[#324060] text-center leading-relaxed">
           At Kunai, we're dedicated to advancing web development through our open source projects, including contributions to Qwik - a revolutionary framework for building instant web applications. Our Qwik Design System provides developers with a comprehensive set of UI components and tools to create beautiful, consistent interfaces. Additionally, we've developed the Builder Plugin SEO to help optimize content for search engines, making web applications more discoverable and effective.
         </h2>
       </div>
 
-      <h2 class="text-[#324060] text-2xl font-bold text-center mb-8">Projects</h2>
+      <h2 class="text-[#324060] text-2xl font-bold text-center mb-6">Projects</h2>
 
-      <div class="flex flex-wrap items-center justify-center gap-4 mb-12">
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-10">
+       
+      <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
+          <Link href="https://qwik.design">Qwik Design System</Link>
+        </Button>
+        
         <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white flex items-center gap-2 shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
           <Link href="https://qwik.dev" class="flex items-center gap-2">
             Qwik
@@ -144,21 +149,17 @@ export default component$(() => {
         </Button>
 
         <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
-          <Link href="https://qwik.design">Qwik Design System</Link>
-        </Button>
-
-        <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
           <Link href="https://github.com/kunai-consulting/builder-plugin-seo">Builder plugin SEO</Link>
         </Button>
       </div>
 
-      <h2 class="text-[#324060] text-2xl font-bold text-center mb-8">Repositories</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <h2 class="text-[#324060] text-2xl font-bold text-center mb-6">Repositories</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
         {mappedRepos(getRepos.value, nav)}
       </div>
 
-      <h2 class="text-[#324060] text-2xl font-bold mb-8">Contributors</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+      <h2 class="text-[#324060] text-2xl font-bold text-center mb-6">Contributors</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
         {mappedMembers(getMembers.value, nav)}
       </div>
     </div>

@@ -6,7 +6,7 @@ const Root = component$<PropsOf<"div">>(({ ...props }) => {
     <div
       {...props}
       class={cn(
-        "relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full","h-20 w-20",
+        "relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full","h-8 w-8",
         props.class,
       )}
     >
