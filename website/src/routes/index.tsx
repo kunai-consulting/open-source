@@ -26,24 +26,45 @@ export interface Member {
 }
 
 export const useGetRepos = routeLoader$(async () => {
-  const response = await fetch("https://api.github.com/orgs/QwikDev/repos", {
-    headers: { Accept: "application/json" },
-  });
-  return (await response.json()) as [Repo];
+  const repos = [
+    "QwikDev/qwik",
+    "kunai-consulting/qwik-design-system",
+    "qwikifiers/qwik-ui",
+    "kunai-consulting/builder-plugin-seo"
+  ];
+
+  const responses = await Promise.all(
+    repos.map((repo) =>
+      fetch(`https://api.github.com/repos/${repo}`, {
+        headers: { Accept: "application/json" },
+      })
+    )
+  );
+
+  const repositories = await Promise.all(responses.map((res) => res.json()));
+  return repositories as Repo[];
 });
 
 export const useGetMembers = routeLoader$(async () => {
-  const response = await fetch("https://api.github.com/orgs/QwikDev/members", {
-    headers: { Accept: "application/json" },
-  });
-  return (await response.json()) as [Member];
+  const users = ["PatrickJS", "nabrams", "thejackshelton", "toan-kunaico", "zaynet", "jay-kunaico"];
+
+  const responses = await Promise.all(
+    users.map(user =>
+      fetch(`https://api.github.com/users/${user}`, {
+        headers: { Accept: "application/json" },
+      })
+    )
+  );
+
+  const members = await Promise.all(responses.map(res => res.json()));
+  return members as Member[];
 });
 
 export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
   if (repositories.length > 0) {
     return repositories.map((repo: Repo) => (
       <>
-        <Card.Root onClick$={() => nav(repo.html_url)}  key={repo.full_name} class="bg-white shadow-lg hover:shadow-xl transition-shadow border border-[#E8E9EC]">
+        <Card.Root onClick$={() => nav(repo.html_url)} key={repo.full_name} class="bg-white shadow-lg hover:shadow-xl transition-shadow border border-[#E8E9EC]">
           <Card.Header>
             <Card.Title class="text-[#324060] text-xl font-semibold">{repo.name}</Card.Title>
             <Card.Description class="text-[#6B7280]">{repo.description}</Card.Description>
@@ -57,9 +78,15 @@ export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
               </div>
             )}
             <Label key={repo.full_name} class="mt-4 space-y-2">
-              <h1 class="text-sm"><span class="text-[#324060]">Last Updated:</span> <span class="text-[#6B7280]">{new Date(repo.updated_at).toDateString()}</span></h1>
-              <h1 class="text-sm"><span class="text-[#324060]">Stargazers:</span> <span class="text-[#6B7280]">{repo.stargazers_count}</span></h1>
-              <h1 class="text-sm"><span class="text-[#324060]">Forks:</span> <span class="text-[#6B7280]">{repo.forks_count}</span></h1>
+              <Card.Footer>
+                <Card.Item>Last Updated:</Card.Item><Card.Value>{repo.updated_at ? new Date(repo.updated_at).toDateString() : ''}</Card.Value>
+              </Card.Footer>
+              <Card.Footer>
+                <Card.Item>Stargazers:</Card.Item> <Card.Value>{repo.stargazers_count}</Card.Value>
+              </Card.Footer>
+              <Card.Footer>
+                <Card.Item>Forks:</Card.Item> <Card.Value>{repo.forks_count}</Card.Value>
+              </Card.Footer>
             </Label>
           </Card.Content>
         </Card.Root>
@@ -70,7 +97,7 @@ export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
   }
 };
 
-export const mappedMembers = (members: [Member], nav: RouteNavigate) => {
+export const mappedMembers = (members: Member[], nav: RouteNavigate) => {
   if (members.length > 0) {
     return members.map((member: Member) => (
       <>
@@ -106,10 +133,10 @@ export default component$(() => {
     <div class="container mx-auto px-4 bg-[#FFFFFF]">
       <div class="flex flex-col items-center justify-center gap-5 py-10">
         <div class="flex gap-6 items-center justify-center">
-          <Link href="https://www.kunaico.com/" class="bg-[#324060] rounded-full p-4 shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
+          <Link href="https://www.kunaico.com/" class="bg-[#324060] rounded-full p-4 shadow-[0_4px_8px_0_rgba(0,0,0,0.25)] hover:-translate-y-1 hover:scale-105">
             <svg width={384} height={384} viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-32 h-32">
               <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-                <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#333333" flood-opacity="0.3"/>
+                <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#333333" flood-opacity="0.3" />
               </filter>
               <g filter="url(#shadow)" transform="translate(24 14)">
                 <path d="M0 49.7437C0 37.8131 24.3559 33.1154 37.3081 26.1326C56.6701 15.6933 73.4510 -1.2683 81.4502 6.5217C91.0218 15.8382 68.6915 37.6423 68.6915 49.6563C68.6915 61.6699 91.0218 83.4740 81.4502 92.7904C73.4510 100.5805 56.6701 83.6186 37.3081 73.1791C24.3559 66.1965 0 61.4988 0 49.5684V49.7437Z" fill="#E85A51"></path>
@@ -120,7 +147,7 @@ export default component$(() => {
         </div>
         <Label class="text-4xl font-bold text-[#324060]">Kunai Open Source</Label>
       </div>
-      
+
       <div class="max-w-4xl mx-auto mb-10">
         <h2 class="text-[#324060] text-center leading-relaxed">
           At Kunai, we're dedicated to advancing web development through our open source projects, including contributions to Qwik - a revolutionary framework for building instant web applications. Our Qwik Design System provides developers with a comprehensive set of UI components and tools to create beautiful, consistent interfaces. Additionally, we've developed the Builder Plugin SEO to help optimize content for search engines, making web applications more discoverable and effective.
@@ -130,16 +157,15 @@ export default component$(() => {
       <h2 class="text-[#324060] text-2xl font-bold text-center mb-6">Projects</h2>
 
       <div class="flex flex-wrap items-center justify-center gap-4 mb-10">
-       
-      <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
+        <Button>
           <Link href="https://qwik.design">Qwik Design System</Link>
         </Button>
-        
-        <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white flex items-center gap-2 shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
+
+        <Button>
           <Link href="https://qwik.dev" class="flex items-center gap-2">
             Qwik
-            <img 
-              src="https://raw.githubusercontent.com/BuilderIO/qwik/main/packages/docs/public/logos/qwik-logo.svg" 
+            <img
+              src="https://raw.githubusercontent.com/BuilderIO/qwik/main/packages/docs/public/logos/qwik-logo.svg"
               alt="Qwik Logo"
               width={24}
               height={24}
@@ -148,13 +174,13 @@ export default component$(() => {
           </Link>
         </Button>
 
-        <Button class="bg-[#324060] hover:bg-[#F5A59F] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)]">
+        <Button>
           <Link href="https://github.com/kunai-consulting/builder-plugin-seo">Builder plugin SEO</Link>
         </Button>
       </div>
 
       <h2 class="text-[#324060] text-2xl font-bold text-center mb-6">Repositories</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto px-4">
         {mappedRepos(getRepos.value, nav)}
       </div>
 

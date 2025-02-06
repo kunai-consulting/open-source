@@ -20,7 +20,7 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
         {!isDev && (
           <link
             rel="manifest"

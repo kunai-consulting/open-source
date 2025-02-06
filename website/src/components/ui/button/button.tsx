@@ -3,12 +3,12 @@ import { cn } from "@qwik-ui/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 
 export const buttonVariants = cva(
-  "inline-flex items-center justify-center rounded-[50px] text-sm font-medium transition-all duration-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center rounded-[50px] text-sm font-medium transition-all  focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       look: {
         primary:
-          "border-[#324060] bg-[#324060] text-[rgba(233,90,81,255)] shadow-sm hover:bg-[#324060]/90 active:shadow-base active:press",
+          "border-[#324060] bg-[#324060] hover:bg-[rgba(245,165,159,0.8)] text-white shadow-[0_4px_8px_0_rgba(0,0,0,0.25)] active:shadow-base active:press transition-colors duration-100 ease-in-out hover:-translate-y-1 hover:scale-110",
         secondary:
           "border-[#324060] bg-[#324060] text-[rgba(233,90,81,255)] shadow-sm hover:bg-[#324060]/90 active:shadow-base active:press",
         alert:
