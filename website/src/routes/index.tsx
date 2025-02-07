@@ -256,6 +256,12 @@ export default component$(() => {
 						Builder plugin SEO
 					</Link>
 				</Button>
+
+				<Button>
+					<Link href="https://github.com/twentyhq/twenty">
+						Twenty
+					</Link>
+				</Button>
 			</div>
 
 			<h2 class="text-[#324060] text-2xl font-bold text-center mb-6">

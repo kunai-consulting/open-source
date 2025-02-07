@@ -5,7 +5,7 @@ const Root = component$<PropsOf<"div">>((props) => {
   return (
     <div
       {...props}
-      class={cn("w-full max-w-[342px] bg-[rgba(215,233,217,255)] border-2 border-[rgb(50,64,96)] rounded-lg break-words hover:-translate-y-1 hover:scale-105",props.class)}
+      class={cn("w-full max-w-[342px] bg-[rgba(215,233,217,255)] border-2 border-[rgb(50,64,96)] rounded-lg break-words hover:-translate-y-1 hover:scale-105 transition-transform",props.class)}
     >
       <Slot />
     </div>
