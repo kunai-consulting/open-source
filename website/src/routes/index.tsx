@@ -31,6 +31,7 @@ export const useGetRepos = routeLoader$(async () => {
 		"kunai-consulting/qwik-design-system",
 		"qwikifiers/qwik-ui",
 		"kunai-consulting/builder-plugin-seo",
+		"twentyhq/twenty",
 	];
 
 	try {
@@ -258,10 +259,18 @@ export default component$(() => {
 				</Button>
 
 				<Button>
-					<Link href="https://github.com/twentyhq/twenty">
+					<Link href="https://twenty.com/">
 						Twenty
 					</Link>
 				</Button>
+
+				<Button>
+					<Link href="https://qwikui.com">
+						Qwik UI
+					</Link>
+				</Button>
+
+				
 			</div>
 
 			<h2 class="text-[#324060] text-2xl font-bold text-center mb-6">
