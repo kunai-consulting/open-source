@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { RouteNavigate } from "@builder.io/qwik-city";
 import { Card } from "../card/card";
 import { Label } from "../label/label";
-import type { Repo } from "~/routes";
+import type { Repo } from "~/types";
 
 interface RepoCardProps {
   repo: Repo;

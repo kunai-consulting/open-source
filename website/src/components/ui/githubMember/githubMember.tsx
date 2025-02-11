@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, RouteNavigate } from "@builder.io/qwik-city";
 import { Avatar } from "~/components/ui";
-import type { Member } from "~/types/github";
+import type { Member } from "~/types";
 
 interface GithubMemberProps {
   member: Member;
