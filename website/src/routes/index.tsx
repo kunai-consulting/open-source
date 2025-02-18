@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$, RouteNavigate } from "@builder.io/qwik-city";
+import { routeLoader$, type RouteNavigate } from "@builder.io/qwik-city";
 import { useNavigate } from "@builder.io/qwik-city";
 import { Label } from "~/components/ui/label/label";
 import { Link } from "@builder.io/qwik-city";
@@ -25,39 +25,55 @@ export const sortCommitsByDate = (commits: Commit[]) => {
 
 
 export const useGetRepos = routeLoader$(async () => {
-  const responses = await Promise.all(
-    repos.map((repo) =>
-      fetch(`https://api.github.com/repos/${repo}`, {
-        headers: {
-          Accept: "application/json",
-          "User-Agent": "Cloudflare Worker",
-          Authorization: `Bearer ${process.env.VITE_GITHUB_TOKEN}`,
-        },
-      })
-    )
-  );
-
-  const repositories = await Promise.all(responses.map((res) => res.json()));
-  return repositories as Repo[];
+  try {
+    const responses = await Promise.all(
+      repos.map((repo) =>
+        fetch(`https://api.github.com/repos/${repo}`, {
+          headers: {
+            Accept: "application/json",
+            "User-Agent": "Cloudflare Worker",
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+          },
+        }).then((res) => {
+          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+          return res;
+        }),
+      ),
+    );
+    const repositories = await Promise.all(responses.map((res) => res.json()));
+    return repositories as Repo[];
+  } catch (error) {
+    console.error("Error fetching repos:", error);
+    return [] as Repo[];
+  }
 });
 
 export const useGetMembers = routeLoader$(async () => {
-  const responses = await Promise.all(
-    contributors.map((user) =>
-      fetch(`https://api.github.com/users/${user}`, {
-        headers: {
-          Accept: "application/json",
-          "User-Agent": "Cloudflare Worker",
-          Authorization: `Bearer ${process.env.VITE_GITHUB_TOKEN}`,
-        },
-      })
-    )
-  );
-  const members = await Promise.all(responses.map((res) => res.json()));
-  return members as Member[];
+	try {
+		const responses = await Promise.all(
+			contributors.map((user) =>
+				fetch(`https://api.github.com/users/${user}`, {
+					headers: {
+						Accept: "application/json",
+						"User-Agent": "Cloudflare Worker",
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+					},
+				}).then((res) => {
+					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+					return res;
+				}),
+			),
+		);
+		const members = await Promise.all(responses.map((res) => res.json()));
+		return members as Member[];
+	} catch (error) {
+		console.error("Error fetching members:", error);
+		return [] as Member[];
+	}
 });
 
 export const useGetCommits = routeLoader$(async () => {
+  console.log("HELLO THIS IS THE GH_API_TOKEN", import.meta.env.GH_API_TOKEN);
   const responses = await Promise.all(
     repos.flatMap((repo) =>
       kunaicoMembers.map((author) =>
@@ -65,7 +81,7 @@ export const useGetCommits = routeLoader$(async () => {
           headers: {
             Accept: "application/json",
             "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${process.env.VITE_GITHUB_TOKEN}`,
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
           },
         })
       )
@@ -80,7 +96,7 @@ export const useGetCommits = routeLoader$(async () => {
 export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
   if (repositories.length > 0) {
     return repositories.map((repo: Repo) => (
-      <RepoCard repo={repo} nav={nav} />
+      <RepoCard key={repo.name} repo={repo} nav={nav} />
     ));
   } else {
     return <div class="text-[#6B7280]">No repositories found</div>;
@@ -89,7 +105,7 @@ export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
 
 export const mappedMembers = (members: Member[], nav: RouteNavigate) => {
   if (members.length > 0) {
-    return members.map((member) => <GithubMember member={member} nav={nav} />);
+    return members.map((member) => <GithubMember key={member.id} member={member} nav={nav} />);
   } else {
     return <div class="text-[#6B7280]">No members found</div>;
   }
@@ -97,9 +113,7 @@ export const mappedMembers = (members: Member[], nav: RouteNavigate) => {
 
 export const mappedCommits = (commits: Commit[]) => {
   // First sort all commits by date
-  const allSortedCommits = commits.sort((a, b) => {
-    return new Date(b.commit.author.date).getTime() - new Date(a.commit.author.date).getTime();
-  });
+  const allSortedCommits = sortCommitsByDate(commits);
 
   // Group commits by repo
   const groupedCommits: Record<keyof typeof repoNames, Commit[]> = {} as Record<
@@ -125,7 +139,7 @@ export const mappedCommits = (commits: Commit[]) => {
   });
 
   return Object.entries(groupedCommits).map(([repoKey, repoCommits]) => (
-    <CommitComponent repoKey={repoKey} repoCommits={repoCommits} />
+    <CommitComponent key={repoKey} repoKey={repoKey} repoCommits={repoCommits} />
   ));
 
 };
