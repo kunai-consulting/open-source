@@ -32,7 +32,7 @@ export const useGetRepos = routeLoader$(async () => {
           headers: {
             Accept: "application/json",
             "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
           },
         }).then((res) => {
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -56,7 +56,7 @@ export const useGetMembers = routeLoader$(async () => {
 					headers: {
 						Accept: "application/json",
 						"User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
 					},
 				}).then((res) => {
 					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -73,23 +73,29 @@ export const useGetMembers = routeLoader$(async () => {
 });
 
 export const useGetCommits = routeLoader$(async () => {
-  const responses = await Promise.all(
-    repos.flatMap((repo) =>
-      kunaicoMembers.map((author) =>
-        fetch(`https://api.github.com/repos/${repo}/commits?author=${author}`, {
-          headers: {
-            Accept: "application/json",
-            "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
-          },
-        })
-      )
-    )
-  );
-
-  const commits = await Promise.all(responses.map((res) => res.json()));
-  const flattenedCommits = commits.flat(); // Flatten the array of commits
-  return flattenedCommits as Commit[];
+	try {
+		const responses = await Promise.all(
+			repos.flatMap((repo) =>
+        kunaicoMembers.map((author) =>
+				fetch(`https://api.github.com/repos/${repo}/commits?author=${author}`, {
+					headers: {
+						Accept: "application/json",
+						"User-Agent": "Cloudflare Worker",
+            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+					},
+				}).then((res) => {
+					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+					return res;
+				}),
+			)),
+		);
+    const commits = await Promise.all(responses.map((res) => res.json()));
+    const flattenedCommits = commits.flat(); // Flatten the array of commits
+    return flattenedCommits as Commit[];
+	} catch (error) {
+		console.error("Error fetching members:", error);
+		return [] as Commit[];
+	}
 });
 
 export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
@@ -191,6 +197,11 @@ export default component$(() => {
         <Button>
           <Link href="https://github.com/kunai-consulting/builder-plugin-seo">
             Builder plugin SEO
+          </Link>
+        </Button>
+        <Button>
+          <Link href="https://github.com/twentyhq/twenty">
+            Twenty
           </Link>
         </Button>
       </div>
