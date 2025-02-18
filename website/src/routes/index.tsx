@@ -32,7 +32,7 @@ export const useGetRepos = routeLoader$(async () => {
           headers: {
             Accept: "application/json",
             "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
           },
         }).then((res) => {
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -56,7 +56,7 @@ export const useGetMembers = routeLoader$(async () => {
 					headers: {
 						Accept: "application/json",
 						"User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
 					},
 				}).then((res) => {
 					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -73,7 +73,6 @@ export const useGetMembers = routeLoader$(async () => {
 });
 
 export const useGetCommits = routeLoader$(async () => {
-  console.log("HELLO THIS IS THE GH_API_TOKEN", import.meta.env.GH_API_TOKEN);
   const responses = await Promise.all(
     repos.flatMap((repo) =>
       kunaicoMembers.map((author) =>
@@ -81,7 +80,7 @@ export const useGetCommits = routeLoader$(async () => {
           headers: {
             Accept: "application/json",
             "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${import.meta.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
           },
         })
       )
