@@ -24,7 +24,7 @@ export const sortCommitsByDate = (commits: Commit[]) => {
 };
 
 
-export const useGetRepos = routeLoader$(async () => {
+export const useGetRepos = routeLoader$(async ({platform}) => {
   try {
     const responses = await Promise.all(
       repos.map((repo) =>
@@ -32,7 +32,7 @@ export const useGetRepos = routeLoader$(async () => {
           headers: {
             Accept: "application/json",
             "User-Agent": "Cloudflare Worker",
-            Authorization: `Token ${process.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
           },
         }).then((res) => {
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -48,7 +48,7 @@ export const useGetRepos = routeLoader$(async () => {
   }
 });
 
-export const useGetMembers = routeLoader$(async () => {
+export const useGetMembers = routeLoader$(async ({platform}) => {
 	try {
 		const responses = await Promise.all(
 			contributors.map((user) =>
@@ -56,7 +56,7 @@ export const useGetMembers = routeLoader$(async () => {
 					headers: {
 						Accept: "application/json",
 						"User-Agent": "Cloudflare Worker",
-            Authorization: `Token ${process.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
 					},
 				}).then((res) => {
 					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -72,7 +72,7 @@ export const useGetMembers = routeLoader$(async () => {
 	}
 });
 
-export const useGetCommits = routeLoader$(async () => {
+export const useGetCommits = routeLoader$(async ({platform}) => {
 	try {
 		const responses = await Promise.all(
 			repos.flatMap((repo) =>
@@ -81,7 +81,7 @@ export const useGetCommits = routeLoader$(async () => {
 					headers: {
 						Accept: "application/json",
 						"User-Agent": "Cloudflare Worker",
-            Authorization: `Token ${process.env.GH_API_TOKEN}`,
+            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
 					},
 				}).then((res) => {
 					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
