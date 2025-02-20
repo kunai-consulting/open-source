@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "35 * * * *"
+    - cron: "38 * * * *"
 jobs:
   my-job:
     runs-on: ubuntu-latest
@@ -11,6 +11,7 @@ jobs:
         env:
           GH_API_KEY: ${{ secrets.GH_API_KEY }}
         run: |
+          cd website
           node -e "
             import { useGetRepos, useGetMembers, useGetCommits } from './src/routes/gh-data.tsx';
             (async () => {
@@ -20,4 +21,5 @@ jobs:
               await useGetCommits({ platform });
             })();
           "
-          npm run deploy
+      - name: Deploy
+        run: npm run deploy
