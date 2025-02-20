@@ -1,0 +1,23 @@
+on:
+  schedule:
+    - cron: "35 * * * *"
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get github data
+        uses: actions/checkout@v4
+      - name: Run script with secret
+        env:
+          GH_API_KEY: ${{ secrets.GH_API_KEY }}
+        run: |
+          node -e "
+            import { useGetRepos, useGetMembers, useGetCommits } from './src/routes/gh-data.tsx';
+            (async () => {
+              const platform = { env: { GH_API_KEY: process.env.GH_API_KEY } };
+              await useGetRepos({ platform });
+              await useGetMembers({ platform });
+              await useGetCommits({ platform });
+            })();
+          "
+          npm run deploy
