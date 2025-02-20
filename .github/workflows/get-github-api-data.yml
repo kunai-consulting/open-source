@@ -1,6 +1,5 @@
 on:
-  schedule:
-    - cron: "38 * * * *"
+  workflow_dispatch:
 jobs:
   my-job:
     runs-on: ubuntu-latest
