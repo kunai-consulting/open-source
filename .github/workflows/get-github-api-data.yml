@@ -19,5 +19,6 @@ jobs:
           npm install
           npm run build
           npm run update-gh-data
-      - name: Deploy
-        run: npm run deploy
+          git config --global user.name 'nabrams'
+          git config --global user.email 'nabrams94@gmail.com'
+          git push
