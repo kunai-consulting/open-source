@@ -25,7 +25,7 @@
 		"serve": "wrangler pages dev ./dist --compatibility-flags=nodejs_als",
 		"start": "vite --open --mode ssr",
 		"qwik": "qwik",
-		"update-gh-data": "node src/scripts/update-gh-data.js"
+		"update-gh-data": "node src/scripts/update-github-data.js"
 	},
 	"devDependencies": {
 		"@builder.io/qwik": "^1.12.0",

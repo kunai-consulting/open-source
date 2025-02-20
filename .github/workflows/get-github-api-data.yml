@@ -19,7 +19,5 @@ jobs:
           npm install
           npm run build
           npm run update-gh-data
-
-          "
       - name: Deploy
         run: npm run deploy
