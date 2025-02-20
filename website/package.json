@@ -24,7 +24,8 @@
 		"preview": "qwik build preview && vite preview --open",
 		"serve": "wrangler pages dev ./dist --compatibility-flags=nodejs_als",
 		"start": "vite --open --mode ssr",
-		"qwik": "qwik"
+		"qwik": "qwik",
+		"update-gh-data": "node src/routes/update-gh-data.tsx"
 	},
 	"devDependencies": {
 		"@builder.io/qwik": "^1.12.0",

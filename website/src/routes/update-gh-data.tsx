@@ -1,10 +1,8 @@
-import { routeLoader$ } from "@builder.io/qwik-city";
 import type { Repo, Member, Commit } from "~/types";
 import { repos, contributors, kunaicoMembers } from "~/types/consts";
+import fs from 'fs/promises';
 
-import { writeFile } from 'fs/promises';
-
-export const getRepos = routeLoader$(async ({platform}) => {
+export const getRepos = (async () => {
     try {
       const responses = await Promise.all(
         repos.map((repo) =>
@@ -12,7 +10,7 @@ export const getRepos = routeLoader$(async ({platform}) => {
             headers: {
               Accept: "application/json",
               "User-Agent": "Cloudflare Worker",
-              Authorization: `Bearer ${platform.env?.GH_API_KEY}`,
+              Authorization: `Bearer ${process.env.GH_API_KEY}`,
             },
           }).then((res) => {
             if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -23,7 +21,7 @@ export const getRepos = routeLoader$(async ({platform}) => {
       const repositories = await Promise.all(responses.map((res) => res.json()));
       
       // Write the repositories data to a JSON file
-      await writeFile('repositories.json', JSON.stringify(repositories, null, 2));
+      await fs.writeFile('repositories.json', JSON.stringify(repositories, null, 2));
       
       return repositories as Repo[];
     } catch (error) {
@@ -32,7 +30,7 @@ export const getRepos = routeLoader$(async ({platform}) => {
     }
   });
   
-export const getMembers = routeLoader$(async ({platform}) => {
+export const getMembers = (async () => {
     try {
         const responses = await Promise.all(
             contributors.map((user) =>
@@ -40,7 +38,7 @@ export const getMembers = routeLoader$(async ({platform}) => {
                     headers: {
                         Accept: "application/json",
                         "User-Agent": "Cloudflare Worker",
-                        Authorization: `Bearer ${platform.env?.GH_API_KEY}`,
+                        Authorization: `Bearer ${process.env.GH_API_KEY}`,
                     },
                 }).then((res) => {
                     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -51,7 +49,7 @@ export const getMembers = routeLoader$(async ({platform}) => {
         const members = await Promise.all(responses.map((res) => res.json()));
         
         // Write the members data to a JSON file
-        await writeFile('members.json', JSON.stringify(members, null, 2));
+        await fs.writeFile('members.json', JSON.stringify(members, null, 2));
         
         return members as Member[];
     } catch (error) {
@@ -60,7 +58,7 @@ export const getMembers = routeLoader$(async ({platform}) => {
     }
 });
 
-export const getCommits = routeLoader$(async ({platform}) => {
+export const getCommits = (async () => {
     try {
         const responses = await Promise.all(
             repos.flatMap((repo) =>
@@ -69,7 +67,7 @@ export const getCommits = routeLoader$(async ({platform}) => {
                         headers: {
                             Accept: "application/json",
                             "User-Agent": "Cloudflare Worker",
-                            Authorization: `Bearer ${platform.env?.GH_API_KEY}`,
+                            Authorization: `Bearer ${process.env.GH_API_KEY}`,
                         },
                     }).then((res) => {
                         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -79,9 +77,8 @@ export const getCommits = routeLoader$(async ({platform}) => {
         );
         const commits = await Promise.all(responses.map((res) => res.json()));
         const flattenedCommits = commits.flat(); // Flatten the array of commits
-
         // Write the commits data to a JSON file
-        await writeFile('commits.json', JSON.stringify(flattenedCommits, null, 2));
+        await fs.writeFile('commits.json', JSON.stringify(flattenedCommits, null, 2));
 
         return flattenedCommits as Commit[];
     } catch (error) {
@@ -90,11 +87,8 @@ export const getCommits = routeLoader$(async ({platform}) => {
     }
 });
 
-export const fetchAllData = async () => {
-    await Promise.all([
-        getRepos(),
-        getMembers(),
-        getCommits()
-    ]);
 
-};
+getRepos()
+getMembers()
+getCommits()
+
