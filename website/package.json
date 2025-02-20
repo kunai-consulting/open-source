@@ -53,7 +53,8 @@
 		"undici": "*",
 		"vite": "5.3.5",
 		"vite-tsconfig-paths": "^4.2.1",
-		"wrangler": "^3.0.0"
+		"wrangler": "^3.0.0",
+		"dotenv": "^16.4.7"
 	},
 	"nx": {}
 }
