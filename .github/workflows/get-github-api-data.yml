@@ -12,7 +12,7 @@ jobs:
         run: |
           cd website
           node -e "
-            import { useGetRepos, useGetMembers, useGetCommits } from './src/routes/gh-data.tsx';
+            const { useGetRepos, useGetMembers, useGetCommits } = require('./src/routes/gh-data.tsx');
             (async () => {
               const platform = { env: { GH_API_KEY: process.env.GH_API_KEY } };
               await useGetRepos({ platform });
