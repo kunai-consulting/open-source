@@ -1,5 +1,10 @@
 on:
   workflow_dispatch:
+    inputs:
+      trigger:
+        description: 'Manual trigger for GitHub API data fetch'
+        required: true
+        default: 'true'
 jobs:
   my-job:
     runs-on: ubuntu-latest
@@ -11,14 +16,7 @@ jobs:
           GH_API_KEY: ${{ secrets.GH_API_KEY }}
         run: |
           cd website
-          node -e "
-            const { useGetRepos, useGetMembers, useGetCommits } = require('./src/routes/gh-data.tsx');
-            (async () => {
-              const platform = { env: { GH_API_KEY: process.env.GH_API_KEY } };
-              await useGetRepos({ platform });
-              await useGetMembers({ platform });
-              await useGetCommits({ platform });
-            })();
+          node -e 'import("./src/routes/gh-data").then(module => module.fetchAllData())'
           "
       - name: Deploy
         run: npm run deploy

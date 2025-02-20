@@ -1,10 +1,10 @@
 import { routeLoader$ } from "@builder.io/qwik-city";
-import { Repo, Member, Commit } from "~/types";
+import type { Repo, Member, Commit } from "~/types";
 import { repos, contributors, kunaicoMembers } from "~/types/consts";
 
 import { writeFile } from 'fs/promises';
 
-export const useGetRepos = routeLoader$(async ({platform}) => {
+export const getRepos = routeLoader$(async ({platform}) => {
     try {
       const responses = await Promise.all(
         repos.map((repo) =>
@@ -32,36 +32,35 @@ export const useGetRepos = routeLoader$(async ({platform}) => {
     }
   });
   
-  export const useGetMembers = routeLoader$(async ({platform}) => {
-      try {
-          const responses = await Promise.all(
-              contributors.map((user) =>
-                  fetch(`https://api.github.com/users/${user}`, {
-                      headers: {
-                          Accept: "application/json",
-                          "User-Agent": "Cloudflare Worker",
-              Authorization: `Bearer ${platform.env?.GH_API_KEY}`,
-                      },
-                  }).then((res) => {
-                      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-                      return res;
-                  }),
-              ),
-          );
-          const members = await Promise.all(responses.map((res) => res.json()));
-          
-          // Write the members data to a JSON file
-          await writeFile('members.json', JSON.stringify(members, null, 2));
-          
-          return members as Member[];
-      } catch (error) {
-          console.error("Error fetching members:", error);
-          return [] as Member[];
-      }
-  });
+export const getMembers = routeLoader$(async ({platform}) => {
+    try {
+        const responses = await Promise.all(
+            contributors.map((user) =>
+                fetch(`https://api.github.com/users/${user}`, {
+                    headers: {
+                        Accept: "application/json",
+                        "User-Agent": "Cloudflare Worker",
+                        Authorization: `Bearer ${platform.env?.GH_API_KEY}`,
+                    },
+                }).then((res) => {
+                    if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+                    return res;
+                }),
+            ),
+        );
+        const members = await Promise.all(responses.map((res) => res.json()));
+        
+        // Write the members data to a JSON file
+        await writeFile('members.json', JSON.stringify(members, null, 2));
+        
+        return members as Member[];
+    } catch (error) {
+        console.error("Error fetching members:", error);
+        return [] as Member[];
+    }
+});
 
-  
-export const useGetCommits = routeLoader$(async ({platform}) => {
+export const getCommits = routeLoader$(async ({platform}) => {
     try {
         const responses = await Promise.all(
             repos.flatMap((repo) =>
@@ -90,3 +89,12 @@ export const useGetCommits = routeLoader$(async ({platform}) => {
         return [] as Commit[];
     }
 });
+
+export const fetchAllData = async () => {
+    await Promise.all([
+        getRepos(),
+        getMembers(),
+        getCommits()
+    ]);
+
+};
