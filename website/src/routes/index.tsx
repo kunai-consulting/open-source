@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$, type RouteNavigate } from "@builder.io/qwik-city";
-import { useNavigate } from "@builder.io/qwik-city";
+import { useNavigate,type RouteNavigate  } from "@builder.io/qwik-city";
 import { Label } from "~/components/ui/label/label";
 import { Link } from "@builder.io/qwik-city";
 import { Button } from "~/components/ui";
@@ -8,9 +7,12 @@ import { RepoCard } from "~/components/ui/repoCard/repoCard";
 import { GithubMember } from "~/components/ui/githubMember/githubMember";
 import { Commit as CommitComponent } from "~/components/ui/commit/commit";
 import { Repo, Member, Commit } from "~/types";
-import { repoNames, kunaicoMembers, repos, contributors } from "~/types/consts";
+import { repoNames } from "~/types/consts";
 import { Title } from "~/components/ui/title/title";
 import { KunaiLogo } from "~/components/ui/kunaiLogo/kunaiLogo";
+import repositoriesData from '~/routes/repositories.json';
+import membersData from '~/routes/members.json';
+import commitsData from '~/routes/commits.json';
 
 
 export const sortCommitsByDate = (commits: Commit[]) => {
@@ -22,81 +24,6 @@ export const sortCommitsByDate = (commits: Commit[]) => {
   });
   return sortedCommits;
 };
-
-
-export const useGetRepos = routeLoader$(async ({platform}) => {
-  try {
-    const responses = await Promise.all(
-      repos.map((repo) =>
-        fetch(`https://api.github.com/repos/${repo}`, {
-          headers: {
-            Accept: "application/json",
-            "User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
-          },
-        }).then((res) => {
-          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-          return res;
-        }),
-      ),
-    );
-    const repositories = await Promise.all(responses.map((res) => res.json()));
-    return repositories as Repo[];
-  } catch (error) {
-    console.error("Error fetching repos:", error);
-    return [] as Repo[];
-  }
-});
-
-export const useGetMembers = routeLoader$(async ({platform}) => {
-	try {
-		const responses = await Promise.all(
-			contributors.map((user) =>
-				fetch(`https://api.github.com/users/${user}`, {
-					headers: {
-						Accept: "application/json",
-						"User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
-					},
-				}).then((res) => {
-					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-					return res;
-				}),
-			),
-		);
-		const members = await Promise.all(responses.map((res) => res.json()));
-		return members as Member[];
-	} catch (error) {
-		console.error("Error fetching members:", error);
-		return [] as Member[];
-	}
-});
-
-export const useGetCommits = routeLoader$(async ({platform}) => {
-	try {
-		const responses = await Promise.all(
-			repos.flatMap((repo) =>
-        kunaicoMembers.map((author) =>
-				fetch(`https://api.github.com/repos/${repo}/commits?author=${author}`, {
-					headers: {
-						Accept: "application/json",
-						"User-Agent": "Cloudflare Worker",
-            Authorization: `Bearer ${platform.env?.GH_API_TOKEN}`,
-					},
-				}).then((res) => {
-					if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-					return res;
-				}),
-			)),
-		);
-    const commits = await Promise.all(responses.map((res) => res.json()));
-    const flattenedCommits = commits.flat(); // Flatten the array of commits
-    return flattenedCommits as Commit[];
-	} catch (error) {
-		console.error("Error fetching members:", error);
-		return [] as Commit[];
-	}
-});
 
 export const mappedRepos = (repositories: Repo[], nav: RouteNavigate) => {
   if (repositories.length > 0) {
@@ -150,10 +77,10 @@ export const mappedCommits = (commits: Commit[]) => {
 };
 
 export default component$(() => {
-  const getRepos = useGetRepos();
-  const getMembers = useGetMembers();
-  const getCommits = useGetCommits();
-
+  const getRepos = (): Repo[] => repositoriesData? repositoriesData : [];
+  const getMembers = (): Member[] => membersData? membersData : [];
+  const getCommits = (): Commit[] => commitsData? commitsData : [];
+  
   const nav = useNavigate();
 
   return (
@@ -208,17 +135,17 @@ export default component$(() => {
 
       <Title>Repositories</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto px-4">
-        {mappedRepos(getRepos.value, nav)}
+        {mappedRepos(getRepos(), nav)}
       </div>
 
       <Title>Contributors</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-        {mappedMembers(getMembers.value, nav)}
+        {mappedMembers(getMembers(), nav)}
       </div>
 
       <Title>Recent Commits</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-        {mappedCommits(getCommits.value)}
+        {mappedCommits(getCommits())}
       </div>
     </div>
   );

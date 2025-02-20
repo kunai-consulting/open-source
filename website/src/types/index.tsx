@@ -1,4 +1,5 @@
 export interface Repo {
+  id: number;
   full_name: string;
   name: string;
   html_url: string;
@@ -8,6 +9,10 @@ export interface Repo {
   updated_at: string;
   stargazers_count: number;
   forks_count: number;
+  watchers_count: number;
+  homepage: string;
+  topics: string[];
+
 }
 
 export interface Member {
@@ -26,5 +31,9 @@ export interface Commit {
       name: string;
       date: string;
     }
+
+  };
+  author:{
+    login:string;
   };
 }

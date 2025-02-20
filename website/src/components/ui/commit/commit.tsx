@@ -30,7 +30,7 @@ export const Commit = component$<CommitProps>(({ repoKey, repoCommits }) => {
                   })
                 : ""}
             </span>
-            <span class="break-words">{commit.commit?.author?.name || "Unknown"}</span>
+            <span class="break-words">{commit.author?.login || "Unknown"}</span>
           </div>
           <div class="text-sm break-words">{commit.commit?.message || ""}</div>
         </Link>
