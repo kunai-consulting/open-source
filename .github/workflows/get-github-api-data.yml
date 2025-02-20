@@ -16,7 +16,9 @@ jobs:
           GH_API_KEY: ${{ secrets.GH_API_KEY }}
         run: |
           cd website
-          node -e 'import("./src/routes/gh-data").then(module => module.fetchAllData())'
-          "
-      - name: Deploy
-        run: npm run deploy
+          npm install
+          npm run build
+          npm run update-gh-data
+          git config --global user.name 'nabrams'
+          git config --global user.email 'nabrams94@gmail.com'
+          cd .. && git add . && git commit -m "Update GitHub data" && git push
