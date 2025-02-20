@@ -16,7 +16,9 @@ jobs:
           GH_API_KEY: ${{ secrets.GH_API_KEY }}
         run: |
           cd website
-          pnpm update-gh-data
+          npm install
+          npm run update-gh-data
+
           "
       - name: Deploy
         run: npm run deploy
