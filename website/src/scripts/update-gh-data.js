@@ -1,8 +1,7 @@
-// import { repos, contributors, kunaicoMembers } from "../types/consts.js";
+import { repos, contributors, kunaicoMembers } from "../types/consts.js";
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { repos, contributors, kunaicoMembers } from "../types/consts.js";
 
 
 export const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -10,6 +9,7 @@ export const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 
 async function updateReposData() {
+
 
     //Get repositories data
     try {
@@ -72,8 +72,6 @@ async function updateReposData() {
 updateMembersData()
 
 async function updateCommitsData() {
-  console.log("Updating commits data...");
-  console.log(process.env.GH_API_KEY);
     try {
         const responses = await Promise.all(
             repos.flatMap((repo) =>

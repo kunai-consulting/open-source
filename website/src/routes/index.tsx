@@ -14,9 +14,6 @@ import { KunaiLogo } from "~/components/ui/kunaiLogo/kunaiLogo";
 import repositoriesData from '../data/repositories.json';
 import membersData from '../data/members.json';
 import commitsData from '../data/commits.json';
-import defaultRepositoriesData from '../data/repositories-default.json';
-import defaultMembersData from '../data/members-default.json';
-import defaultCommitsData from '../data/commits-default.json';
 
 
 
@@ -84,9 +81,6 @@ export const mappedCommits = (commits) => {
 };
 
 export default component$(() => {
-  const getRepos = () => repositoriesData ? repositoriesData : defaultRepositoriesData;
-  const getMembers = () => membersData ? membersData : defaultMembersData;
-  const getCommits = () => commitsData ? commitsData : defaultCommitsData;
   
   const nav = useNavigate();
 
@@ -142,17 +136,17 @@ export default component$(() => {
 
       <Title>Repositories</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto px-4">
-        {mappedRepos(getRepos(), nav)}
+        {mappedRepos(repositoriesData, nav)}
       </div>
 
       <Title>Contributors</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-        {mappedMembers(getMembers(), nav)}
+        {mappedMembers(membersData, nav)}
       </div>
 
       <Title>Recent Commits</Title>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-        {mappedCommits(getCommits())}
+        {mappedCommits(commitsData)}
       </div>
     </div>
   );
