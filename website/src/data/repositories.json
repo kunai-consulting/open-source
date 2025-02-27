@@ -68,13 +68,13 @@
     "deployments_url": "https://api.github.com/repos/QwikDev/qwik/deployments",
     "created_at": "2021-05-19T15:33:32Z",
     "updated_at": "2025-02-27T14:15:27Z",
-    "pushed_at": "2025-02-27T16:47:50Z",
+    "pushed_at": "2025-02-27T17:00:56Z",
     "git_url": "git://github.com/QwikDev/qwik.git",
     "ssh_url": "git@github.com:QwikDev/qwik.git",
     "clone_url": "https://github.com/QwikDev/qwik.git",
     "svn_url": "https://github.com/QwikDev/qwik",
     "homepage": "https://qwik.dev",
-    "size": 50621,
+    "size": 50618,
     "stargazers_count": 21143,
     "watchers_count": 21143,
     "language": "TypeScript",
@@ -84,7 +84,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 1326,
+    "forks_count": 1327,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -106,7 +106,7 @@
       "web"
     ],
     "visibility": "public",
-    "forks": 1326,
+    "forks": 1327,
     "open_issues": 290,
     "watchers": 21143,
     "default_branch": "main",
@@ -140,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 1326,
+    "network_count": 1327,
     "subscribers_count": 143
   },
   {
