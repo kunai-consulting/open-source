@@ -2460,6 +2460,88 @@
     ]
   },
   {
+    "sha": "68b2bd9eba2d0e6f2bd325c104e041ede273442a",
+    "node_id": "C_kwDOFf09ddoAKDY4YjJiZDllYmEyZDBlNmYyYmQzMjVjMTA0ZTA0MWVkZTI3MzQ0MmE",
+    "commit": {
+      "author": {
+        "name": "Jack Shelton",
+        "email": "104264123+thejackshelton@users.noreply.github.com",
+        "date": "2025-03-04T07:27:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-03-04T07:27:15Z"
+      },
+      "message": "dev server: handle hmr and css importer persistence (#7389)\n\n* handle hmr and css importer persistence\n\n* changeset",
+      "tree": {
+        "sha": "804bf0eadcd59d7ae3b2379249417d4692dde7b3",
+        "url": "https://api.github.com/repos/QwikDev/qwik/git/trees/804bf0eadcd59d7ae3b2379249417d4692dde7b3"
+      },
+      "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/68b2bd9eba2d0e6f2bd325c104e041ede273442a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnxqtTCRC1aQ7uu5UhlAAAz7sQAJZOqMRjo1hbpj/kaotK9nDi\nuBaW7t8X3daOkHy488+jgcBhnDV57dqsgo5sVpEf00SFiKeG91TH6FJvOTmAqp5b\nAbGKQxkoLOQmCj3zATtDDchXIN1ck8dwUlJWnpYbfhXwy8g4YBaEqTQzBOMNb/3h\nbVwpQH1nq0Ea8j6z/LxptIjPV3//MxZkOuIJVP4feXutWd/1GEbjOYfKgCufbj6z\nPYOcGFv/rP3sNYKBLVF5xXspGttlxd9hggx+NQzN8TPPbRIdS8+z/bATAA8KUI1/\nDGtGZ08uwFO2ehDhCSmUEiV2a4/sykVOGpnm3T7u9RtAEkaBfyPWFMq1iyYtXzoc\n6bhxxDnVMv5R1Rq9OHeUqI4VS2XvSlvVUjQDM+Xe62EIW5g0E+p6ft5tvB9XOeyJ\noC9oo7UM68uHJ2+/7L3MxIe+7bDBMFsnHLDaXA7dc7UZTIZLS/zwL2aMGbrySW8f\n3KvNFs5Pbq2+ITb7kM+vyE6ZLYdzL3pUMWn5k6jlSeCZXBtTyQLAz4Et4kQbiZ2v\nml9o697KPdEWQGFbIEjrfMF6rs+U+SI5TV2vAMRZlsIEptdv2CQDuYd7VcHW/zaI\nJgsku31PjME0USL53drRNIAsk1tT4BSLWuTLu1mld1Sv6DfCrt1sJ9xTH7FvyrjF\nqqXdQ/cXvwduBstIYoL+\n=rMS/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 804bf0eadcd59d7ae3b2379249417d4692dde7b3\nparent c51aaabfa9c74786833acaddc8e9add80b44d1c6\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1741073235 -0600\ncommitter GitHub <noreply@github.com> 1741073235 +0100\n\ndev server: handle hmr and css importer persistence (#7389)\n\n* handle hmr and css importer persistence\n\n* changeset",
+        "verified_at": "2025-03-04T07:27:19Z"
+      }
+    },
+    "url": "https://api.github.com/repos/QwikDev/qwik/commits/68b2bd9eba2d0e6f2bd325c104e041ede273442a",
+    "html_url": "https://github.com/QwikDev/qwik/commit/68b2bd9eba2d0e6f2bd325c104e041ede273442a",
+    "comments_url": "https://api.github.com/repos/QwikDev/qwik/commits/68b2bd9eba2d0e6f2bd325c104e041ede273442a/comments",
+    "author": {
+      "login": "thejackshelton",
+      "id": 104264123,
+      "node_id": "U_kgDOBjbxuw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton",
+      "html_url": "https://github.com/thejackshelton",
+      "followers_url": "https://api.github.com/users/thejackshelton/followers",
+      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton/repos",
+      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c51aaabfa9c74786833acaddc8e9add80b44d1c6",
+        "url": "https://api.github.com/repos/QwikDev/qwik/commits/c51aaabfa9c74786833acaddc8e9add80b44d1c6",
+        "html_url": "https://github.com/QwikDev/qwik/commit/c51aaabfa9c74786833acaddc8e9add80b44d1c6"
+      }
+    ]
+  },
+  {
     "sha": "0a752dc6dd4c7b0000aa6a1d17f3ccfcee89fc7f",
     "node_id": "C_kwDOFf09ddoAKDBhNzUyZGM2ZGQ0YzdiMDAwMGFhNmExZDE3ZjNjY2ZjZWU4OWZjN2Y",
     "commit": {
@@ -4834,88 +4916,6 @@
         "sha": "fe594a8327921300e81a38ea2bdc7ff737b7e0ba",
         "url": "https://api.github.com/repos/QwikDev/qwik/commits/fe594a8327921300e81a38ea2bdc7ff737b7e0ba",
         "html_url": "https://github.com/QwikDev/qwik/commit/fe594a8327921300e81a38ea2bdc7ff737b7e0ba"
-      }
-    ]
-  },
-  {
-    "sha": "0b261d5a9a8399751072f9259326e07f4957c37d",
-    "node_id": "C_kwDOFf09ddoAKDBiMjYxZDVhOWE4Mzk5NzUxMDcyZjkyNTkzMjZlMDdmNDk1N2MzN2Q",
-    "commit": {
-      "author": {
-        "name": "Jack Shelton",
-        "email": "104264123+thejackshelton@users.noreply.github.com",
-        "date": "2024-01-24T06:29:51Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-01-24T06:29:51Z"
-      },
-      "message": "feat(vite): new file filter option (#5752)\n\ncan filter out files given to the adopter. for example, using multiple JSX frameworks in Astro.",
-      "tree": {
-        "sha": "1e9fb0f63ab8466a59d3ca272654187086609adc",
-        "url": "https://api.github.com/repos/QwikDev/qwik/git/trees/1e9fb0f63ab8466a59d3ca272654187086609adc"
-      },
-      "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/0b261d5a9a8399751072f9259326e07f4957c37d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlsK5fCRC1aQ7uu5UhlAAAs3AQAE9clXm2H5uq86GQkKYuzL4a\nmpEyAS5AF+s4KCpGDsUQy+g4BLz6eGB5fYjDIf8M8xPhynonhnWlLLqIkxQ5k7pd\nvHJGMThuQKMo3hm/O0zE2MN8nh206YA2FyrrdXT6MXhaIPPkDiwJuV9pHl4RRSPz\nIXy4ctraGd4prQEO02PFqTBbn16qQPPeR+dz36CY7liu/Dq2H52/mPmb5sKvzi/5\nAxKFok9YUi4cqAgxonj0uC0bFtadANifznrGtmYz1vsquY1xLUkl8E3gGx2d/e3+\nnqYEmhrmjdOmvE1nrME8EfVFQzGsPH24/a3g9viyQAk1ul+1ftvlbaNwLXdqtADV\nJvsdsuRs+Rkd9FXWL7wKh4/HdWdMzx9aUSvdfuG//QGPmPYnVTiUxXOk8KBpxLgT\nSJ4S/vkWqwEaJ7Y3TM9CLxxhMGoXm6QSXKT9bLgt6JEaoMTgKDW4ux8Gch646Lav\nLUQWjnOkMgkkYXwe2MaS5sgwLc65WUQv2t2qGaQvpz6NNC0lIoRdpRFRWwfxakrr\npvu0pwYDn5DE8wRlFFikGU/7bkv9GR52ES9QEGCg7uhDMX6NC6CSzt5iOrNG3tj4\nQ0H3pticiiwumGM5SNTqB6h7Lm8ERb4VTC5+w99fRTmeH9e2WJcl2DYnamDs/Krl\ni6VkWqGC0EBbIVmM0rpk\n=/ojr\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 1e9fb0f63ab8466a59d3ca272654187086609adc\nparent 089e0c56c7e3a9735297da37deaf02ddae41873c\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1706077791 -0600\ncommitter GitHub <noreply@github.com> 1706077791 -0600\n\nfeat(vite): new file filter option (#5752)\n\ncan filter out files given to the adopter. for example, using multiple JSX frameworks in Astro.",
-        "verified_at": "2024-11-07T19:20:55Z"
-      }
-    },
-    "url": "https://api.github.com/repos/QwikDev/qwik/commits/0b261d5a9a8399751072f9259326e07f4957c37d",
-    "html_url": "https://github.com/QwikDev/qwik/commit/0b261d5a9a8399751072f9259326e07f4957c37d",
-    "comments_url": "https://api.github.com/repos/QwikDev/qwik/commits/0b261d5a9a8399751072f9259326e07f4957c37d/comments",
-    "author": {
-      "login": "thejackshelton",
-      "id": 104264123,
-      "node_id": "U_kgDOBjbxuw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton",
-      "html_url": "https://github.com/thejackshelton",
-      "followers_url": "https://api.github.com/users/thejackshelton/followers",
-      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton/repos",
-      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "089e0c56c7e3a9735297da37deaf02ddae41873c",
-        "url": "https://api.github.com/repos/QwikDev/qwik/commits/089e0c56c7e3a9735297da37deaf02ddae41873c",
-        "html_url": "https://github.com/QwikDev/qwik/commit/089e0c56c7e3a9735297da37deaf02ddae41873c"
       }
     ]
   },
