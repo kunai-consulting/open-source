@@ -74,7 +74,7 @@
     "clone_url": "https://github.com/QwikDev/qwik.git",
     "svn_url": "https://github.com/QwikDev/qwik",
     "homepage": "https://qwik.dev",
-    "size": 50951,
+    "size": 50575,
     "stargazers_count": 21181,
     "watchers_count": 21181,
     "language": "TypeScript",
@@ -88,7 +88,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 295,
+    "open_issues_count": 296,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -107,7 +107,7 @@
     ],
     "visibility": "public",
     "forks": 1331,
-    "open_issues": 295,
+    "open_issues": 296,
     "watchers": 21181,
     "default_branch": "main",
     "permissions": {
