@@ -17874,6 +17874,170 @@
     ]
   },
   {
+    "sha": "0e418eb02e2e78200bbf706c0138892037caf4c2",
+    "node_id": "C_kwDOIH57B9oAKDBlNDE4ZWIwMmUyZTc4MjAwYmJmNzA2YzAxMzg4OTIwMzdjYWY0YzI",
+    "commit": {
+      "author": {
+        "name": "Jack Shelton",
+        "email": "104264123+thejackshelton@users.noreply.github.com",
+        "date": "2025-04-05T20:01:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-05T20:01:22Z"
+      },
+      "message": "Fix modal spa lock (#1061)\n\n* feat: failing test\n\n* fix: failing test\n\n* changeset",
+      "tree": {
+        "sha": "b1461b270aa850e3275483cc811f336efc6df31d",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/trees/b1461b270aa850e3275483cc811f336efc6df31d"
+      },
+      "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/0e418eb02e2e78200bbf706c0138892037caf4c2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8YwSCRC1aQ7uu5UhlAAAovsQAGgkQFSPWnt+SdJ8Tp5R53m5\n6z62lIje0lgfFPLlu/WgconMbA8ucxFoFkqQtpsRe+EdK1HPgQdjFBZeXLcrK1j5\n1CoLGRVO3+XSbqStgfIQofnYQ5fs4+zYMq09034ctWSFPKIMZa3y7+nAB/JF5J1J\n701YiHdyCbjhWDEd8HCDKVbayaQEC0I0OFI+j9lC3GKMKeuqpxYUvko8tfRMqmOv\nHFXpG7uRkTNKnY6yV0WT50+cYmkG8q/snIp9bq/OhjY9DGy1BKbVG0T6owaCvjqq\n8UoCvV22C+whdwZ9PpAPNvaqVH+Gg3k9IoJK/GD4NpuGHPQbCpqQTnaEMlSgmQb2\n8KHvBD+cLlLdXV61zP40tzS/81BC9lC4MAqho692sKdNHB0Y72aY0bcMBBRBOET1\ngnvKd8u85H0lxnxXhl4ahM9PQxjyGYB9evU5hP31d4G+3XWfWsRB0ocE6znN9lzV\nEZG0qW+buLqNYmOmAL6CUEz9UxyhaTgOT9sMAYPpVJVNsMjBQ4mO2ZRTMiOQCND0\n0a2WUZeCd7fdL7kpsq2uIDSsEtv5fY2R4Ompkee9z4oJPXIck1aXfjfRSnC3mbXF\nT6y7m+Jpn6gPFLx53Jr7XKwS0hb7beXW/CTx1nKy3cJmdWhYXfFoShxnWfAq+RFg\nnCSgb0IfUPZoWzJn3irK\n=y5SS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b1461b270aa850e3275483cc811f336efc6df31d\nparent ea16f34deaf0c0f13ab6fedc065cdaedb7b49638\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1743883282 -0500\ncommitter GitHub <noreply@github.com> 1743883282 -0500\n\nFix modal spa lock (#1061)\n\n* feat: failing test\n\n* fix: failing test\n\n* changeset",
+        "verified_at": "2025-04-05T20:06:24Z"
+      }
+    },
+    "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/0e418eb02e2e78200bbf706c0138892037caf4c2",
+    "html_url": "https://github.com/qwikifiers/qwik-ui/commit/0e418eb02e2e78200bbf706c0138892037caf4c2",
+    "comments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/0e418eb02e2e78200bbf706c0138892037caf4c2/comments",
+    "author": {
+      "login": "thejackshelton",
+      "id": 104264123,
+      "node_id": "U_kgDOBjbxuw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton",
+      "html_url": "https://github.com/thejackshelton",
+      "followers_url": "https://api.github.com/users/thejackshelton/followers",
+      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton/repos",
+      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+        "html_url": "https://github.com/qwikifiers/qwik-ui/commit/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638"
+      }
+    ]
+  },
+  {
+    "sha": "ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+    "node_id": "C_kwDOIH57B9oAKGVhMTZmMzRkZWFmMGMwZjEzYWI2ZmVkYzA2NWNkYWVkYjdiNDk2Mzg",
+    "commit": {
+      "author": {
+        "name": "Jack Shelton",
+        "email": "104264123+thejackshelton@users.noreply.github.com",
+        "date": "2025-04-05T19:48:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-05T19:48:04Z"
+      },
+      "message": "refactor: comment out cli test preventing release (#1062)\n\n* refactor: comment out cli test preventing release\n\n* add skip to file name\n\n* add pass with no tests true",
+      "tree": {
+        "sha": "da539a4d66e56a22e4d6d8775ab487d1dac300d6",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/trees/da539a4d66e56a22e4d6d8775ab487d1dac300d6"
+      },
+      "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8Yj0CRC1aQ7uu5UhlAAArgUQAFfqwAGIBHeJQ2Zt+oZwSVSa\nm2RKIsx/2MhDi9QOrRyT74vH0oK/eiYrARRauKrbwK2ZzOGR/e8cbNApw+2GCEqP\nqpgu7FCKgqavAE8PB++zE9SeTZirPnscPezZM2OnbFwFAA2ze6/xzCnqwW05Nw2j\nl7ef3jPi0rSfK7SzECByYCdYw3dK/KD54+8FCsEP8nvI5AD0fIUSUASTpxAS6l9r\nsyg2gfooNfEwO1Xpz48PfHMgR/jXoDSAFQMfS/O86QW/bBkkovnNjFHscvJSE81p\nxt0Fg5oKREvexdw+MtwtUGuAaGdHgpMFj5ty8PFmepy0KTG8KZ+GoIdLMQPG9d1w\n1BzjHw2xp4cIhDsQmzr2ALILgRhn/csaMtviSdRo3Q4iDMYZsHbMga8tobwYnIOl\nUT2YfrSopJailn6s0L751i/00tqU48RG9cyC2IPTJmydhQsPpxoHtvHzxCBz3Ruw\nFH1WucZvi79Yq3z9+bD6cNV7jKcz2ufnS19igcJcuQQnSbu/RlZ+BcieiPGrfc8a\n1lLwI2gYUslnCxvDtYIk/XHvAVhFHLoomcMj8nDktc0t5ejemXGLloawI+fuOoGM\n7K0FL4kpx9VuJhDJLY8GRtk2Wgq4MUJ5s+9pYq8CoknGWn0QKTj02ZaAEfJsnH9z\n/fR3LkmacU+pD6Kd26Dm\n=HeX3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree da539a4d66e56a22e4d6d8775ab487d1dac300d6\nparent 2bd2675461a52ab675554488c14d0acce7fde7d9\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1743882484 -0500\ncommitter GitHub <noreply@github.com> 1743882484 -0500\n\nrefactor: comment out cli test preventing release (#1062)\n\n* refactor: comment out cli test preventing release\n\n* add skip to file name\n\n* add pass with no tests true",
+        "verified_at": "2025-04-05T19:53:06Z"
+      }
+    },
+    "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+    "html_url": "https://github.com/qwikifiers/qwik-ui/commit/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
+    "comments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638/comments",
+    "author": {
+      "login": "thejackshelton",
+      "id": 104264123,
+      "node_id": "U_kgDOBjbxuw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton",
+      "html_url": "https://github.com/thejackshelton",
+      "followers_url": "https://api.github.com/users/thejackshelton/followers",
+      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton/repos",
+      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2bd2675461a52ab675554488c14d0acce7fde7d9",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/2bd2675461a52ab675554488c14d0acce7fde7d9",
+        "html_url": "https://github.com/qwikifiers/qwik-ui/commit/2bd2675461a52ab675554488c14d0acce7fde7d9"
+      }
+    ]
+  },
+  {
     "sha": "e3b8dd2e8b15063afa469099c1a4017cc5f1ecfe",
     "node_id": "C_kwDOIH57B9oAKGUzYjhkZDJlOGIxNTA2M2FmYTQ2OTA5OWMxYTQwMTdjYzVmMWVjZmU",
     "commit": {
@@ -20166,170 +20330,6 @@
         "sha": "cf6d30e1091651178d2aa52bd7f144f58a7d2590",
         "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/cf6d30e1091651178d2aa52bd7f144f58a7d2590",
         "html_url": "https://github.com/qwikifiers/qwik-ui/commit/cf6d30e1091651178d2aa52bd7f144f58a7d2590"
-      }
-    ]
-  },
-  {
-    "sha": "cf6d30e1091651178d2aa52bd7f144f58a7d2590",
-    "node_id": "C_kwDOIH57B9oAKGNmNmQzMGUxMDkxNjUxMTc4ZDJhYTUyYmQ3ZjE0NGY1OGE3ZDI1OTA",
-    "commit": {
-      "author": {
-        "name": "Jack Shelton",
-        "email": "104264123+thejackshelton@users.noreply.github.com",
-        "date": "2024-07-29T10:05:47Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-07-29T10:05:47Z"
-      },
-      "message": "change to new sw impl (#905)",
-      "tree": {
-        "sha": "3dc3ce0aea03bb6680a8d1041f3d3dec8db8ff24",
-        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/trees/3dc3ce0aea03bb6680a8d1041f3d3dec8db8ff24"
-      },
-      "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/cf6d30e1091651178d2aa52bd7f144f58a7d2590",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmp2l7CRC1aQ7uu5UhlAAAoIIQAAIz2pwJtdR3S7Xgtddh/SbQ\nfc6A3MOJrfMd/7lPTvnTtegY+FB5MGbdg7qGtdhH3FtFE5DT7J3iJ+s/P0KGTYPS\n9AOhdrWW0W0Y9JfDf076jID1H2ehEeYinTnX7KIn3FSRuvUFouGmMmhwa1uEjIjM\nyadDKuiIahRfNjOevSADFn6H6E2WmSMHe4ZYgs/kTGLmntkBRRghMQxXPR9qSqnc\nTeWlnNeAMnNKQYcNvtQPR4AB2le/kNuqkFYlq3rXoPdFWcg/PSGAH4zT8nIawdnI\nu3m8jux06YGvG4vyBPzahfDPLeWMMV5Aq8DoCqMQxvieDOfh9jaQZIT+VlY0x1be\nSHLoJJ4lLuwknB/Dwk0C67LJO8iNYIWQMcP/k1vW0oRWDVmWLKDKMnq6G0ERcyax\ntMWJAmIhygyovxGUjuOANSbd/mXMtsd5kugarNQP6FdWod0kFkS8oLsrILEFB3kT\nvBbKRcegrt9d94Yy3QbZEUDUOq49pSZOAsKXdyOfSrzxwLsYOj24cUVAyLA3rPXo\nMxeWEk75hgxyc7ymIeLb3WA9YffW7kjFekw4vZbWvk8iroxGnoS4xFNM3Hq6PwgH\n3NT1voLYOIOlG2W0pZ3fSNfxQqQSlrkf97BDyIAeoVRtkKJE+qTnIcEOcMkLWVXx\niT/uJvjaReBYRdHjcFuC\n=9C4V\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 3dc3ce0aea03bb6680a8d1041f3d3dec8db8ff24\nparent f5c831b68fdd1c32f65ad9e447ffeb6734d47922\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1722247547 -0500\ncommitter GitHub <noreply@github.com> 1722247547 +0200\n\nchange to new sw impl (#905)\n\n",
-        "verified_at": "2024-11-13T06:58:57Z"
-      }
-    },
-    "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/cf6d30e1091651178d2aa52bd7f144f58a7d2590",
-    "html_url": "https://github.com/qwikifiers/qwik-ui/commit/cf6d30e1091651178d2aa52bd7f144f58a7d2590",
-    "comments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/cf6d30e1091651178d2aa52bd7f144f58a7d2590/comments",
-    "author": {
-      "login": "thejackshelton",
-      "id": 104264123,
-      "node_id": "U_kgDOBjbxuw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton",
-      "html_url": "https://github.com/thejackshelton",
-      "followers_url": "https://api.github.com/users/thejackshelton/followers",
-      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton/repos",
-      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-        "html_url": "https://github.com/qwikifiers/qwik-ui/commit/f5c831b68fdd1c32f65ad9e447ffeb6734d47922"
-      }
-    ]
-  },
-  {
-    "sha": "f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-    "node_id": "C_kwDOIH57B9oAKGY1YzgzMWI2OGZkZDFjMzJmNjVhZDllNDQ3ZmZlYjY3MzRkNDc5MjI",
-    "commit": {
-      "author": {
-        "name": "Jack Shelton",
-        "email": "104264123+thejackshelton@users.noreply.github.com",
-        "date": "2024-07-29T10:01:44Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-07-29T10:01:44Z"
-      },
-      "message": "single shiki instance & on the server w/ dev (#906)\n\n* single shiki instance & on the server w/ dev\r\n\r\n* fix(copy-css-config): add track code to generate shiki on click\r\n\r\n---------\r\n\r\nCo-authored-by: maiieul <maieul.chevalier@gmail.com>",
-      "tree": {
-        "sha": "b2be6a50e2b904ae57ac116d6c6fb17905df493d",
-        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/trees/b2be6a50e2b904ae57ac116d6c6fb17905df493d"
-      },
-      "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmp2iICRC1aQ7uu5UhlAAAixUQAEGO+I9WTkUxgxE3eTNF0+9F\no5kOzxEDrXfhmraIQ/KnByMGZz1DvyBRpT1O2tFG3R4d3ReHOPNJK3kBwhrYFpBj\npUTqIcdy7PbHQDtXRrgZaTJEDumneTVPQl0IpSj8gvg1g2Wz6GvuVqjb+fvpYVOD\nPHxMdUituhLcuUYxxsB1oKBPc+GH3AQZmrNc1zdfK3207IKQahlMJmnAUgwqS4al\nq3hiTjNAH/0i01nW4AuGFNgWF5yKE/ijmDzonjftrjNy6hqJ+fw2HW4UkN6K+1PN\nt69YbwQaW2dQLu3vmTsTJUqkdJuIfLQp7b5uMJeb4FR9BAsDmgCjWal0PqxCcKTw\nddYaT1CPZFg60i+ImN12FU+vOyvma6kwT4uT+XDSY8Xz1u6WBfryfCeu3IlAdzq2\nYHXS70b3R3urH3X+TuQtkmZyK4W+b/I1u9JCzYDxrMlK0RpsIs91pugnr4ckEWTz\nv0F0b3lU1lBdzujbVL5zhOwySyBYaeed29pkCS6QJu1BV7/EIfsusteldpKz7PeN\n3u4sUuRCxx6lbYksdNtAYO3SfxwvVrEWGZ+FIT6/EAxSb5WrdU7YdBWdFAwv9c7x\nfW1n4qDmiJWdljGLPlKKZVwaYds4PCFcNK2YxSzqf7g/n1X6K1qreW2gctUQ/qD2\nVKiT3k2lTvPCxw2a4g6C\n=L3vv\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b2be6a50e2b904ae57ac116d6c6fb17905df493d\nparent 631706ea9f3bf09949e1cf58d61f8d874ad1f770\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1722247304 -0500\ncommitter GitHub <noreply@github.com> 1722247304 +0200\n\nsingle shiki instance & on the server w/ dev (#906)\n\n* single shiki instance & on the server w/ dev\r\n\r\n* fix(copy-css-config): add track code to generate shiki on click\r\n\r\n---------\r\n\r\nCo-authored-by: maiieul <maieul.chevalier@gmail.com>",
-        "verified_at": "2024-11-13T06:58:57Z"
-      }
-    },
-    "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-    "html_url": "https://github.com/qwikifiers/qwik-ui/commit/f5c831b68fdd1c32f65ad9e447ffeb6734d47922",
-    "comments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/f5c831b68fdd1c32f65ad9e447ffeb6734d47922/comments",
-    "author": {
-      "login": "thejackshelton",
-      "id": 104264123,
-      "node_id": "U_kgDOBjbxuw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104264123?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton",
-      "html_url": "https://github.com/thejackshelton",
-      "followers_url": "https://api.github.com/users/thejackshelton/followers",
-      "following_url": "https://api.github.com/users/thejackshelton/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton/repos",
-      "events_url": "https://api.github.com/users/thejackshelton/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "631706ea9f3bf09949e1cf58d61f8d874ad1f770",
-        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/631706ea9f3bf09949e1cf58d61f8d874ad1f770",
-        "html_url": "https://github.com/qwikifiers/qwik-ui/commit/631706ea9f3bf09949e1cf58d61f8d874ad1f770"
       }
     ]
   },
