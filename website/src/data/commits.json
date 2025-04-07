@@ -4920,6 +4920,88 @@
     ]
   },
   {
+    "sha": "2d2d9a42f7a8f67ed8f07a31291e8c5246462313",
+    "node_id": "C_kwDOFf09ddoAKDJkMmQ5YTQyZjdhOGY2N2VkOGYwN2EzMTI5MWU4YzUyNDY0NjIzMTM",
+    "commit": {
+      "author": {
+        "name": "Oleksandr Zainetdinov",
+        "email": "zaynet.ua@gmail.com",
+        "date": "2025-04-07T23:24:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-07T23:24:45Z"
+      },
+      "message": "Add sponsors to the readme sponsor section (#7497)\n\n* Add sponsors to the readme sponsor section\n\n* Add sponsors to the readme sponsor section\n\n* Delete .changeset/twenty-onions-check.md\n\n* docs: README.md\n\n---------\n\nCo-authored-by: PatrickJS <github@gdi2290.com>\nCo-authored-by: PatrickJS <github@patrickjs.com>",
+      "tree": {
+        "sha": "10845a0d1798023943c107853ea44ff3a9c6249c",
+        "url": "https://api.github.com/repos/QwikDev/qwik/git/trees/10845a0d1798023943c107853ea44ff3a9c6249c"
+      },
+      "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/2d2d9a42f7a8f67ed8f07a31291e8c5246462313",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn9F69CRC1aQ7uu5UhlAAAQgMQAHUj/90SML5b8HrUWbtu9XEu\nGR+2ZOZeKebQE/kx0cOHjYFbeE4PeKNJ261FtC9aobxa6ezwRpIODsRcntvrLm8C\npLebalU9ceYjzbn7Q6XT14qjxTRshMCsSElTv+45K5DVlXqMRVtnMFzwRQmNAacP\nAplsNrHp6RUAjJkqp6xWKLZZq0TnMoquheWwmbR6bQfyOhcPlpmpEm/lCre+nXtv\ng1Khs/m2jRKhqCh5KerFHtXZYO+zs8Nx2uqc4mM8LkhThrGBHrtmos9N4zi9HXGa\ne7DMNxy2IGcUsVRRBvcxiQs177eejHxzhSNszm1ICmGaAKaxtS0mJPAx8mWN7F9m\ndbDWMuayyX3Gjp2aLCCUH86oS0oR2TcKEAvSsvBi/aasm21uM5DjzV8/9gegXNfn\nMVQ4cTnNK7eaIoeJGwNJiNmUdezClv2WBE5YPSRZFDop19V13xUex95c/rkYrH83\nwdgwtNS/wUiCRfEj59i8G95XST7dIvHkaubIghVpZ/pDlqz9FheZ9/qk7gpJo/ww\n0VmvkOJ6vSG3AciORAxyVq2C+80wM0JR4LXI26ARc3lyMgy0uTHWkRdCX4dL6Rn0\nq6nulkUXZYbN7NQmJqNlwRrW57F+zI5WN0lXcJ9XjqzRu1XcskJS+LxN6xpQVHby\nUTLFlAroBMcc4bsylm3t\n=F5zI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 10845a0d1798023943c107853ea44ff3a9c6249c\nparent 9db7ca4b104b59581d359fdf9a5c19d1f364aa4e\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1744068285 +0200\ncommitter GitHub <noreply@github.com> 1744068285 +0000\n\nAdd sponsors to the readme sponsor section (#7497)\n\n* Add sponsors to the readme sponsor section\n\n* Add sponsors to the readme sponsor section\n\n* Delete .changeset/twenty-onions-check.md\n\n* docs: README.md\n\n---------\n\nCo-authored-by: PatrickJS <github@gdi2290.com>\nCo-authored-by: PatrickJS <github@patrickjs.com>",
+        "verified_at": "2025-04-07T23:24:49Z"
+      }
+    },
+    "url": "https://api.github.com/repos/QwikDev/qwik/commits/2d2d9a42f7a8f67ed8f07a31291e8c5246462313",
+    "html_url": "https://github.com/QwikDev/qwik/commit/2d2d9a42f7a8f67ed8f07a31291e8c5246462313",
+    "comments_url": "https://api.github.com/repos/QwikDev/qwik/commits/2d2d9a42f7a8f67ed8f07a31291e8c5246462313/comments",
+    "author": {
+      "login": "zaynet",
+      "id": 2697335,
+      "node_id": "MDQ6VXNlcjI2OTczMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zaynet",
+      "html_url": "https://github.com/zaynet",
+      "followers_url": "https://api.github.com/users/zaynet/followers",
+      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
+      "organizations_url": "https://api.github.com/users/zaynet/orgs",
+      "repos_url": "https://api.github.com/users/zaynet/repos",
+      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zaynet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9db7ca4b104b59581d359fdf9a5c19d1f364aa4e",
+        "url": "https://api.github.com/repos/QwikDev/qwik/commits/9db7ca4b104b59581d359fdf9a5c19d1f364aa4e",
+        "html_url": "https://github.com/QwikDev/qwik/commit/9db7ca4b104b59581d359fdf9a5c19d1f364aa4e"
+      }
+    ]
+  },
+  {
     "sha": "bb3198fffd813a6836efa870e3f1fb3a3d26b01a",
     "node_id": "C_kwDOFf09ddoAKGJiMzE5OGZmZmQ4MTNhNjgzNmVmYTg3MGUzZjFmYjNhM2QyNmIwMWE",
     "commit": {
