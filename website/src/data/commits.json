@@ -17628,6 +17628,88 @@
     ]
   },
   {
+    "sha": "66c96c6431972dfd59903ee7fc4b541b811e2410",
+    "node_id": "C_kwDOIH57B9oAKDY2Yzk2YzY0MzE5NzJkZmQ1OTkwM2VlN2ZjNGI1NDFiODExZTI0MTA",
+    "commit": {
+      "author": {
+        "name": "PatrickJS",
+        "email": "github@patrickjs.com",
+        "date": "2025-04-07T23:54:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-07T23:54:04Z"
+      },
+      "message": "docs: README.md (#1066)\n\nwe need a way to track who is coming from OSS",
+      "tree": {
+        "sha": "5a96b5058eeebc572f9362a42caf5785b7ce8e08",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/trees/5a96b5058eeebc572f9362a42caf5785b7ce8e08"
+      },
+      "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/66c96c6431972dfd59903ee7fc4b541b811e2410",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn9GWcCRC1aQ7uu5UhlAAAWBgQAIU1Z5DCqElh/Q5XuI/GWaPg\n1o1dF6bXmVIs/6IAeakzUwJfHxJUfyJxT88TkIQOLRcl2tw47dM7phW5aCrDYpYQ\nU45HlQJ5flmn5tWjNW/CUhVhVR/5U4++Hrwb7oliYdJ2HVm67PVIDhcxsrncQdkO\n12it3G95x7Hvye5INF2NBLOPv88ccP1YWNIkagyaLFOYvmb9/j8mf+lX6JZPedgb\nJU+hSLANbAHbvJJmm/JRe6NJH7fD1/gAfeCmOyASFKgQomUOdIEuZ/4ook1Ude1i\n7xqy9XT8puk8/w0+nOr/XEaHlfhtA4lDvbyfreUM7Q5HuRZaTHCUE9pB036r/xVT\n0sBi0OEkhPxdb45jiZC6tecJI9M82oiZ9PYxjDPg1o0Im8c1sTHCaBb+mFD8ND08\nDr+zLi7k0av9naqN+k3aFDU2umkh7QO0WEMohXQGL1ajoHL3ufBjY71r/t+RmBFh\nHIB+KPkPfKgu5D5zsu/19NVxOATRuiIfP+qAh6L+vMGWqxX78W8TnEhGAOy6vbMP\nBya6wvJzuJlwV1OjeWmwhIuW0P+o1jaRouHsXk259AqQL8mVVj94rS6k/WM0G96u\n3rzvfbpZ8VzrJ5fzciV1q7hRrxXKiRDfptS2VC5gi1ZgFBjoXIDXFHXfJZEz8p10\nx+2uCFAKnOGVzRB6ib90\n=9mfp\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5a96b5058eeebc572f9362a42caf5785b7ce8e08\nparent b1b4ad60e25f4cc7df8f361783815c869c104c7e\nauthor PatrickJS <github@patrickjs.com> 1744070044 -0500\ncommitter GitHub <noreply@github.com> 1744070044 -0500\n\ndocs: README.md (#1066)\n\nwe need a way to track who is coming from OSS",
+        "verified_at": "2025-04-07T23:59:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/66c96c6431972dfd59903ee7fc4b541b811e2410",
+    "html_url": "https://github.com/qwikifiers/qwik-ui/commit/66c96c6431972dfd59903ee7fc4b541b811e2410",
+    "comments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/66c96c6431972dfd59903ee7fc4b541b811e2410/comments",
+    "author": {
+      "login": "PatrickJS",
+      "id": 1016365,
+      "node_id": "MDQ6VXNlcjEwMTYzNjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1016365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatrickJS",
+      "html_url": "https://github.com/PatrickJS",
+      "followers_url": "https://api.github.com/users/PatrickJS/followers",
+      "following_url": "https://api.github.com/users/PatrickJS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatrickJS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatrickJS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatrickJS/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatrickJS/orgs",
+      "repos_url": "https://api.github.com/users/PatrickJS/repos",
+      "events_url": "https://api.github.com/users/PatrickJS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatrickJS/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b1b4ad60e25f4cc7df8f361783815c869c104c7e",
+        "url": "https://api.github.com/repos/qwikifiers/qwik-ui/commits/b1b4ad60e25f4cc7df8f361783815c869c104c7e",
+        "html_url": "https://github.com/qwikifiers/qwik-ui/commit/b1b4ad60e25f4cc7df8f361783815c869c104c7e"
+      }
+    ]
+  },
+  {
     "sha": "2200f860303c870ddbaa20d23b04fd7b4a6753a9",
     "node_id": "C_kwDOIH57B9oAKDIyMDBmODYwMzAzYzg3MGRkYmFhMjBkMjNiMDRmZDdiNGE2NzUzYTk",
     "commit": {
