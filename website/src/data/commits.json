@@ -10193,6 +10193,88 @@
     ]
   },
   {
+    "sha": "0ca0492d9f211668d10f800aab0dfcaed5159a4b",
+    "node_id": "C_kwDOMh8bw9oAKDBjYTA0OTJkOWYyMTE2NjhkMTBmODAwYWFiMGRmY2FlZDUxNTlhNGI",
+    "commit": {
+      "author": {
+        "name": "Oleksandr Zainetdinov",
+        "email": "zaynet.ua@gmail.com",
+        "date": "2025-04-22T17:30:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-22T17:30:32Z"
+      },
+      "message": "Work on the Switch component. (#183)\n\n* Switch component. DS-423 Research, initial tests.\n\n* Create lazy-flowers-compete.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n* Switch component. DS-424 Initial implementation\n\n* Switch component. DS-424 Initial implementation\n\n* Switch component. Control -> Trigger\n\n* Switch component. Fix research.mdx\n\n* Switch component. DS-425 Documentation\n\n* Switch component. DS-425 Documentation\n\n* Switch component. Address feedback.\n\n* Switch component. Fix lint. Address feedback.\n\n* Switch component. Add internalRef\n\n* Switch component. DS-426 Address feedback.\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
+      "tree": {
+        "sha": "940bd98501d25adc7db555bc1e4af5c5c294e10d",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/940bd98501d25adc7db555bc1e4af5c5c294e10d"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/0ca0492d9f211668d10f800aab0dfcaed5159a4b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoB9I4CRC1aQ7uu5UhlAAAdrsQADZRm8qezbJE6rtbviMXm7dr\n3O+BGRxC8cZN1PmwyN7oKuKwiKzHNdZWzXKUOTMojznMKdJ3NrWicRnXPQEZwWfB\neC0TyD4HdgtBFV6iYQjocmidFeKJ/hYjshyO0OFSIZL6hwJ2OazmKhjUZiNqyJQ4\ntMGYVzyWIto0WLVSiXkmb8UaCuvFvjyOQkJoO6a1j++sCov7aGeG1bTvIMfq8WBd\nfAZxrcyPFz4kcg9kXigpyJVKnlMwEf8YPV05EuYXKjK9TY71yX71rADc41vjzz+L\nOGRxXMS2G2de23YzWOJSlNh/acmizG3YcNezrNSrWH4URaTxgn1IS9I8T1tfOYr+\nQeOqVJkGDDUzqHbSuis6Z9bFpjGLh4CiM52RR4VauZ1L+DirfzKK0hd/1KQHsklF\nbPlaE2bKreNJei+zNuYLFdYpKYaU+Aesv7pviuMN2tevNyzB5+BRWjcDqwHQ1v1M\n6jWZJzlB8aLjoKnQT7Onps/nX0VoY/8+gCYB6rRooUV3Vugn2dhhFkE7miw35g7G\ne2KPvIVZ6qJq0rNvKN109pDgFwShUqYKxF3L7iWmkCfZ5V5NQWHjZB7ekdxeLNWt\n1ShwcSPr5ANP6DN0bjrJGkGVK/vPcKWUrN8YkwUeSdq63NWfSobRbH1WmMak590w\nFP/CFsyevZP/nnolB8MW\n=ENPm\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 940bd98501d25adc7db555bc1e4af5c5c294e10d\nparent 4becbd7e6503c4cc267960b05d0f41d91d93c9f3\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1745343032 +0300\ncommitter GitHub <noreply@github.com> 1745343032 -0500\n\nWork on the Switch component. (#183)\n\n* Switch component. DS-423 Research, initial tests.\n\n* Create lazy-flowers-compete.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n* Switch component. DS-424 Initial implementation\n\n* Switch component. DS-424 Initial implementation\n\n* Switch component. Control -> Trigger\n\n* Switch component. Fix research.mdx\n\n* Switch component. DS-425 Documentation\n\n* Switch component. DS-425 Documentation\n\n* Switch component. Address feedback.\n\n* Switch component. Fix lint. Address feedback.\n\n* Switch component. Add internalRef\n\n* Switch component. DS-426 Address feedback.\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
+        "verified_at": "2025-04-22T17:35:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/0ca0492d9f211668d10f800aab0dfcaed5159a4b",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/0ca0492d9f211668d10f800aab0dfcaed5159a4b",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/0ca0492d9f211668d10f800aab0dfcaed5159a4b/comments",
+    "author": {
+      "login": "zaynet",
+      "id": 2697335,
+      "node_id": "MDQ6VXNlcjI2OTczMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zaynet",
+      "html_url": "https://github.com/zaynet",
+      "followers_url": "https://api.github.com/users/zaynet/followers",
+      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
+      "organizations_url": "https://api.github.com/users/zaynet/orgs",
+      "repos_url": "https://api.github.com/users/zaynet/repos",
+      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zaynet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4becbd7e6503c4cc267960b05d0f41d91d93c9f3",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/4becbd7e6503c4cc267960b05d0f41d91d93c9f3",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/4becbd7e6503c4cc267960b05d0f41d91d93c9f3"
+      }
+    ]
+  },
+  {
     "sha": "6cc9c962e12aa2f0e2acff22dc650d37e617e319",
     "node_id": "C_kwDOMh8bw9oAKDZjYzljOTYyZTEyYWEyZjBlMmFjZmYyMmRjNjUwZDM3ZTYxN2UzMTk",
     "commit": {
@@ -12582,88 +12664,6 @@
         "sha": "844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c"
-      }
-    ]
-  },
-  {
-    "sha": "844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
-    "node_id": "C_kwDOMh8bw9oAKDg0NGE1Y2MzZDJmMzg2MTZiOGM5Y2E2ZDk2MzQ1YmM4ODExNWNlOWM",
-    "commit": {
-      "author": {
-        "name": "Oleksandr Zainetdinov",
-        "email": "zaynet.ua@gmail.com",
-        "date": "2025-02-19T18:14:58Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-02-19T18:14:58Z"
-      },
-      "message": "Create fresh-garlics-mix.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
-      "tree": {
-        "sha": "642488bd2322166aaffbff204dc73825f6423cfa",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/642488bd2322166aaffbff204dc73825f6423cfa"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnth+jCRC1aQ7uu5UhlAAA7csQAASm5/y7ZY8yFgcixGVKu45m\nxKJPZsQpbDnMbSEMzfUvFjvlfVuprB4IFsWIaZczSeUalQRawFYilW8d6zl5uMnM\n4fn2cD8lm6ACdlwHGiBxgeyHu/eRmStowGw1hYpru9+8MDQEU71+dqDNGm9kgBge\nHx0LUDCK/jT+bgtNepfdURZ6p2OLY32fOdb+ZRMqacDet7iPxYQMKAjvYhPUmWmw\nZbPDv1y3ouwpHlxfiv5JIMt8VTD/zAfPwHDN5xIA/LvxQRdA3DB1jHTc1A0Ck7VW\nnZxehSR3vSECVYDh7WpIaJUM4+9vcmP+d28BPhdB1+Ac7pM1E7b42pdhRcSyoZZ1\nviYfJLGUAzpKPuLmfIzMK8R90hGKJhyoFKY5Y23y2EAIEWMxFEJNFIVLXEMpMh4+\naKANe8bi1RvpqyliBC/HbVEzKLOigvd/jeleOOBY49qgxgyVNZ9yUN6yQQSUMKK3\neBA6c22jDDUyHOc63xw0dDnd1TDbfR4/ZzkobeFF5iiPi5wyeX2BXEcG4DgixxWd\ndhmFwwETUHgDH+mLO1eUbqIXlDyomxAmavNHR8ys30DyONET90lJbFWs2UBIJY8R\ntvv/HvAFj+qSRJBKwxIgVRRsRTA9uHhTBcn3ZmFMJwUd+MPJLvewUjdio+jJYwek\nMuNuErSqa/oBxe8OZ+qu\n=zASr\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 642488bd2322166aaffbff204dc73825f6423cfa\nparent 4532f75f424d406a2a2b6e4b09084dac3e8da3e8\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1739988898 +0200\ncommitter GitHub <noreply@github.com> 1739988898 +0200\n\nCreate fresh-garlics-mix.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
-        "verified_at": "2025-02-19T18:15:01Z"
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/844a5cc3d2f38616b8c9ca6d96345bc88115ce9c/comments",
-    "author": {
-      "login": "zaynet",
-      "id": 2697335,
-      "node_id": "MDQ6VXNlcjI2OTczMzU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/zaynet",
-      "html_url": "https://github.com/zaynet",
-      "followers_url": "https://api.github.com/users/zaynet/followers",
-      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
-      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
-      "organizations_url": "https://api.github.com/users/zaynet/orgs",
-      "repos_url": "https://api.github.com/users/zaynet/repos",
-      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/zaynet/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "4532f75f424d406a2a2b6e4b09084dac3e8da3e8",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/4532f75f424d406a2a2b6e4b09084dac3e8da3e8",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/4532f75f424d406a2a2b6e4b09084dac3e8da3e8"
       }
     ]
   },
