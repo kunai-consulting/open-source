@@ -84,7 +84,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 1339,
+    "forks_count": 1340,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -106,7 +106,7 @@
       "web"
     ],
     "visibility": "public",
-    "forks": 1339,
+    "forks": 1340,
     "open_issues": 291,
     "watchers": 21293,
     "default_branch": "main",
@@ -140,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 1339,
+    "network_count": 1340,
     "subscribers_count": 142
   },
   {
@@ -212,7 +212,7 @@
     "deployments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/deployments",
     "created_at": "2024-08-11T03:12:30Z",
     "updated_at": "2025-04-22T17:30:37Z",
-    "pushed_at": "2025-04-23T13:22:36Z",
+    "pushed_at": "2025-04-23T17:43:58Z",
     "git_url": "git://github.com/kunai-consulting/qwik-design-system.git",
     "ssh_url": "git@github.com:kunai-consulting/qwik-design-system.git",
     "clone_url": "https://github.com/kunai-consulting/qwik-design-system.git",
@@ -377,8 +377,8 @@
     "releases_url": "https://api.github.com/repos/qwikifiers/qwik-ui/releases{/id}",
     "deployments_url": "https://api.github.com/repos/qwikifiers/qwik-ui/deployments",
     "created_at": "2022-10-03T22:17:10Z",
-    "updated_at": "2025-04-23T16:04:52Z",
-    "pushed_at": "2025-04-19T16:16:35Z",
+    "updated_at": "2025-04-23T17:13:04Z",
+    "pushed_at": "2025-04-23T17:13:00Z",
     "git_url": "git://github.com/qwikifiers/qwik-ui.git",
     "ssh_url": "git@github.com:qwikifiers/qwik-ui.git",
     "clone_url": "https://github.com/qwikifiers/qwik-ui.git",
@@ -398,7 +398,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 62,
+    "open_issues_count": 63,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -421,7 +421,7 @@
     ],
     "visibility": "public",
     "forks": 148,
-    "open_issues": 62,
+    "open_issues": 63,
     "watchers": 656,
     "default_branch": "main",
     "permissions": {
