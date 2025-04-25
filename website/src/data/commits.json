@@ -10193,6 +10193,88 @@
     ]
   },
   {
+    "sha": "a9f479d481538a54f4183f9d336497ca74fc27f0",
+    "node_id": "C_kwDOMh8bw9oAKGE5ZjQ3OWQ0ODE1MzhhNTRmNDE4M2Y5ZDMzNjQ5N2NhNzRmYzI3ZjA",
+    "commit": {
+      "author": {
+        "name": "Oleksandr Zainetdinov",
+        "email": "zaynet.ua@gmail.com",
+        "date": "2025-04-25T14:55:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-04-25T14:55:11Z"
+      },
+      "message": "DS-415 Resizable component. Remove unnecessary. (#190)\n\n* DS-415 Resizable component. Remove unnecessary.\n\n* Create silent-ads-appear.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
+      "tree": {
+        "sha": "259abc0b11e0614045ec1458eb9444f6d4c79c18",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/259abc0b11e0614045ec1458eb9444f6d4c79c18"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/a9f479d481538a54f4183f9d336497ca74fc27f0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoC6JPCRC1aQ7uu5UhlAAAVVgQAC30vBJPTSzDUU921d0D7oMj\nylHtAZtZnYzKkq5CShJ2fpwSusAF8fuxTOV23xBvKDFOxPDuv9BSF+3GeceoGPX7\nqsCmAdz92udYskgJO9DQ7VdCsPprHntR6SgYWUekooCjum53z9RHldjcitkJ8GWM\njV2DyVuPEgNE3bVbVM2y335mMv+L987bTbb6ahObXj2u+mdPddjjuXT0eCIFNsFL\n2f216mvweyu2hjRAnB+76QmLz3qHzU0AdPUSEs0x2oJRw5JQJYHCAMZ3VciYc0ab\nsb49NVlrYaQ9qUR0UvbryjWuwcTQBZOWnRaSZcAgnca4Fjkokgryxi2kM7b3SVcj\n+f5WIc+LM24DF3+OvtbjZY548H5YBlQ5nKmrRNHqZU+HixA5ThGIg0tzDh9Rw82K\nIIhK0ADMknMQywZWTSdNoJ9+2ti/bMuCZhH7NRtpKDA8MfoAZK4RdgJYJTnf19e4\n6Nd0RlkDcBegIRzmWEje/vcl02dI+o9I3W0Z8C779A30Gu4U835+MpMYwsXo1vv9\ns6IqpGYV6pBNEo7Qc9C4igcY9tIas9yLBuuvHcE0EnjqYS7tQ+zPGn4AjlUwYNjf\npdu+6zfOKj4K4i3SqTmXENkAGG0UzihZIyE53KQelem99uNI0zBbMYcgNWQkuuKr\nqE4oZRcLyG2hvjsYOjgl\n=yhcM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 259abc0b11e0614045ec1458eb9444f6d4c79c18\nparent 9f6ad22d2acf33e86d288916005b593818179193\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1745592911 +0300\ncommitter GitHub <noreply@github.com> 1745592911 -0500\n\nDS-415 Resizable component. Remove unnecessary. (#190)\n\n* DS-415 Resizable component. Remove unnecessary.\n\n* Create silent-ads-appear.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
+        "verified_at": "2025-04-25T15:00:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a9f479d481538a54f4183f9d336497ca74fc27f0",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/a9f479d481538a54f4183f9d336497ca74fc27f0",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a9f479d481538a54f4183f9d336497ca74fc27f0/comments",
+    "author": {
+      "login": "zaynet",
+      "id": 2697335,
+      "node_id": "MDQ6VXNlcjI2OTczMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zaynet",
+      "html_url": "https://github.com/zaynet",
+      "followers_url": "https://api.github.com/users/zaynet/followers",
+      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
+      "organizations_url": "https://api.github.com/users/zaynet/orgs",
+      "repos_url": "https://api.github.com/users/zaynet/repos",
+      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zaynet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f6ad22d2acf33e86d288916005b593818179193",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/9f6ad22d2acf33e86d288916005b593818179193",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/9f6ad22d2acf33e86d288916005b593818179193"
+      }
+    ]
+  },
+  {
     "sha": "9f6ad22d2acf33e86d288916005b593818179193",
     "node_id": "C_kwDOMh8bw9oAKDlmNmFkMjJkMmFjZjMzZTg2ZDI4ODkxNjAwNWI1OTM4MTgxNzkxOTM",
     "commit": {
@@ -12582,88 +12664,6 @@
         "sha": "267fe52743984e59165a2a01d5fe1a1f676f829a",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/267fe52743984e59165a2a01d5fe1a1f676f829a",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/267fe52743984e59165a2a01d5fe1a1f676f829a"
-      }
-    ]
-  },
-  {
-    "sha": "b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-    "node_id": "C_kwDOMh8bw9oAKGI3ZDM1OGM1NmM5NDVlOGY3ZjhlMWIxM2Q4YzU5ZTBhZjE2ZjRjNTU",
-    "commit": {
-      "author": {
-        "name": "alex",
-        "email": "zaynet.ua@gmail.com",
-        "date": "2025-02-26T16:17:05Z"
-      },
-      "committer": {
-        "name": "alex",
-        "email": "zaynet.ua@gmail.com",
-        "date": "2025-02-26T16:17:05Z"
-      },
-      "message": "Work on the slider component",
-      "tree": {
-        "sha": "19046f4dcc2200de3f7f532a35f020cfa6f34606",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/19046f4dcc2200de3f7f532a35f020cfa6f34606"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55/comments",
-    "author": {
-      "login": "zaynet",
-      "id": 2697335,
-      "node_id": "MDQ6VXNlcjI2OTczMzU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/zaynet",
-      "html_url": "https://github.com/zaynet",
-      "followers_url": "https://api.github.com/users/zaynet/followers",
-      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
-      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
-      "organizations_url": "https://api.github.com/users/zaynet/orgs",
-      "repos_url": "https://api.github.com/users/zaynet/repos",
-      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/zaynet/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "zaynet",
-      "id": 2697335,
-      "node_id": "MDQ6VXNlcjI2OTczMzU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/zaynet",
-      "html_url": "https://github.com/zaynet",
-      "followers_url": "https://api.github.com/users/zaynet/followers",
-      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
-      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
-      "organizations_url": "https://api.github.com/users/zaynet/orgs",
-      "repos_url": "https://api.github.com/users/zaynet/repos",
-      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/zaynet/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "44c92fde93f1047ed4864bf369a91529dc48276a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/44c92fde93f1047ed4864bf369a91529dc48276a",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/44c92fde93f1047ed4864bf369a91529dc48276a"
       }
     ]
   },
