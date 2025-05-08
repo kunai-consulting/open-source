@@ -88,7 +88,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 299,
+    "open_issues_count": 300,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -107,7 +107,7 @@
     ],
     "visibility": "public",
     "forks": 1345,
-    "open_issues": 299,
+    "open_issues": 300,
     "watchers": 21336,
     "default_branch": "main",
     "permissions": {
@@ -141,7 +141,7 @@
       "site_admin": false
     },
     "network_count": 1345,
-    "subscribers_count": 142
+    "subscribers_count": 143
   },
   {
     "id": 840899523,
@@ -218,7 +218,7 @@
     "clone_url": "https://github.com/kunai-consulting/qwik-design-system.git",
     "svn_url": "https://github.com/kunai-consulting/qwik-design-system",
     "homepage": "https://qwik.design",
-    "size": 43829,
+    "size": 43831,
     "stargazers_count": 10,
     "watchers_count": 10,
     "language": "TypeScript",
