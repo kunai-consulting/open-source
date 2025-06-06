@@ -10193,6 +10193,88 @@
     ]
   },
   {
+    "sha": "59ca32213abf2808b1e7dca91aa47f14ecc1d03a",
+    "node_id": "C_kwDOMh8bw9oAKDU5Y2EzMjIxM2FiZjI4MDhiMWU3ZGNhOTFhYTQ3ZjE0ZWNjMWQwM2E",
+    "commit": {
+      "author": {
+        "name": "Oleksandr Zainetdinov",
+        "email": "zaynet.ua@gmail.com",
+        "date": "2025-06-06T20:25:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-06T20:25:01Z"
+      },
+      "message": "DS-428 Dropdown component (#193)\n\n* DS-429 Dropdown component. Research and tests.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* Create green-mirrors-explain.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n* DS-430 Dropdown component. Fix build\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-428 Dropdown component. Fix build, add initial API\n\n* DS-431 Dropdown component. Documentation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Address feedback. Fix lint\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Fix lint.\n\n* DS-432 Dropdown component. Fix build.\n\n* DS-432 Dropdown component. Address feedback.\n\n* chore: updates signal mutation and ensures first render function\n\n* DS-432 Dropdown component. Address feedback. Fixed keyboard behavior.\n\n* draft: submenus\n\n* chore: fix type\n\n* chore: fixes incorrect parentId assignination\n\n* chore: updates logics and consistency across checks\n\n* chore: revert hero and comments\n\n* chore: docs\n\n* chore: enchancements\n\n* draft: updates keyboard handling\n\n* reverse indexing\n\n* removes references from walker on dropdown\n\n* chore: removes unused properties\n\n* indexing\n\n* updates home keyboard handling\n\n* test cases\n\n* DS-436 Context Menu.\n\n* DS-436 Context Menu.\n\n* DS-436 Context Menu. Fix lint, add tests.\n\n* chore: fix lint issue with css property\n\n* chore: fix lint issue with css property\n\n* fix items ordering issue\n\n* linting\n\n* renames dropdown to menu\n\n* format\n\n* format\n\n* chore: removes context files\n\n* chore: single context for simpler logic\n\n* chore: revert keyboard handling to use a node walker\n\n* chore: better doc submenu example\n\n* feat: examples, context menu, submenu improvements\n\n* format\n\n* format\n\n* chore: styling\n\n* enchancements\n\n* chore: enchance focus on open\n\n* removes unnecesary use task\n\n* chore: focus\n\n* fix: list out all bad event handlers\n\n* fix: radio group example with latest API\n\n* fix: submenu patterns\n\n* chore: bug fix\n\n* chore: build fix\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\nCo-authored-by: Gabriel Raposo <gabriel.robertor@gmail.com>\nCo-authored-by: thejackshelton-kunaico <jack.shelton@kunaico.com>\nCo-authored-by: thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com>",
+      "tree": {
+        "sha": "fe5bce07771f6c6eaa15bd8e3f5d78c714f23f27",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/fe5bce07771f6c6eaa15bd8e3f5d78c714f23f27"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/59ca32213abf2808b1e7dca91aa47f14ecc1d03a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQ06dCRC1aQ7uu5UhlAAASPkQAF7oJbtdlUpYqr4iL03Es50u\n/thzab95A7/Q93kb+/I4JWjLSN7Dtj/WIlGRc+DnVPTR1XJIxh5E3paw0EbFHY0b\nXZxC6c93c6OWa21FZ1TvPKSw+tYuiQffak87tzf5vauoTqsjkjFstIBZigcs0Z6B\nDDsUhITtA0fkiQQc+Wg11k+gO+OO8hmKxX9Xs3LL9ZYsLVilE9VgVENSNP/FDenV\n3WsRDATlDZfSsJx1+gWpP0rWh79YR3wITP3i5hAQ2OeTSZxiaGekTI7UrQbuiJRs\n11j2CYmTy4OhAalbU7ukscB71AFOAXkDGSDalXLioS0wzb5GBt6Yz0rle1z2VCAm\nRSJ92tLxgQv398QtWRTigBXfPle1gmMXOrCC5zUB0pD6oNoU4cKKfh3qm4gkV5Yb\ne8AVsxSU1ivxcHbIWcjZaB/hQGhsV06SiCf2taPY7DohJs4jLauScbt5TWzgRChr\nJvn/yYllE9pw9RTmaIVQroJ8aOSKIay8ka0UwR5pTogQSbmIYGMA+ubDr6bcHk84\nb5Izr9m1Ast2bpC5bGaxZ+7+t60X4f0munXF8bxC9bJPSQmHF6LTW20BpRvN9r5d\nKTVr0ZpFNpBIcVXQnb+F4o0p/KeVCx666QvDoBA+mDU7x+3Y1RbJgqm5hKOhcpYe\nqf5OTNAh3nbxYJOuuKZQ\n=z2Fq\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fe5bce07771f6c6eaa15bd8e3f5d78c714f23f27\nparent 8e70f8d023d47cf0af11abf5760d232ba8ae329c\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1749241501 +0300\ncommitter GitHub <noreply@github.com> 1749241501 -0500\n\nDS-428 Dropdown component (#193)\n\n* DS-429 Dropdown component. Research and tests.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* Create green-mirrors-explain.md\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\n\n* DS-430 Dropdown component. Fix build\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-428 Dropdown component. Fix build, add initial API\n\n* DS-431 Dropdown component. Documentation.\n\n* DS-430 Dropdown component. Initial implementation.\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Address feedback. Fix lint\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Address feedback.\n\n* DS-432 Dropdown component. Fix lint.\n\n* DS-432 Dropdown component. Fix build.\n\n* DS-432 Dropdown component. Address feedback.\n\n* chore: updates signal mutation and ensures first render function\n\n* DS-432 Dropdown component. Address feedback. Fixed keyboard behavior.\n\n* draft: submenus\n\n* chore: fix type\n\n* chore: fixes incorrect parentId assignination\n\n* chore: updates logics and consistency across checks\n\n* chore: revert hero and comments\n\n* chore: docs\n\n* chore: enchancements\n\n* draft: updates keyboard handling\n\n* reverse indexing\n\n* removes references from walker on dropdown\n\n* chore: removes unused properties\n\n* indexing\n\n* updates home keyboard handling\n\n* test cases\n\n* DS-436 Context Menu.\n\n* DS-436 Context Menu.\n\n* DS-436 Context Menu. Fix lint, add tests.\n\n* chore: fix lint issue with css property\n\n* chore: fix lint issue with css property\n\n* fix items ordering issue\n\n* linting\n\n* renames dropdown to menu\n\n* format\n\n* format\n\n* chore: removes context files\n\n* chore: single context for simpler logic\n\n* chore: revert keyboard handling to use a node walker\n\n* chore: better doc submenu example\n\n* feat: examples, context menu, submenu improvements\n\n* format\n\n* format\n\n* chore: styling\n\n* enchancements\n\n* chore: enchance focus on open\n\n* removes unnecesary use task\n\n* chore: focus\n\n* fix: list out all bad event handlers\n\n* fix: radio group example with latest API\n\n* fix: submenu patterns\n\n* chore: bug fix\n\n* chore: build fix\n\n---------\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>\nCo-authored-by: Gabriel Raposo <gabriel.robertor@gmail.com>\nCo-authored-by: thejackshelton-kunaico <jack.shelton@kunaico.com>\nCo-authored-by: thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com>",
+        "verified_at": "2025-06-06T20:30:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/59ca32213abf2808b1e7dca91aa47f14ecc1d03a",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/59ca32213abf2808b1e7dca91aa47f14ecc1d03a",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/59ca32213abf2808b1e7dca91aa47f14ecc1d03a/comments",
+    "author": {
+      "login": "zaynet",
+      "id": 2697335,
+      "node_id": "MDQ6VXNlcjI2OTczMzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zaynet",
+      "html_url": "https://github.com/zaynet",
+      "followers_url": "https://api.github.com/users/zaynet/followers",
+      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
+      "organizations_url": "https://api.github.com/users/zaynet/orgs",
+      "repos_url": "https://api.github.com/users/zaynet/repos",
+      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zaynet/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e70f8d023d47cf0af11abf5760d232ba8ae329c",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/8e70f8d023d47cf0af11abf5760d232ba8ae329c",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/8e70f8d023d47cf0af11abf5760d232ba8ae329c"
+      }
+    ]
+  },
+  {
     "sha": "a9f479d481538a54f4183f9d336497ca74fc27f0",
     "node_id": "C_kwDOMh8bw9oAKGE5ZjQ3OWQ0ODE1MzhhNTRmNDE4M2Y5ZDMzNjQ5N2NhNzRmYzI3ZjA",
     "commit": {
@@ -12577,93 +12659,6 @@
         "sha": "dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db"
-      }
-    ]
-  },
-  {
-    "sha": "dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
-    "node_id": "C_kwDOMh8bw9oAKGRjYjlmMmViOGZlOWQ4YTkxMWYyNTYyYjVmOTkyMWQ5ZmUyYzg1ZGI",
-    "commit": {
-      "author": {
-        "name": "Oleksandr Zainetdinov",
-        "email": "zaynet.ua@gmail.com",
-        "date": "2025-02-26T16:31:34Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-02-26T16:31:34Z"
-      },
-      "message": "Merge branch 'main' into slider\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
-      "tree": {
-        "sha": "aac406c4e8aaf2a150a7b297faf258368cff7332",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/aac406c4e8aaf2a150a7b297faf258368cff7332"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnv0HmCRC1aQ7uu5UhlAAAIZ0QALAfjNh6UTzLqiCfMoINawb0\n67Wq4ikyHwjZ5q4/sEieK4EmL9fdRqs3H6ZET/3xSDmaEFizK/x+cffdABJNtYu4\nExAis3/BRn59FZ+qJ16OlzOAXOmdjUia9icCoGCXDaKx4Qie41e1Lr5mHLssQC46\nmW9i70CziBPWme5mBsjgwmJ4X2j0S6pqJKJcFcrF1p+b4OT6hr4SS16znl3h1mRD\nIVPUnYoJ1PxX5Yvbhm8uU2ka7L8pJPL0m9ATMM11reh6/wiVUHx6WBC8UIhKr32h\ncNVbqQKu9MRwwwxMZo8IlVGVI0fimoqb4w+SylAqIMYi61/VcvMuJOCxFuhoC2De\neWmnHreJPw5akeIUmD7UhJWcM2wnq5Qb/OmMnXaAA867J+uMPIjNlr2VUP/2xQdU\nK8kF++uW5yqiO7wDyIMPmNrllLp1+wPvzdUE/Mfxam5u0EGI54jqRFq2itBqjtRa\nn6+GizKfI0nGx1C18n7yfIdTQwsn2QiT59DaGW8ZeGSW+y3rfIqTqXDKyYJriQMg\nzAKy0goQ9/PQ047V0b23ifgmhq4uALtH5aJ8+98FmmVw7ixQvMrJ5F4sS1aZgUBj\nfMhEjj2mctAXuVOZ7FQoj8BKjgNqou0UHtYHeFX6J3zWVrijeuSPSBiQ5WR2eohb\nCtL+6uZhSZ3VdEXIvMOM\n=ko9d\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree aac406c4e8aaf2a150a7b297faf258368cff7332\nparent b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55\nparent 267fe52743984e59165a2a01d5fe1a1f676f829a\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1740587494 +0200\ncommitter GitHub <noreply@github.com> 1740587494 +0200\n\nMerge branch 'main' into slider\n\nSigned-off-by: Oleksandr Zainetdinov <zaynet.ua@gmail.com>",
-        "verified_at": "2025-02-26T16:31:36Z"
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/dcb9f2eb8fe9d8a911f2562b5f9921d9fe2c85db/comments",
-    "author": {
-      "login": "zaynet",
-      "id": 2697335,
-      "node_id": "MDQ6VXNlcjI2OTczMzU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2697335?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/zaynet",
-      "html_url": "https://github.com/zaynet",
-      "followers_url": "https://api.github.com/users/zaynet/followers",
-      "following_url": "https://api.github.com/users/zaynet/following{/other_user}",
-      "gists_url": "https://api.github.com/users/zaynet/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/zaynet/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/zaynet/subscriptions",
-      "organizations_url": "https://api.github.com/users/zaynet/orgs",
-      "repos_url": "https://api.github.com/users/zaynet/repos",
-      "events_url": "https://api.github.com/users/zaynet/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/zaynet/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/b7d358c56c945e8f7f8e1b13d8c59e0af16f4c55"
-      },
-      {
-        "sha": "267fe52743984e59165a2a01d5fe1a1f676f829a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/267fe52743984e59165a2a01d5fe1a1f676f829a",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/267fe52743984e59165a2a01d5fe1a1f676f829a"
       }
     ]
   },
