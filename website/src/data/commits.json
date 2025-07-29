@@ -18044,8 +18044,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/04b58726b0bf798c7735f54924467b19e7d6b6e9",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoERbtCRC1aQ7uu5UhlAAALIwQAAxToc/IOLgGtnZKGFyZ0xf8\n9NMfNH9t9eqwnAUw/rRM96WfNGfNPU1L7CRG0qM8uo0XCELAWovfFObXnVtcsJBl\nPc4WTk28Vo8ro58DF1EGaePfaAh2A8Yt/kCuof1Gw5ucrtnpNUmN+EGDfrKYp7ku\nmgnaZVk2OKIcjGDubXQ/U2T6B+oDSTYQZ5PaAZedJZqm+c4Kzp21ffYulF+qXQnQ\nv+399KCb4VQKsDCi+szFE/wJUrIufQC5g3QEqaGM1TPE3YBHFU83CTN7V6kd6a0n\nNephq5x6jP8y1mCYi0vUQSgcLG5A7QG25mOvM4X73/x+ZVFkELOtMrmuhSu5HK3n\nIotzGOAxffcEcSHB59G2stxEvs/GCywCvVaWpOjT8wNIGLhkGPSQsAcCvVuoqfhD\nOJWR0MZ8Qoem8FzhU1zIkFKxA1b8YzhylDLt8GzE96zF7/lj6vAypFXAAe2+vjNC\nLfco+5AbDRNm7Oi5YGm0VXKkWAQSAjV0cPbZdFOW7OKB1llRulxKanis960Tl3Xg\nINDVz3Lzm0qpnm1aA9E1NG/2AljZFmhXpoKNh9qkNULONk6de50Xhkk8AcUlYTxb\nagsb20rGa+8FGwQalZG8uei105O31hLkBu+OWyeRbhGuXB/WoM3i7KjEnPCuEfE1\n1+dLAJgrD8h280DIyjve\n=wA0a\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 95b3265733afb8e662ed59d47706c4e5d6bb3c9b\nparent 62aabeb96655382cbebdef316d719956233d482f\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1745950445 -0500\ncommitter GitHub <noreply@github.com> 1745950445 -0500\n\nadd-license (#1070)\n\n* add-license\n\n* changeset",
         "verified_at": "2025-04-29T18:19:09Z"
@@ -18126,8 +18126,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/0e418eb02e2e78200bbf706c0138892037caf4c2",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8YwSCRC1aQ7uu5UhlAAAovsQAGgkQFSPWnt+SdJ8Tp5R53m5\n6z62lIje0lgfFPLlu/WgconMbA8ucxFoFkqQtpsRe+EdK1HPgQdjFBZeXLcrK1j5\n1CoLGRVO3+XSbqStgfIQofnYQ5fs4+zYMq09034ctWSFPKIMZa3y7+nAB/JF5J1J\n701YiHdyCbjhWDEd8HCDKVbayaQEC0I0OFI+j9lC3GKMKeuqpxYUvko8tfRMqmOv\nHFXpG7uRkTNKnY6yV0WT50+cYmkG8q/snIp9bq/OhjY9DGy1BKbVG0T6owaCvjqq\n8UoCvV22C+whdwZ9PpAPNvaqVH+Gg3k9IoJK/GD4NpuGHPQbCpqQTnaEMlSgmQb2\n8KHvBD+cLlLdXV61zP40tzS/81BC9lC4MAqho692sKdNHB0Y72aY0bcMBBRBOET1\ngnvKd8u85H0lxnxXhl4ahM9PQxjyGYB9evU5hP31d4G+3XWfWsRB0ocE6znN9lzV\nEZG0qW+buLqNYmOmAL6CUEz9UxyhaTgOT9sMAYPpVJVNsMjBQ4mO2ZRTMiOQCND0\n0a2WUZeCd7fdL7kpsq2uIDSsEtv5fY2R4Ompkee9z4oJPXIck1aXfjfRSnC3mbXF\nT6y7m+Jpn6gPFLx53Jr7XKwS0hb7beXW/CTx1nKy3cJmdWhYXfFoShxnWfAq+RFg\nnCSgb0IfUPZoWzJn3irK\n=y5SS\n-----END PGP SIGNATURE-----\n",
         "payload": "tree b1461b270aa850e3275483cc811f336efc6df31d\nparent ea16f34deaf0c0f13ab6fedc065cdaedb7b49638\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1743883282 -0500\ncommitter GitHub <noreply@github.com> 1743883282 -0500\n\nFix modal spa lock (#1061)\n\n* feat: failing test\n\n* fix: failing test\n\n* changeset",
         "verified_at": "2025-04-05T20:06:24Z"
@@ -18208,8 +18208,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/ea16f34deaf0c0f13ab6fedc065cdaedb7b49638",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8Yj0CRC1aQ7uu5UhlAAArgUQAFfqwAGIBHeJQ2Zt+oZwSVSa\nm2RKIsx/2MhDi9QOrRyT74vH0oK/eiYrARRauKrbwK2ZzOGR/e8cbNApw+2GCEqP\nqpgu7FCKgqavAE8PB++zE9SeTZirPnscPezZM2OnbFwFAA2ze6/xzCnqwW05Nw2j\nl7ef3jPi0rSfK7SzECByYCdYw3dK/KD54+8FCsEP8nvI5AD0fIUSUASTpxAS6l9r\nsyg2gfooNfEwO1Xpz48PfHMgR/jXoDSAFQMfS/O86QW/bBkkovnNjFHscvJSE81p\nxt0Fg5oKREvexdw+MtwtUGuAaGdHgpMFj5ty8PFmepy0KTG8KZ+GoIdLMQPG9d1w\n1BzjHw2xp4cIhDsQmzr2ALILgRhn/csaMtviSdRo3Q4iDMYZsHbMga8tobwYnIOl\nUT2YfrSopJailn6s0L751i/00tqU48RG9cyC2IPTJmydhQsPpxoHtvHzxCBz3Ruw\nFH1WucZvi79Yq3z9+bD6cNV7jKcz2ufnS19igcJcuQQnSbu/RlZ+BcieiPGrfc8a\n1lLwI2gYUslnCxvDtYIk/XHvAVhFHLoomcMj8nDktc0t5ejemXGLloawI+fuOoGM\n7K0FL4kpx9VuJhDJLY8GRtk2Wgq4MUJ5s+9pYq8CoknGWn0QKTj02ZaAEfJsnH9z\n/fR3LkmacU+pD6Kd26Dm\n=HeX3\n-----END PGP SIGNATURE-----\n",
         "payload": "tree da539a4d66e56a22e4d6d8775ab487d1dac300d6\nparent 2bd2675461a52ab675554488c14d0acce7fde7d9\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1743882484 -0500\ncommitter GitHub <noreply@github.com> 1743882484 -0500\n\nrefactor: comment out cli test preventing release (#1062)\n\n* refactor: comment out cli test preventing release\n\n* add skip to file name\n\n* add pass with no tests true",
         "verified_at": "2025-04-05T19:53:06Z"
@@ -18290,8 +18290,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/e3b8dd2e8b15063afa469099c1a4017cc5f1ecfe",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnkm54CRC1aQ7uu5UhlAAA2/4QAFvUNmQJoJAuq+OTiEb81YXv\nG8hMSWheIVKA7CWeghUip7AgPS7IOu551M7ByBPN4b6Tw1cy93mQr+8BHyHOpqlD\nvLAdgxvUrUSl1iNd4ZbfrrM85Cc3KVbRbxqEyaJTH+JMj74V3Y4/j67LyUuDo7U3\nLqvsadv/Tui9MOB3kPN2vpvQ2LlPCWE0xJgBynkgymjDcTMcWb02nVcD3/SDj49r\npctZ3nOu/IXa2cd5zw9Y2nHen8ee7/YCS4huCG2jPMm2pzee8LM65oL9c2qUulT8\nL1KJBtzpAbhSqem0uN9+FxGYO2hYSgNwSqiJIHlPJMYYWKu9HxiaamGTQtbLxdfU\nOXhDNSXmmhOf386do/1bdzp6HDnT3oDZ8v2Q5O3t2dhTdVJs4go0w/E7gIGTzkN+\n/uEo4BOvzH/5BkXSyCD1UBKtT7jOOgK/oX0AVBv7U0tYgG6wo3hV9eGgnDvUAqCH\nT4j5Dueulj6szeFTDmQy+b7rIpYvjpBsQkJlWSZ7cHxgOGCZJD3fZraFURjsb3Sd\n3v1W3OWEYfIMU47QBRwuyJB8kWOl11igNQNWJ49Q/XLojbEo5p9Kj0oSdbJhj2KU\naGW/8Vv5cHMg4PmgTkGI70+UkmK7hvpO9C5jkhIZ2N4wzlHOIUyXWHezHYotlXDo\nD9yy2rJGT3RorcIROzWp\n=vZ6p\n-----END PGP SIGNATURE-----\n",
         "payload": "tree c3ba416af4572938d752b5fbe788b95404553082\nparent ac52aa1d5ddbac3adc3bd04519852c96f2185271\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1737649784 -0600\ncommitter GitHub <noreply@github.com> 1737649784 -0600\n\nSelect fixes 0.6.5 (#1042)\n\n* fix: select now shows first item instead of placeholder when initial value is set\r\n\r\n* fix: prevent native scrolling on focus in select\r\n\r\n* feat: initial scroll handling logic\r\n\r\n* feat: correct key navigation\r\n\r\n* fix: infinite scroll\r\n\r\n* comment out broken ci check\r\n\r\n* changeset",
         "verified_at": "2025-01-23T16:34:46Z"
@@ -18372,8 +18372,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/2666b78f941d7f28bd713026dd6cef546a12d620",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJneyRlCRC1aQ7uu5UhlAAAXk8QAFq/qUoRkNUArUIQ0Whs1tzP\nO3cWtLPAjWFqPuZysC5xnoepYTbQt1gElHusHr84HX3o53JBmMbffogMCxcPU2lF\nVQ7ygt6mIPDbqoJU785+3dJRPwFVc+QLmWr6wGTK36ul4qpDKouEWXViptNle642\nsnM7M2x0dHrQb8yUFZtX/PKDjG0jKXd8SxHU/PKBKRDeL1VsOeXGI5Gvq9lv/nwR\nVxgQbKawYenxG9tyOMFvsP5LWzF29dBeVfEWQk/eT/npljvGFbtiSAiJspTdmhHp\ncugkllnNzjxdmJ8FR12HNVtF87zZQHyVXJJliPGHG3pVEcWoDchvga+zKzKEoHCF\nGp21lRt0fA1NhHAO7GxuYw8f0d7rK0M/nfJtoMpBartXUFe7UUZ6JE/fHpfZ/q0I\nyr6niWfLuHcBfmlObCkFJZMk1YRAoFM99QOW6NU69J2Y86cxo1gyv1u3d34c+IOm\nz2Q1w6N1we5rHomwZfVxcVI372/ZE1pwW815Rtp+3p07Lj2DcLK676AAMPopaNEI\nRoAYC3Ikwco4BHuevQ6HWBzMMjQ2ajg6u9OIblo0t+2Uu3o2KtCyjuaub2VkTJ/S\n2dcHOxvp2V/En5oRm0MQQHCMjd77QqC35n1zWecbR54OvC4j8vYc98FvQcxLli6s\nE1u7VMrEWgYpEYO08fNT\n=3pKL\n-----END PGP SIGNATURE-----\n",
         "payload": "tree c3ec227f245ea7458967a10138a4ce9949f63421\nparent aad02eeeb751b01910af24f44ccf61ff30f5668f\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1736123493 -0600\ncommitter GitHub <noreply@github.com> 1736123493 -0600\n\nadd changelog (#1037)\n\n",
         "verified_at": "2025-01-06T00:36:35Z"
@@ -18454,8 +18454,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/aad02eeeb751b01910af24f44ccf61ff30f5668f",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJneefOCRC1aQ7uu5UhlAAAi8wQAGs7wbyWpFZiRmLdmWmrBdeG\nPSgPc4lN/wZbcAw3nZ/kPQoQYW8ZPedVeV1EK+ZK1fTt3DTrCS+QIFk9NSLnT9Zc\nz2dnquBWgY9d5ATFxsJEFu1dHrASNiFpcleSM4T1aj1Wx2u+mETytIZRu9c0lZWS\nU0/zvIhRYKGRorVbTYbJTXFHuPXpRl26MuUeW0gQ9V0CXd+sYxI5fJqDxf6dwLvg\n5FEBxMs865hS9vqHSGNsXRYkXMN3Hhsd+EhouGj//8eWQjDNCXmYWLvR1XjxaOzJ\n+cpumeD8WSnQ7JhCVbAqHkf80JqJl7SUvrqcU1AtrDuBGXZG3v3ynDI1TGbIQVNb\nifbLlaz4U4xKi3F6Oum22wTIU53gLCMyjyChHTyBb1eKyGutS4ldOqj/RbyOTYYl\nFfgmrYY5fKMCYRdsbDjAB42NGTnM5PDk7QlqvGM3BXR6OuKmqyQZ0WuTKH0TIrFr\n785n/Fw7dreqSKIyoGq1bg03wiupJVgEw6WsIqbkWriF4FfCJTWWC0zTp/H0gAJK\nIfsqx6SyH/dFwrQYOtnHrCuEXK+BK8dnBYPCG+4p/JQP0wWB7kUTSVMK54EMXViZ\nSuTgdfevkZamli697vKUTKVqOpkENHD9Z54XdZA913Wx9hqJ5yQJsHwhbFHxu+b/\nje/u40YFolQpCxrZd7Gl\n=sm2Z\n-----END PGP SIGNATURE-----\n",
         "payload": "tree d81469f022570b49ebf930085f93d985b81bb867\nparent 5fc1ad749150664250a8bb3f8944e2c96544ef7f\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1736042446 -0600\ncommitter GitHub <noreply@github.com> 1736042446 -0600\n\nAdd all og tags (#1036)\n\n* most supported\r\n\r\n* rest of meta tags",
         "verified_at": "2025-01-05T02:05:48Z"
@@ -18536,8 +18536,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/5fc1ad749150664250a8bb3f8944e2c96544ef7f",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJndfd1CRC1aQ7uu5UhlAAA5IIQAFGAiXNlYQ0DT0uSYTF7SI+O\niYGZBO8d/zCMUYHj+4ut7cgcqd+0SVWsOe2R0jKKJdUzBFEgBU3qch3oR4EX4MS+\nng8XIeucl6GBVeMtKCiRHdGX3rqdLSbb91ttnfKXztrZGtI0nKVmVGE1z3864NnR\n+An4MbCT5BruHDymLx/NhMxdeTYSp+hm/sPOE86sbbXEkW3W7EPtJzzd8hZlb8Qb\noSNlXceAOuNl+X6oJ5TILXsDflzuEFZ63+U6Uqd3Eg0o2C8QRy917OFFHgEvDQP5\nDPl0MB4NYSNFZInJq3SVSU/v8f6a6brmKzS0CydGHAbQu/gt1tIKXz7u1UzralQ8\nHpqhVImLIeSkSTWxDgft5aanLN9wk5FJCQt1a/fo81Z/NNB+8xVgJPQ49XVy20Uc\nnQlLHwJ/aeZTpEYwkNYPhGDc8Sm3ibfcysDVc/1mQ6GuGiXjiXr0QVc1LbuwvYid\nMcOcwARmNU7O/UMI6tygSZ3x0L9vFrkpcuG8OWgScS2lE0dXsGkPzxMnq/kcsMTt\nohnCiRI3rzLnFtWTjAts0+FRGp2MnxhCNQZDpS8nQyR2OQTXRFN0xQvq2EzCDG3q\nDHxNe9wpld351ZeniCpVjp7WUV5bN4c8FWjTIlGkks4ge8IppCskdH8XU8GDJqsm\nmClOfaWo8Q60PILLxjCW\n=7Hv7\n-----END PGP SIGNATURE-----\n",
         "payload": "tree c235b4eb8a309d4cb86136c662e5e100d401af5f\nparent a4a64f9c8699cf17bd17d72254a439aadfd73a3a\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1735784309 -0600\ncommitter GitHub <noreply@github.com> 1735784309 -0600\n\ncarousel fixes (#1035)\n\n* conditional preventdefault on touch move\r\n\r\n* fix: startIndex works now\r\n\r\n* remove logs",
         "verified_at": "2025-01-02T02:23:32Z"
@@ -18618,8 +18618,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/a4a64f9c8699cf17bd17d72254a439aadfd73a3a",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJndXtuCRC1aQ7uu5UhlAAA99YQAI3vhkJ5zNTsdgujfRW+rP+E\n8zilN4Vqw06g2DkFBf/vbj1kUb5AQV8Xyl9A+/rYfJwM0Mr/8QqtLagSgMeLiq3m\nSv5NZoO0TpCwMK4DmeD6bdkpPeXwHFg5zebMewpBIZTTrd+adu+Rj1hZC+1mjbhm\nvGe8izUzC59ingqjtRmRHaywi6gXi9LHAiZ93Db3QDzW7Qw5HiTJ6yGfRmPvbfiU\njalZrbzAFE3hryIvddXZ7AjJB9/FBxnmQX/C7MCfCl3zAiavIL60a8h2bR1gxhIx\n39vZjqNozfCKugxi3hKBkQGPfi5+pd0czR1fcbZacy5OdFnfnoVgBMctkgQB6SJJ\nhWO7/N344JNawJj6sSR2x8hOwaCur0z8DqR8xCtHnNWDv3D/lVyxeus28izpM5gt\n6GsGgRkDjDv+TENvpTIHI8+mvT51ZV3MRk/VH6YdxzlkocGypOJqeweEj4E5cuHa\nZ+SHkFk4wMQkVNbBoKSiikAF7dzXfK8+iwA50DQnAHbv3toJWFY+OA+3rdyKWTTa\nGIZ0ogEqc+56dEvdh/ypdFdqS7QjJ2eAWOGfEk4FYpWc+1I4ZEiUPx4VsGhhsAhY\nZQsNFhHwJerPeJJsLRWWehT7/a8md21VmvICNa552KIheNNka8wM4ulGaenVCN8N\nqUB+Zi3zLxqRW7poWvVI\n=ghdC\n-----END PGP SIGNATURE-----\n",
         "payload": "tree e8b39d833eb06edc0ff2bd82a078e33fad375a7b\nparent 5ac2cfaabcb219e4f14c225e9121ceb4612bc5ec\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1735752558 -0600\ncommitter GitHub <noreply@github.com> 1735752558 -0600\n\nInline mode (#1026)\n\n* fix cls\r\n\r\n* inline setup\r\n\r\n* test setup\r\n\r\n* inline mode functionality\r\n\r\n* makes sure input value doesn't change\r\n\r\n* support custom filter search\r\n\r\n* fix a11y\r\n\r\n* initial search\r\n\r\n* styles\r\n\r\n* cmd k\r\n\r\n* initial search\r\n\r\n* fix combobox empty bug\r\n\r\n* search links\r\n\r\n* fix highlighted navigation\r\n\r\n* add pagefind in public to gitignore\r\n\r\n* more docs\r\n\r\n* refactor: make search fit in with make it yours\r\n\r\n* refactor: use search instead of debounced search\r\n\r\n* feat: add data-pagefind-body to include only relevant content\r\n\r\n* refactor: change pagefind generation scripts\r\n\r\n* chore(test.yml): add pagefind generation script on CI workflow\r\n\r\n* refactor: remove /apps/website/public/pagefind/ from gitignore and ignore more specific paths\r\n\r\n* chore: re-generate pagefind output\r\n\r\n* refactor(styled combobox): add Inline and Empty components\r\n\r\n* refactor(search): use styled modal and combobox\r\n\r\n* refactor(scrollbar): change styles\r\n\r\n* chore: add data-pagefind-ignore to code snippets + generate\r\n\r\n* better results\r\n\r\n* improved\r\n\r\n* refactor\r\n\r\n* remove debug tasks\r\n\r\n---------\r\n\r\nCo-authored-by: maiieul <maieul.chevalier@gmail.com>",
         "verified_at": "2025-01-01T17:34:21Z"
@@ -18700,8 +18700,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/5ac2cfaabcb219e4f14c225e9121ceb4612bc5ec",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJndHsbCRC1aQ7uu5UhlAAAla0QAAWG1wJqGTPzeedsHLjTt9yd\neTTXWouo0l36bNr/sbNrXkk6awqsF5gENfqA+kK9ocgSW7NNSH3o3LYiIHRQh6qt\nr7XAegpao7l680Rf+uZ/WQXWg70QAxq1aHGrHu1kEIkgyhde0cr82MuvMzm9gza8\nLMGbbgjoXbPOoqEssYX+byejCF1Y0+EyTLuP9xB1lu9aVdcytovVpxmWUsTUKjNz\n5aENAajzqOVkL0Z0Cg10haWbMJBUZSYTkw3i1EDWhc+SAQ5yDH4nQNOoTSsg65SR\no9GRSq+TEapAym+ZwLr31xvhdXDHTdL/4xFl9rM4UTSG2LWZ7uSF/i8rMtSLZXAn\nWn24RSoMZvjq3fpbh08dSPg0zE3rkM1lcfFdaVK/w6bl4qZgrrKGearXWoLKwG2x\nYOl8AwWFqldL89kP5Nat0y9ClerNIBZf4CoBIn99MxnA2poho9fOpha6wGRgKQOV\n2vHC/VWwxZOWrDrq/5n6foUEPC7U9ocebvokzXVYD3pXDTQ20LVD+kyVIyTrpgfC\nUw3y8FFQpiTySVhsrbfG03Lb0nTwr1gVnnJuyLOx5EqUyZT2/WIFdWF4XS0O+pB6\nOu1FdX01YqmAMdbKuLyllzT0yE8aA3nAhg8N7x5sPOiKu8bK0T0Cb80vikKgnYuN\nx6HJeEBfIqlFFVP7h8fv\n=hlWx\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 4dfa0ff785eac3cdf0e09d0407e7051ff05a1995\nparent 664b3f1e27058f5a1af05540547fd29ca1403b13\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1735686939 -0600\ncommitter GitHub <noreply@github.com> 1735686939 -0600\n\nfix: tailwind on headless (#1031)\n\n",
         "verified_at": "2024-12-31T23:20:41Z"
@@ -18782,8 +18782,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/664b3f1e27058f5a1af05540547fd29ca1403b13",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnau5ICRC1aQ7uu5UhlAAAX6sQAGD8gtXrzVFh8d98hQGngu8t\n/e+BaHi0Wjkcx+3GiIDiYzKyVFiCqRPRZZXeVcYGI/fMLYrtKf+h7LZqp4TT7uik\n2T6b7WMUDTNGQB99m+B7BZYGINNlusbbvxYuObq8MRD5ZY72ucSLxH757Xc/uP/Z\nR0vBjzflCeH77kCBLbK1cyfxGOWMjO+icVDRXZ36WXSzXX0CMIEIshKDqCENusoE\nAXGXTTrhTvAjSlq3991XtRbTE1+/pB5zbiKb3pESxnsBJgSI2C5HT7Fvr4QGydYB\n1uHzfo+eWx6tvKSR99SNysMO/MWbpmi2XpvtbX7vk9gkW9LxleiGLCfHupnYpDLa\nsCRDeN/mDDW3p8eDIJ1ui6wMm2O39/h+KdVtImV4SiDgU27QNBOD+40kpqVBGmHM\nn7wTaXwbIKlrWCxT6f9G+iqF7AIJcpYL0UsyzWWPkJwMHqr1uIMFVs+atXWZBqI5\nxDgoYALDFId6oRqUOWqgVVixdsFAfMVPjU6D7nCR8LcFGYPyKoktPC/HWYbi6HVR\n86hKVOSs79uQL1jmo6hX4WVSStXRpyCnuf263zXHM0wiovm/yVb9jJDDP/2Cajap\nOA83A7b5o/NpFeozd89WqAmrVHiFo9/GPf/O8CtI0Br6NKcvDxXheLHH4olSm7h2\nlQD4dK/wCIDvHdVBwFwC\n=QSuo\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 5dae46ec442865e63282f0d99e6d48ffe0339390\nparent 0736b8432f0b6e7c841682e517f591479ed8b1a4\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1735061064 -0600\ncommitter GitHub <noreply@github.com> 1735061064 -0600\n\nCarousel mousewheel (#1030)\n\n* mousewheel support\r\n\r\n* improve docs\r\n\r\n* improve example\r\n\r\n* changesert",
         "verified_at": "2024-12-24T17:28:55Z"
@@ -18864,8 +18864,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/d448ab829ce961a2bbf1cf15ab7fdf4b21b34c18",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnWNujCRC1aQ7uu5UhlAAAshEQAGyh+BF/AT73bJQTlhjhwNzg\naVirISe3GY2Ui9JgLHz/IRXR2pet4vBVo7K2sIHsECKijTEBl5csTo+STf9IfXhl\nJYGwhgffgc82RrvwzseUGk+tm7cAnvsNgVUCtoYEBVqfAVWnixueLOhBOI4KCT/M\nUCxW4e30PsE7qEjwuxa9Gf1JmIrQkp3QTsvboRnhtGznhjCMVHh7TsI9jAA7KD/C\nDierngDMmkzek+qBV61uIRy69DIYopQ4azjprZ6qaX3C5AA0nSTQgUxMpEdRd8gK\nC8EN3Xp8E4IB40Ve+N2RcqNJgTIfmcMBAeopgy5qRg+kVdoDCvCePn3Oopke+zc5\ny1iiVE8HPyVhHujcLlfdg1yYyqh47PUjszbsoKSIIRHIYxP5hMTtYlYw/gNIjQ9d\nArSQVBKqth7ldEt3RTZPeY6Z3lACEJKBbfjlrkzkoUKzu+GXZjpQLSHSs/h00POl\nQp3HnlRc+sLe+H/j7SF4LLMw36Ik52RxvQ5Y/8esn/Wlo+mr0s3TJGBXD+KdVwJA\nI5A5BNyGUTdYiBLYz2bZq8izFlmddg26LyPWSDl1KIOhedu2QQg5qsQuPdrU2+Zb\nt6IOFEzL/r8h1g1Q/j8JVwI4CXgkwlAcxEOHX4URl9mk70AR4sGaigft/9vRiKHL\nENRD/icxlOVGefaxvZEM\n=sR50\n-----END PGP SIGNATURE-----\n",
         "payload": "tree d2d66a089134f01a61738eca8bc5a723f77c37cc\nparent 4bd21b5a2723fd7f06ebecd5da68ba30bdc37b55\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1733876643 -0600\ncommitter GitHub <noreply@github.com> 1733876643 -0600\n\nfix: modal animation (#1018)\n\n",
         "verified_at": "2024-12-11T00:24:16Z"
@@ -18946,8 +18946,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/a6945e20f722247092874eda3ed3adddd7a063d6",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnOn7TCRC1aQ7uu5UhlAAAOOEQAFbM7WJMjKtmWmHrsDjyPI+o\n0FN3I1+z3IwWjcP52xRMo8JZZLqCfxPuxhb5uzIXYLZutjYy7CKK7VM81PaeII+A\njrhfffADDFB47M1/2Vlct/GXJaov6lRsZnLLxRti0M4Y9k2cR5NNVRS9EVmTciF9\niXHKbKa4hJH3RVGV/JictxJmbW9fSR0wezyKcgE9fhEP3g83cJ7F8+C1Xuh+M1Hh\nkN4iFAhkAzqH2uTopYbBUpxZedsPIAr1GEuBQcybWo924sZQR3IW11sWVKK0g24W\nvma6+RH6Xo5BLdrGfNQ2i1SqZGYmEO7pK6kS/QJnoBEsqFxRAup5/4siFL/6s9jY\n0etZlaVGEJfirUb6WiHwxFebsIik3xtzo91w5G3Ful8PbqZaCM9s/fyaWU2pnRux\nNk8S7NQv47MS/XAJXJKqGjoi7NJpbl2G8jpl/YLvcRble/ySzkhaKCV6nCWszD7r\nupKuFvYkS8f5Sj0Jvfc8AmS/Ytd39EF1DNSbqpG57ol7hdqLNqCW2g0V1MbA4OCS\nKofLLz55yxjWdgVHdK2yy135s7nQfwMX3v2Q25yQUIOm+zZqhYhlYbSA/npW/jBX\nAG0v1DQ3Jmxx+HAB+r4pLhuCSApPTikdIG2LcFhsrGuowOx7i9l+gke13zxdSL1P\nFdtuZmGCQYWa7kCVJkQ5\n=AwfP\n-----END PGP SIGNATURE-----\n",
         "payload": "tree f39010b66be2a326dc65b7438583eb14f5b4ce10\nparent e92aee438d79f3460805119e930d2000a396b554\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1731886803 -0600\ncommitter GitHub <noreply@github.com> 1731886803 -0600\n\nAdd module preloading at idle time (#1011)\n\n* module preload\r\n\r\n* low fetch priority\r\n\r\n* remove font preload\r\n\r\n* remove sw and prefetch sw\r\n\r\n* no log\r\n\r\n* remove inter from component tests\r\n\r\n* remove sw from component tests",
         "verified_at": "2024-11-17T23:40:57Z"
@@ -19028,8 +19028,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/2abd8ddfda9309b715609529b025c2ac005e3a19",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnDUt1CRC1aQ7uu5UhlAAAG5YQAClE+UltnWUFeGx6k488PJFK\nalyb45qYafRk6n5hemxa2FmbfaQsAvE9MOFVXOYLa2JeHPD8t4dXd7Rj3WPTHv3q\nnF+G/ZJrgszZqYbpZFi2tL4WTdiyGwugyxWTRlyBQ0wrHk2g8iM7IIZuD6NyQtbO\nHTgpgbzs3kG2PI4kVhj/yNIcNTGfBjWFtTtr4kmshmcad4vp1mY5sg3ybnN6HHTh\n/Ad1d5SNcGYxgm9uoDtne5Om8/+Taac6cfKOrZUflmRc2u5rSlgjkUCZvFTIfSRi\n20UIjK7rh1xkzR+hrc+suF8DKkFEl9NfVbhCECJHAhlteU3cJCTZ/kvLZxDT8vkd\nGamhdjBOz2HNAcc/mY5zwj/1hIVQCFX/z1KELwjKuXLn/zmqPHye6EIihaGRYIu1\n4ezAZjiybyzY2ZGpT+AMLJKs+ElEzrCi8WuP+Pejz1EOGXkKm+dvkRnQDABKn1wJ\nrbfLlZqasaMq34VoVX4AmoBOJxtTQQmQ4OYW/GsKp47LVR3CfPXFKtAqllKAZzy6\nmyQFu3HvxWDR/dcLsxiIjqxQ0gyJXyrlPmGvTGnTpWr1E4upaec19XzugNxIioMB\nDZDLHQrx1YRa8O4rQTk6i4eDSNR/PoEuZqWUgmIWvk7iQpgjGEV21J/WbEx7s4Vt\np6rz0EjuVPAIxBQ7YBTl\n=F0Og\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 2cecb149bb9bb5fa62370ad75282c953f9d521a9\nparent 88ed15163cc365bf1dac8f997b3b604b1752f629\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1728924533 -0500\ncommitter GitHub <noreply@github.com> 1728924533 -0500\n\nfix: qrl's inside computed (#996)\n\n",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19110,8 +19110,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/e581bf3e69647dc8d0da020748c0d2501420c07a",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnCiboCRC1aQ7uu5UhlAAArOIQAAKNUT326A/KnAPnW9+YrFB4\nR4SrRsjBJaFvTlgsYNqQ73y9tkzXN3VMyz5nekU9e8fFzMmfAhgcjIFjEM9BO2MM\nFgZzXfwaXhMQ/GWbGAERlahg4i8J0Fk8nLIe1nTme4W2AYcs+yuOPfQWECk+STG6\nlIo/tWzKrug9wDtOLKFiTB0JYw751J82v8YnByBaVOUDjHw1D9jK7MMkgnccGMM+\noy71g4+Vs6NlTeaJFLLpYH1Ce5+etApFitGJN50wRlnz0ZcARLMfIPNiHDNe6Nnz\npmJ1EWUiy7G5K47Ol+0gCrHjXFW5jAsgtDxCojQIzYDyn0jGbQZvBI7xyNwfBaxi\nbkdzY9yPgNCQ0KnOhxvWh94pcZDWfGBbxpFGeziltBFumHJ3ryq5ClyL7zfMKJIB\nJUGao5DfEZGbE39Ik2b1ETSrdA5e3spoguDMaVLf70He0joB/Ue5f8TbwbaEriku\nNDivZJY3sKn+ny4eYRgiY4dhbqV5UPN9v4pWIdiMSKY6TYrMIXPDJ3aWl6iFgjaD\nxhrNmQF3liXrSwgJ13182f+oWLshGIorsXQPaJZpOkmVCTi8rzrArkrPQqVe2aa3\nao/GbuSgSAJZ+IpDrnv+VYR8qHmRfuglMC9VSltsJ/4kLGs8nBMTfwqjPseu/1o4\nQO/Vv95DTprySsQ2Bo/h\n=FcWR\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 1baa12b5972f3e77565b1467c6c2de5bce901dcb\nparent 0254c4f0a4e9bdf5896d5d588036ec975549ceff\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1728718568 -0500\ncommitter GitHub <noreply@github.com> 1728718568 +0200\n\nfix: peer deps and async computed (#988)\n\n* peer deps are more variable\r\n\r\n* remove async computed in preparation for v2\r\n\r\n* changeset",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19192,8 +19192,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/9cb3c96879e3429bbc78f85fc261fe60a192bbf5",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm+XliCRC1aQ7uu5UhlAAAlM4QAH5dHy+47A9QCxOxnxqEBoEg\ndZAvOAZT+xV1TuH2D37x7bC2p5KGVH9UyCY7Fwcbskv658PW0sGCgu9ZEcVkgr6Y\nWUJBhAcOWcwTKmnwQ8mOWx0tAwWF8NdmVGA4nOZTWdHhOD5eSc6gP20/IE4Jh7TV\nd1noU1fTIDwMW3/CcYH06U+fK3LhMMHWOTDWaaK92KMwFQoiDaPO8L12vT8hdgTb\nJyPkq1GIO6GT4RgnFJ3MycGYFr41gnlirA8bHSy7iSWkY1/ZffjTd437VEY0FpUm\nNWJLHqSBe8+0XoQ5R93rLNiHawaMbpG3RPUyWofom199g79tDIQw5ivVQvLILy03\nS3/+d+d1EgfbI4ocjrNr4Z4cHwLqehgZeFEuOb91go5h/JXRLVkVjZL8yxjY4KIO\n83ljDImb2iq6fCeA1QYYJCeaTdfE4APiJxiqb8lufg/GIIPq1BvpeBzIW61EV0J6\niNNEOmahRzTph2GDr+oqAjKaOvQBEdA0OBJMNnu1Fqm56DWR5N8zRMD1YyqYLyON\nSdTFRFVwTkEjYNPNGiLVmXX4vF0ldFnGZN1Ua13fLxuEfBgpG4fr+Ji5QGgZIusR\nHgrE4nHAeGLgqeIJ0Oc6wQH0o7WYQzY8j84c/OeOeUfYAzTOidjjzxMpCzpCpgJA\nFXyIoZ+5QKe59Ub7tO3C\n=PVwQ\n-----END PGP SIGNATURE-----\n",
         "payload": "tree e3b43db0c3df329b91d7a7e9ace9b29d9d481ab0\nparent 8545cba335fbc0ca793022d75c433e3071ca446c\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1727625570 -0500\ncommitter GitHub <noreply@github.com> 1727625570 -0500\n\nUpdate component statuses (#975)\n\n* feat: carousel now uses auto api\r\n\r\n* fix: rollup warning to properly export toggle group\r\n\r\n* update shiki to latest\r\n\r\n* component status changes + popover styles fix\r\n\r\n* separator is stable",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19274,8 +19274,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/8545cba335fbc0ca793022d75c433e3071ca446c",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm+UloCRC1aQ7uu5UhlAAAYy8QADCuQavUlPLkcob3OtEol6aU\nI5aZvb0FXuDNIlwtWVdP7v7uvuERHFkZy2jYTAPDgnIP7SXOt28VH0O7n6I4ZKZ8\naHRDg6PurNao93AVdrxcC6X3RksIOTO6TBjY9Vq0lZgMhdW1LlckDnRdqON8/VZs\nd3X/GO912jkirT9QWVAKtjVhOY4peImh2VopGMZjPcg6Rh0JSDtqga5+4C2qWV0Q\njLXqjkCtOJMe3QcVXMacgV+t19jTojJ9udObOnI6UlrC6FwhYMFK0QU+0uKcCO/X\nKrbuIXfWQVnh22jUvs6wYfoBXsK53cz/GnyDU/Uf1RaxJutioblXtJJSlKwVTxmO\nrVTY3i0HPcxtG0q6Pwbfpm0mnzHVsrQvgaY8/rDQ5vEL8cEdFDFoFu5e4Pt5eZ4W\n06zqum8DvN9QShtKSROq89yY2nmd2ydCJppfj2sVvFJvSKG7mLm/Cl6lzaM+zvv6\nodNkiNoDT/kdbZp10QU1eKW+Py8DKfvYPG07P1+AJHtdI+8tXU2Uj7jaKwOch78z\nTcdLo22q+powJojAekPw6YiJbUSDjmFYis47xodSO5U2iJRD1uiH1dSMNIN5kj+I\niyRRU3aH9zMAt+GiYXTcmpEkQTRa4AbqkfGAmTKiWshFRCTCTob6wV5sbCZzI6q7\ncE65Z+wHAmD3WT0KaUFc\n=J9xE\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 5bc1ec665287ec0c1ee4f78930cf94285145380f\nparent 27474ea07aa73545999a4366a042e11d9941c8e1\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1727613288 -0500\ncommitter GitHub <noreply@github.com> 1727613288 -0500\n\nSite improvements (#973)\n\n* feat: carousel now uses auto api\r\n\r\n* fix: rollup warning to properly export toggle group",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19356,8 +19356,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/6655bad1d686f5630f4eca01a928018997883431",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm8Je1CRC1aQ7uu5UhlAAAvS0QAD3IvG1XlPOJ1DNA2yvD79WC\nmNUeeOFth0K7+9zeGhOh6/n9JtLbQovwLu7WULZaa0s7NOXKelIuM8Z3mCrTV0Z6\nMP7fqaF2f32bEXXRHBm9xWNbrLnsAuwMpQr1Bz4MvqrdXdU8AzuPpal1VqHsxbZm\nZMGR4NEhiVMO05BEOw4rFlpmRVeRwVVdyRFUNiKuQNQOnALZeQ06IIXBgVj+7Xr7\nurhzTV61KXfw1VpWv9d4FqDIaFfnx98rTKMoWYMPv8FdMRUfy1jkmHLseX9rb1g5\nSdxs6DKYysSZBlWv1pgITHO4zTseAzZ330orb222UZg/S/gkXmmoiI8j7WGP+Qoe\nOvvykChNTJQ5ipTh3JrDK9nIC3K1TDmHnsaNWrLxDquzCUueSmNhofgSGTD7hq3X\ntpdLS4kiSZEHhkqSXs5LhkvyiHksWvrgd/5isy7fX8EBLh1PZgEmRYcTAYElfKBS\nAF5VBkI/ZkaReQLBgks+hQcPXwt5RHEoBwxyE+ZxKNVnt8na+HRSPgbwhAfoMM75\nU4j9Xy120HpTkpHxCey6BMhXAniHfG3v2bIQiW0CfIjE2E2Bgk6jDghlmwWisH4S\n5ulP3chmY5VeO47+OttGYP9l8CrpDLZKwqUBZZAmBjtypp6SMUeRjPfADU6lEQGh\nB9t9zzmWZCrhHb7m6mgt\n=RFq3\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 3fb2155ec384de63a2e630a4177e44a1ca1f6709\nparent c818eec052b7479bbd559946fe72e95a6bd589ee\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1727043509 -0500\ncommitter GitHub <noreply@github.com> 1727043509 -0500\n\nfix: bound signal updates on the combobox (#968)\n\n* initial tests\r\n\r\n* get values with arrays instead\r\n\r\n* reactively update\r\n\r\n* make selection manager cleaner\r\n\r\n* remove unnecessary addition\r\n\r\n* fix: onChange$ only executes on client & simpler disabled state\r\n\r\n* feat: simpler invalid check\r\n\r\n* remove early return\r\n\r\n* feat: simplify inline component\r\n\r\n* simpler initial value naming\r\n\r\n* refactor: better context names\r\n\r\n* fix: combobox closes on enter key\r\n\r\n* fix: combobox properly resets when empty\r\n\r\n* get correct initial value reactively\r\n\r\n* fix: highlight jumping\r\n\r\n* multiple shows correct display\r\n\r\n* fix: undefined does not become part of the input\r\n\r\n* fix: handle proper empty input\r\n\r\n* feat: use local index instead\r\n\r\n* fix: last filtered item now gets highlighted on down key\r\n\r\n* fix: preserve item disabled state\r\n\r\n* fix: combobox empty now properly shows for both filter and non-filtered comboboxes\r\n\r\n* fix: removing items on backspace\r\n\r\n* respect input's given signal first\r\n\r\n* refactor: remove all the logs\r\n\r\n* fix: combobox scrolling\r\n\r\n* fix: form submissions\r\n\r\n* fix: pw tests\r\n\r\n* refactor: remove test since behavior is no longer warranted\r\n\r\n* fix: mouse should not affect initial keyboard highlight\r\n\r\n* feat: changeset",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19438,8 +19438,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/c818eec052b7479bbd559946fe72e95a6bd589ee",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm7cxWCRC1aQ7uu5UhlAAAODwQAATJDW9I/DWq8wBRViBhVW5o\nXu8wptYfJQ+Bnky6BxPqCD2iIwIfcGsBIkmNR4/vXVWFUwCiwUxhGpSx68fWEGal\nN1VsbQZOxcTr7UWbh0OjI8MLwzdiRLj5a0yIimRrPHuF31p11wi9/HzsgaS4e3OO\neue5FJqyrcx81461p5EfqyPQ5NsNrFQ4amZVUFESZngeB0Dx7wSZBUYXTZuER/kp\nr2oY2Hzh3XTWltw5Lnr+jQD6ARVWj8LS5wjOskK0tDCWdDOEt3SzMpoyh31+Azv4\nfr5gi1taw6CRNVQqZSZG2068642pyQdQpVFnbR4POqMBKuDwtY9E43jVj/cAbyDU\n4rX315Wvd3FbbXpMZn6TfDMk7aQe4IsVV4viHWqTIKxFnGbB3ycsH6E3DGTm9qLp\nVYUbAdbMvNQ+qE4SuWv30T2zRMM7jz57/07fFjPTWqMhcVaaAA+hYiZXsKDwgKsC\ncvMqqZDsHcQmTdKJrJ9UJ4jKwJ1/lVw3GLwhB3Wlc4cOHAIW/ij8/MgtGxSmyZfU\nGsahv/bwm7YXRoJc16KJl6HUS/QNh3T4aPX6LDaQK/ZGCVltJ4cCBTw7H2zOuZxR\ngLzLUZ+aLcLlqQzupadUgOmsUZPtxvvtftI44ZHQ2BmC754ZJjCettawTeG78fQQ\n21y4v9DxDjNamJcdozmA\n=Dxhg\n-----END PGP SIGNATURE-----\n",
         "payload": "tree adff0b13d77aaaadfc1385aa1447d53fecbc9f28\nparent 6fcd4724255632da37d8ed157724df54d253c8d0\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1726860374 -0500\ncommitter GitHub <noreply@github.com> 1726860374 -0500\n\nUpdated checkbox (#969)\n\n* initial tests\r\n\r\n* updated checkbox",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19520,8 +19520,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/76edce724667945143fcd8755371d67f180b1836",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm6epcCRC1aQ7uu5UhlAAAZc8QAGnvhztRSGgQu3APqxpPmRpl\n5QJr1Ixz87ljURh6DZDCXt+w4jQTryx59DcGp1J5KY/g2ETD1zzrSkjyHEpxSAPh\nSLUImNozQihJ/S/azq6Xq3M9QHkV3OibX/wvWYl7numZPZdIG5rSJefJHYdA84IA\n7I0/VZYu8DxnDmjSqubaYRZpYT0hitgn4p0G+fIAXkIZxFJElL0kd98eMx0u6M+s\nSaOHWIPMKKFfRuY0HiHpmbSlxaWSb5tqx/h6Ik/SV0t4H06BVdwo3AW38XwF85V+\niuk4J8L8l2Smw5SBzxxgHkso/HiYTTM/dZ11FrWWAUI4fxirwQ2QOFrFvCDp7gUm\nqY3XjPI48ktrTsyY7TxM5QY9YNO2Z4QY4aAFvG5u5s1xX5DLmOI1W7wlJgYchydI\nXjCs1OR73pIak3SxXfPqHa2n+cO1k48/S2WwKnEMkJk9csnXxUF9Yg3i3uXl2mtY\n8B2pDJILoO/Ii43DTgutxHV6OK0iNkCN/4uIWxxim4iitFhesFdD3AnnUz29y71t\nuWTJR+nrvK9sC621dIORxc0x8CjkOAEodfLEF2XL4GZsNmsycv7OVxPQ3HlfcRci\nfar0/Wn/oxwRgz0sE2w5cNGxer+ovUmN5A37bzcWwNA5eF8NamPSWl3Rk8pKxt5Y\nq1b+pN6GkFSmfr5YbCOP\n=tbiv\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 63a0e0ed6eb07ed88cccfa3112857af07e777767\nparent a3b55c6673a39e7bbcbd709d76bfd9aaabd7aefb\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1726605916 -0500\ncommitter GitHub <noreply@github.com> 1726605916 -0500\n\nupgrade to 1.9 (#965)\n\n* upgrade to 1.9\r\n\r\n* feat: use prefetch sw instead\r\n\r\n* changeset\r\n\r\n* remove duplicate",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19602,8 +19602,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/f1ea4f33956c068ceeb49da44b2d3924153dd716",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm6aXmCRC1aQ7uu5UhlAAAzooQAJB1T5lBAEErQqXtQ2RKeoUC\nRVr3LBi1S5T+UQDE342WKu9URhMRLbtYgnz4yyQS1Jb+yTvJkZ/+BQTAeFEVFQX0\nvwj1HKqVMfEPsqfHlz9iNm2dNBxC2PjGMMh9YI0sgkPHZQB2G3OhKp6Ity+f6KZ2\nnSt0/MPaCfnxsuv376HxKW+auzG7dlMsOcKBDYH3QlOW7FLwuEIcA3dctSdt+nOB\nVG5+sYA7f22SsvCb+Rwg10y1fEcs+dxnw76FpEJg5ExW8rQeNM9gffmz2TBP7z/x\nn9b9uUp1bRjfZp6MCpxARsiYfz4ATwSH++VEMo7042U3hLbSMt+ks6yFnJJI7QfU\nzPko8gFWDPURW9tH4KFLV7KUPzGjI6wW8uuVFrShY5riT+HJrZL/e3Lc6ShITAJA\neddk2HeUklcME2pwEx4Ae9W53XLEyPm6RfArIFpWU6th1v+WxEK0xRaSFRtNqgp4\nau3F5ZXSX0yFMrstQ8pgQiLGRYxVHD/jCFe1KdhybU1uMtJleSuTItCeibpyrWRA\na6aTDau+olbO8yKFMhF1ASGAuatDbFbDJzhKDt0G6krQGSeRMNFljI1T7jGY+h2K\n84IQHHVhK8wKlGBtGaJZvUr9mm+2XKoJqKqdiZSk+Fq+E0n7YovP9AL/a/FdSDUh\nWdbPsUugWncB12qqmP8z\n=70El\n-----END PGP SIGNATURE-----\n",
         "payload": "tree a9bf10328de3f5a66067d1249e67eb07cd445349\nparent f59e1831b783fdb96428c1eeefb69023a7cad980\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1726588390 -0500\ncommitter GitHub <noreply@github.com> 1726588390 -0500\n\nfeat: migrate the carousel to transforms (#963)\n\n* feat: get custom scroll for mouse and update\r\n\r\n* refactor: remove drag speed\r\n\r\n* refactor: add back drag speed\r\n\r\n* feat: one scroll model\r\n\r\n* fix: clean up a bit\r\n\r\n* fix: dumb timeouts\r\n\r\n* without animateScroll$\r\n\r\n* does transform walking\r\n\r\n* feat: correct drag direction\r\n\r\n* initial snapping\r\n\r\n* correct snapping\r\n\r\n* works with next and prev\r\n\r\n* add will change transform\r\n\r\n* custom animations except for initial load\r\n\r\n* user defined transitions work\r\n\r\n* fix: resize\r\n\r\n* mobile sorta works\r\n\r\n* smoother on mobile\r\n\r\n* fix: simplify scroller impl\r\n\r\n* narrowed down problem\r\n\r\n* mobile working\r\n\r\n* handle x, y, or z\r\n\r\n* working in an agnostic way\r\n\r\n* cleanup markup and props\r\n\r\n* get initial slide position\r\n\r\n* refactor: add comment on qvisible\r\n\r\n* feat: no flicker getting initial slide\r\n\r\n* teeny flicker but with animations\r\n\r\n* feat: no more flicker\r\n\r\n* feat: handle initial slide pos for any orientation\r\n\r\n* feat: respect transform boundaries\r\n\r\n* fix: carousel start index\r\n\r\n* fix: progress\r\n\r\n* fix: make sure there are no duplicate handler calls\r\n\r\n* fix: respect boundaries\r\n\r\n* refactor: make carousel scroller easier to understand\r\n\r\n* fix: remove the viewport from the equation\r\n\r\n* fix: smoother swiping experience\r\n\r\n* feat: sensitivity\r\n\r\n* feat: initial move impl\r\n\r\n* fix: only calculate pos when it's not the start\r\n\r\n* feat: renders correct bullets based on slides per view\r\n\r\n* feat: proper bullet navigation\r\n\r\n* feat: bullets are smart enough to know if something is in range\r\n\r\n* feat: prev and next buttons both work with move\r\n\r\n* fix: state tests\r\n\r\n* feat: initial vertical\r\n\r\n* fix: offset for vertical version\r\n\r\n* feat: vertical with transform\r\n\r\n* fix: touch start moves according to touchY in vertical\r\n\r\n* refactor: better naming\r\n\r\n* refactor: code more easy to understand\r\n\r\n* refactored names\r\n\r\n* refactor: use props map instead\r\n\r\n* fix: initial slide position vertically\r\n\r\n* fix: don't render marker points with non-scroller carousels\r\n\r\n* feat: start docs\r\n\r\n* fix: text align\r\n\r\n* docs: add example animation\r\n\r\n* feat: upgrade carousel to beta\r\n\r\n* fix: the merge issues",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19684,8 +19684,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/26c17886e9a84de9d0da09f1180ede5fdceb70f3",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm2gKTCRC1aQ7uu5UhlAAAI6oQACoTitlsPQq09IwhCn9Fq7YQ\nQ695L6NgL5gv07HEj6vD3zLgQWZZDy7AYVbGpiIveyhviH+mOrqjfuT/9phFqGxF\nLs3g2zqwlVfS7PqBHdNs5uUwT+8W8jWCC6isA7ppX/JNjQtNc0mW/43IQNgobQKu\n6xHeLU4cIDUtFqGXtnda/LXz0ZcmBdjvR4hmXjOUhGQhxtfFgP3bHc+kZIcUBTRz\nuOs9U4DJySr0CyHcvmt1io++5vivgyduFQe/ceWAScRhRjKoJCX6Urgh3GFY8lLd\nbdObNxtjuBB3IdIO3KbXB8Jv+U6gzfMP3lF0AiiIEGJ8lyX3sTNpxRD+QrNt6wKn\nGKu54aUb7ZIGOCpHwrODS2IEW44v2Y+vkhLO6kQ08/TKNH58VefYH1LxdYXjzYwO\neIPF/o1cCCfgWokzzVgOyTJXU5m33WCZN806Ddj1SeMKHPeKTjt21PKBk74hLQRd\nVgDEF1svmaCx0THahG3RgRT2kQUtJXygzhG23NA5LzuQVujGFHLcciDV7FEfrdXf\n2c6zNU++UHXaPFtscHPwL93x05amX0EjutLkByN9KLlZcvi+uqs/Pz5lS9yqvTj1\nG9CVnE6981by7C1ycKNV9LjKMoiWLZ4qSXHA1RM8EM3p/lurgDGNRUaxwkHVN7xt\n3pLQrYt/XZXNb5O4LBhO\n=N5Pv\n-----END PGP SIGNATURE-----\n",
         "payload": "tree d8ef65d72bbfddf172d897b4b0d31d59e0858d01\nparent 47264092b55bb1f1dcf4cbe66686dee4096f9489\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1725563539 -0500\ncommitter GitHub <noreply@github.com> 1725563539 -0500\n\nUpdate index.mdx",
         "verified_at": "2024-11-11T14:08:32Z"
@@ -19766,8 +19766,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/47264092b55bb1f1dcf4cbe66686dee4096f9489",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm2gIYCRC1aQ7uu5UhlAAAsi4QAD8eS9nzTe6v0syDhPZHX7uN\nI94vDg4+Qhx7rWczzh+ZgBB645uCvNoukPl15lqOEwP6a/uuCqjrCCUpS7EqGtnW\nrNLGShgsUkrR1FxzZRdKHG37pj4AMjzSfGtQc/0uDqVXG6CFRzXgkdoLlHKu2CbN\nVUCzJCMJ7IXu6ohNo6i+wuxTDrne0Do9PKjkt17CcY75IlxZo6C6tynhRbNVkRTX\nkv1yIKha5wCbQXGTVz/MHCA7Iv4ve3abjEFnrflLiLDW7hUTENzsWEQonBDmqWX+\n+esU22g1ZRdR1eQXiH/kag1+9V22ROBY8C8ZVS8XUQDSoZ41Hn3+RZyS7xjt6dHT\nvv7Zu2/ewPyEhaBIweJSGHroBLZFtsjn9wTKD4+HYZjPUIK166ohD+Vr2MXILLA0\nraPfXH2EWyGRvWS9OT0raCC1BRF/MjysqkLooPoybzu8SLar1t7Nou/iB3skcyLI\n6DtSZNl8RtKjvlhKI9asGYDaEdvL14NTL/cq9VQ0ZaqqlaGdFrH+igBSISOZSFvK\nEZcpl/YqJs2b4quEkkGyK9cagV7hDYMGxN8UO3S5YnBSHlQ2fxwYTNyyt5u27tHG\n1T77yk8hztSRk8ZxsZOY5550p7dDIJ+yh+26eKUnE7PighzhoEbKVPmfwT3OyIhT\n30GQnRGvGf5Jgxnet4Bn\n=Qpvz\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 6b8fca72cd6e21983207a64895815ada9b253844\nparent fca032d1c4556ff630e9e5325e2d40f1dd1806a7\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1725563416 -0500\ncommitter GitHub <noreply@github.com> 1725563416 -0500\n\nUpdate index.mdx",
         "verified_at": "2024-11-13T06:58:57Z"
@@ -19848,8 +19848,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/fca032d1c4556ff630e9e5325e2d40f1dd1806a7",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm1pdoCRC1aQ7uu5UhlAAA02EQABoTOAE0FYNsN382RK/PqtFu\nc8tVDqIKDFKK2npYIZgC4dujobvwZADbRb6mSeWAd5AuTh3dT7vw/OAO640VzUN3\n67WiMraHvwkhNPAcvsltkWWw/K5kaqIjAXWTY70XnV8E7lu5Q5xMzI7/Ij6g9SLL\nsoMJmq3PzAFE0p9MjvN39WnhPvIJ5AAPvHZqPYpKMKIotUC2LNI28t5sNh3NQtMc\nrYfQKflNKWiihwviU3r1FIuVOIqsbOS56bj2xsrXOZkFRHZRVTlWupz9HBolOuxW\nXVyfJr2+mnSHPSKaPg6Ldm2/mBfixhk1rRGi25pf+HeVlFKmKzvqJsBJl3ZYJXcY\nIVwNRvzaznBw13oqlUaE6j0U60BJAZfsUuVcxJYhRvSFIjofGxZPNGGcQ+PCoWGo\ni62ddyW7oUsWvdCAfuLgbnaMTGW4TBdCjIqtZFlBpYvTNerMpDJpr+yCAY7EOC6K\nuwNDYhKqVtSnwSnnBGVBc3gUAmam+5cNPP27yn1oqOTvLti7bKEB5tyARByWpY+u\nfZCzJClSvUw9zTH/EEFBIPwVT5eawnCORw5SnydewNASnqtP1m5WQTHYSV4gJcP4\n8W1CtzmbjvMWQWTIfJTTzg5/Dzg99Zi4srv/Ex/3GzzmaCI85ZXBr5ajZ5Ajw0+l\nMvDlmBUsZ4Kjm3mc5Twb\n=wGi1\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 2e74140a2e0d3ad416cc963e31b300b0e46a963e\nparent e1db6c2c6ba2b3379350b3a30a7c17ac49ba0caf\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1725339496 -0500\ncommitter GitHub <noreply@github.com> 1725339496 -0500\n\nRefactored ProgressBar + Carousel Stepper (#952)\n\n* allow people to pass handlers to modal close\r\n\r\n* refactored progress / backwards compatible\r\n\r\n* get example working again\r\n\r\n* feat: progress bar accounts for any range and computes a progress\r\n\r\n* initial stepper\r\n\r\n* feat: indeterminate\r\n\r\n* feat: indeterminate animation code snippet\r\n\r\n* feat: improve progress examples\r\n\r\n* docs: finish progress docs\r\n\r\n* feat: stepper\r\n\r\n* tests: initial tests\r\n\r\n* refactor: carousel test reorganization\r\n\r\n* refactor: remove test numbers\r\n\r\n* tests: add multiple slides tests\r\n\r\n* tests: add non-draggable test\r\n\r\n* feat: mobile tests\r\n\r\n* feat: enabled and disabled tests\r\n\r\n* test: slide snapping\r\n\r\n* test: csr\r\n\r\n* test: autoplay tests\r\n\r\n* test: add state tests\r\n\r\n* test: stepper tests\r\n\r\n* docs: carousel docs\r\n\r\n* autoplay and last stepper tests",
         "verified_at": "2024-11-13T06:58:57Z"
@@ -19930,8 +19930,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/519718f159b051a4858990b059dad89dc5b1ba13",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmwmaYCRC1aQ7uu5UhlAAAMDgQADZEMqewJCJo4AKKfUKyHfQ3\nkNF1Cdt/ui5sAdSzF0YQgpCV8sm32AWg9DlWom2DHkBztmG5y5qVXQ3L1E0e7nkf\nEIGzSL7G/VrWXjLIJdxG8Q+jCWWrKeWRNiueXr3ZLk0jUgbE2ShbBlDceukhqfDG\nKkyt8dcF4jGXzUHw1uv95aVCVysOdzIz985NWQCuKPfzVi+pMjWaIEsU6XIev8SS\nvy7fdHfpoN+3D+R6O/Kmttb757oZ+H4lLhdPG+6WL9mcTcOvs3uSpA/7t3VUtAht\nKHEjBQFUF24TMSeosiObi1rP6eYRPZavjYo3ShhFZO/7GW3pzhwH5fEli+ZlLPmp\nmk/zudsu/F9+cDmFGT/asMq/EGksz8P8DzkeXoVoldH1KoddbNZzuDlQH7t08JWZ\nqC3I/MKVBjPHV6vfMDxKGrUBk59/V9XEuqF1rVpPQASsu963RgipJnCkDkSsokT+\nGr76w/TFCv7RQQOB6TL9+/3dudhdAxXTDMEYVL6C0iVC9DoWoPKMeX1jju9DtSuG\nwbifqqf2HiLg/WQU9psG7kdqL+G8meDtGORuKegA0vmUecaOLCMD5QY3lyvTS4Ig\n0bHuKrOWIo9Zq28pPqhfzDm3/3fn4535iEXbNqrCyb9GaQ/0+gctliPsQ3GWj7up\nqcsywZmZPhVuPUxrzcAv\n=fcyW\n-----END PGP SIGNATURE-----\n",
         "payload": "tree d09eb688fa820fe2e8af25759c52dbb9d0649686\nparent c51ddd08b1455d015156f6dae474e06f130d907c\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1724016280 -0500\ncommitter GitHub <noreply@github.com> 1724016280 -0500\n\nadd utils changeset (#937)\n\n",
         "verified_at": "2024-11-07T17:33:10Z"
@@ -20012,8 +20012,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/c51ddd08b1455d015156f6dae474e06f130d907c",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmwmSLCRC1aQ7uu5UhlAAAtiQQAGUlGbADZJLQmVRHtccAcgXA\nzS5fuC6kHBCBTH32kBdsDensk78udPyV64TJQRUky+JEmbohapMEBrNX/Sz5lOEi\nR1w/8Off6dFIKQAB8INnyMHNbADyB9TbPhBI9brR2QvtA5oih/craD+l0cbERliv\nYSmMlfyU0m5raPYbmNTxTdfTBI582yPCbd5SkPEtkOHSP5KJIbN9NqW7xQjyzubP\nY7fENnZJwSNJCrqAuoIkS5LVF0OjcwstJ+3i0dcqGZaS+5u1rVUkwq7GG0NJRW/t\nxFqFE4TXzc9GvfkiAkPi4bvs1oFrxzTbq4Si02/bsZlRvYRK8yOLbwuCZ1IeBKc4\nldeCWeIOoQELqBPiVOB7m+zwqDyvSj1DH3G5lfuIqxSI80AEjUkwdUGmYX7dm4qx\no7NnacHJuhNpaToV3V1VOaztu6WJW90aX8Wb5DXK+6yJVRK66gEAJsMxX7qshhYL\naK4Grmj6bp+eLta4qGj0ROb4ZrUTC47D/s8kI9HmBPgKTFyUTPQhnutiSu/TfWvZ\npljpMMwBmSzAoAZuZJaEyVH0WfraIRaomeOhperuqMCfbOLfPQFphdLMIMbk9Ovk\n+ZBK8X+5M7cTNR7ZBwBIoWht6I0B/ATtzMwdyUt2y75H9lnrjxZLSFtQ9B3xUZCu\n8WWRZ9ErWCRAqK5UTcoQ\n=B3Yi\n-----END PGP SIGNATURE-----\n",
         "payload": "tree a4b8699ae109a414e74c2a7c2a9f672915c3a557\nparent 6ba4b36eb50404d50339cf39bf3e575e9201910e\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1724015755 -0500\ncommitter GitHub <noreply@github.com> 1724015755 -0500\n\nInline comp docs (#931)\n\n* allow people to pass handlers to modal close\r\n\r\n* docs: improve contributor guide\r\n\r\n* docs: mention inline components",
         "verified_at": "2024-11-07T17:33:10Z"
@@ -20094,8 +20094,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/2ef8a9a24ad58bdfc43b9b859c06d21247d24a1d",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmwliaCRC1aQ7uu5UhlAAAgSEQAH9h7sn1qaJpPgsGGtNGMHb3\niouSl3iopmfyKVja3jkhs+i+Hg/t4fVg9F/ovKR5c6fT2pIiFHHN1zuINo+jN0Bk\n0EJdowDD3GEZjsEmcG31yReT1HORXOGA7Jl78ZeTzLG6mDptH1v38zrQMdy2B92c\nct0M00ZfY2ckSFaR4hkZfkOm/XPNHIf5V1kTvFzTMMM/1YzT28VXrYB9/EoR8cnJ\nd37CjmRiCWfLACzuNAtIuqMoEPdQvMHcBH5AWTfc87CWqiYjUVDChZGfvuXsf87s\nA1tU/3qnVvagjPUq7ajttOUVGcjXGwVRPCB/2N3IYVkCw7X+Kd+rf5NisSJaR4lE\nmjFrb5twtqnjAkaYCNa/CBBJ6JCnHzx0r9c8sMxAulfrw29a+9wOUW5g80VlIJsb\nWpUiI3u5JoNnkaxKthS6TXeKE1JfUeVv4xCEnOQhLX2W2ERwE4YhDxp5A2+7DeME\nccWS24JPkEdcRu8/b7yN6YJS93p5dFJwfj5u4f5x3qsGLUnwBAvi0Uyq+4/xcCj4\nZ0TUIoFYsvu2qLFMM+KnFONwoFlI2b2pPF+9Ie/2xFkqW+3ePOiel/tLwgjv+RaE\nKK94LTm/idR3de2CwTTJqWU5iVlvWQ0RhkrtKFnQflS8snymcDwMPzjMiuoXvbU4\nGcH2BupVRI6TT7QgRA9K\n=9GQ7\n-----END PGP SIGNATURE-----\n",
         "payload": "tree aa64c811997f3e21ec54e0f6ebff273f6696b6fe\nparent 6f1e46279d18eedc7ab9959a40a6cbd2d2543672\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1724012698 -0500\ncommitter GitHub <noreply@github.com> 1724012698 +0200\n\nfix: comment out bundle issue when changing user pref (#935)\n\n",
         "verified_at": "2024-11-07T17:33:10Z"
@@ -20176,8 +20176,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/6f1e46279d18eedc7ab9959a40a6cbd2d2543672",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmwk3ICRC1aQ7uu5UhlAAAwacQABBfZiMj7RM15ZO5wRp+09t9\nEUL+J1ZVMHDkqTmpfgjfu2/ODF1QpouquwoT+gL6id8LqQ3DH1Kw5qI4capF4wyo\nkZmDsBlygggHIWQTAjE6RRmVESVMB4ZZz2iGZqflYYWh5X1O4YrPEz+/fizRL5is\nMBtBlL5qbtvhHEueOLkxZSI62HVl74PO7tjg7XjcqMKH3BILX44YGH5GnQf4Is4d\n+SJRGaDCyDNmoDvbnHI3HwzhZ6zj5QCyY36YCN+jr08puu335ErK8dFYBUNTyDSl\nXnXJc2i9noUXljIoK6Ykn8clY6PBfBa4WBmQryBFd9qP/qsgp6G1gETKTng2eIog\nm6lhbInGey1KRWPfQBL7lxhF8TlDSnf1zex4TtvIno5bvtybdIEQ9snBct6qC5Yi\nqwWjHlWS0IgedmCEHMiX/b4ybYDSzwI/+jPNKAyqh7gAEMSGFWsh+WEZCD0k9FiE\nj2srZnPRvTHWqTnjKNOe3f0Dk7SflAa2pCppc1wYkHZdrYaogyXW3EbdxwpSdwF9\nowAF9IiPquN9ivtpWAl02Bq7GF5F1ucHdVshYPAxi2agBFTX7WO9hz3HkBHYXIyX\nkmwrJnxowQn4muYZrm1BFM9y+96ZQ456ql3G4mOIDA0RAzv40X2Rnn2Dqt5+ZqwH\nLAVneWfcykSccUxJhvn+\n=r3gn\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 7ef69c466a35394ffd922d587d5c2bff5eba01a2\nparent e4bd153de9975b7d7b22c27b2f576118e94026c7\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1724009928 -0500\ncommitter GitHub <noreply@github.com> 1724009928 -0500\n\nTooltip Beta (#934)\n\n* feat(tooltip): implement tooltip to beta phase\r\n\r\n* fix(tooltip): small tweaks to the tooltip state\r\n\r\n* fix: remove animations form tooltip docs and fix placement example\r\n\r\n* feat(tooltip): implement onOpenChange$\r\n\r\n* chore: fix changeset type\r\n\r\n* test: update placement test to remove loop\r\n\r\n* fix: remove breaking examples and tooltip route\r\n\r\n* fix: checkbox tests preventing us from opening pw\r\n\r\n* refactor: deprecate popover hover prop in favor of tooltip\r\n\r\n* latest\r\n\r\n---------\r\n\r\nCo-authored-by: Christopher Woolum <christopher.woolum@gmail.com>",
         "verified_at": "2024-11-07T17:33:10Z"
@@ -20258,8 +20258,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/7412e820e8ac1cea06d8e06ecc0b52ecc73d10f2",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtVhbCRC1aQ7uu5UhlAAAxYwQAGmzfEH472ffISuwW+TVJ5SQ\ndYZedeL7+VRcrgo7tfdRfWx9Y5uk6ldsZABPF5kCd6MsqT0sitrWRQiOy3do/2wG\nPfL6PvfUIMqSvYSo3dN5P5uvvojgBbJ1ldjqaMi75KVYnRd6ySWJZnt4rLBvlFFq\nUwn4ttkjYzPeizi5fooI+fTO98s30l9sKY2nu9DV0lkmoQRA68Kk83PZaapDoMMz\nZDbGFR0C8qV652KYWDkVT2DAq8PCyKm2lASV9VJH9ReNMO6+V/hlU3Y4O/zt/pbD\nFeh6cbMT/o0G0dj+G8PC4PPXDuJFezvyRe7kbQziIV3rP2U+fHv0ik028jJJYqO7\nQrjIrqLrbx7YxaBRGLYS04r1WPH6BufLQuxHLgC81b8Bq8zxuKJtaRH3hEQoTSwV\n3M+vI+/LrodBaXR0jgW3bni/BtQ/vEMLiB+zvQO6XvJSuYZyoSFnpnZB7RyQb5K7\ntmTOvTx+UfrPpWsoJjTA7hYB9FweKhovx4YBi2/Bcbn2lWlkIIt1M5QSq55YFSHB\nMpCgCHTCnESjIyxvFW+9VxCWqtoaEV41ORNKuIicfjwX1wVHzvVfUD27FZREPGLL\nmlA1fq8oqwSeW59RrKWU+JspwM9WwgXO+2XR/HfkfQpe42XFwhxOFh7LBOnFh6LZ\niyV7EvFLQuUai2XVvmbL\n=C2A+\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 153daa22e009a7ca60c80001e256a28497cfca0d\nparent 7039d99b469bb48d2a97cc1d97565d694fae5525\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1723160667 -0500\ncommitter GitHub <noreply@github.com> 1723160667 -0500\n\nfix: consumers can add onClick$ to modal close (#909)\n\n* allow people to pass handlers to modal close\r\n\r\n* changeset",
         "verified_at": "2024-11-12T16:27:37Z"
@@ -20340,8 +20340,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/09db03aa1806f9cef841e60cc0ce7367fe3f23ee",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtS24CRC1aQ7uu5UhlAAA9iIQAJLMjuWT49prwjG1i5p16mg0\nsJXY5iaKLwcKBVuLicmTXipqiv1DdI3l360k9y5GB+ow9+lGPoE67OSBUqKhDk+7\n2QfUl+FW9RjLK1W0yr15Zn08+ADQ9+zHYGAXrNCdDGweYY9rC/Oue0DIFGAGyMDp\nlfHFH6sfEsBIQ76U5TDH5J2kN0rxSNm3QX5CEU8HmHP3CBnjo+DhaHrqFVPgzLUk\nYjhIOf8aKC15+fPIRD+60/MnMrFM//KXmXI6YMCDC4nyIjIHBSqfsganeof/nhKb\nV0UFaF9CDWqWtPNLVq+9fgpoP/I1J0voo3IeVPRsuXaXENiTnAiY3egC4fWNUx7t\njanHVB9rP38CoGMW5B06JQN8ei8XfDugpFZ08Xyb2ejz9EyZwfYSdPKHwu9ZopH1\n+7J4yhkLiBnoJ1GFD+CXrnqHQ0P7HaSnKZqSMVy/Y0107AYW3l/q7PVsus833X4f\n1xoUvecy4kAhgllQYjjp6kaMsqmtk227M5GAl+58U5QknBBpcwQ6C+CDJy0Uxcy3\n9bY/dS6aRczDJ/TMxCCzHtPDQ9tNOc7FGXQjGEhqmILDGWe6AxjzpG9MsZP1so7O\nNWBP1323nG/CF8bk+sp4wKaJSM/MZkdowkk2C73ZtMrqIYSebUAC1ZGb13dY7Eur\nv4NRd79qEdMHCaJFWp3v\n=Y1zw\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 32a20e5c16caa93aea4866d444645fd59ccee147\nparent 2b67766041f8c093521e072f6710023512499a90\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1723149752 -0500\ncommitter GitHub <noreply@github.com> 1723149752 -0500\n\nhandle resize (#910)\n\n* refactor: setup initial carousel testsw\r\n\r\n* fix: carousel in CSR\r\n\r\n* add expectation\r\n\r\n* test: added test cases\r\n\r\n* test: some additional test cases\r\n\r\n* not draggable\r\n\r\n* CSS scroll snapping on mobile\r\n\r\n* threshold tests\r\n\r\n* try simpler code refactor\r\n\r\n* small docs\r\n\r\n* grab index from inline\r\n\r\n* improved examples\r\n\r\n* use scorllLeft instead\r\n\r\n* hacky impl\r\n\r\n* fix: slide snapping\r\n\r\n* better naming\r\n\r\n* much simpler carousel\r\n\r\n* fix: get proper array order\r\n\r\n* account for slide margin\r\n\r\n* updated correct index\r\n\r\n* update with css scroll snapping\r\n\r\n* simplify container\r\n\r\n* get buttons working again\r\n\r\n* setup for drag to do its own behavior\r\n\r\n* get mouse working again\r\n\r\n* correct indexes again\r\n\r\n* it worksgit add .\r\n\r\n* down to touch interacitons\r\n\r\n* initial touch working\r\n\r\n* finally workinggit add .\r\n\r\n* add pagination\r\n\r\n* carousel pagination\r\n\r\n* first attempt at multiple slides per view\r\n\r\n* update next button based on slidesPerView\r\n\r\n* feat: keyboard navigation with pagination\r\n\r\n* focus management from previous and next when out of slides\r\n\r\n* bullets render based on slides in view\r\n\r\n* add non-draggable example\r\n\r\n* touch ups\r\n\r\n* correct styles\r\n\r\n* mouse dragging works on variable slide widths\r\n\r\n* works on variable widths for index changes\r\n\r\n* pagination works again\r\n\r\n* correct scroll snapping again\r\n\r\n* improve carousel a11y\r\n\r\n* without scrollbar\r\n\r\n* better styles and remove num slides in inline\r\n\r\n* transitions sort of working\r\n\r\n* center and end alignments\r\n\r\n* more tests notes\r\n\r\n* feat: looped support\r\n\r\n* improved a11ty\r\n\r\n* home and enter keys for pagination\r\n\r\n* add home & end test cases w/ pagination\r\n\r\n* add aria live polite\r\n\r\n* add announcements to the content inside of the carousel and collapsible\r\n\r\n* add inert based on slidesPerView\r\n\r\n* tabpanel in pagination carousels\r\n\r\n* add accessible name\r\n\r\n* cleaner code\r\n\r\n* initial working autoplay\r\n\r\n* bound signals\r\n\r\n* simplify bound signal\r\n\r\n* improved autoplay and tabs aria\r\n\r\n* add in aria-selected\r\n\r\n* accessible name for autoplay player button\r\n\r\n* respecting reduced motion\r\n\r\n* autoplay looping working\r\n\r\n* improved experience when consuming and also support for updating flex-basis automatically when slides per view change\r\n\r\n* setup for the initial index\r\n\r\n* more test cases\r\n\r\n* multiple slides working on the server\r\n\r\n* proper gap\r\n\r\n* add correct initial index\r\n\r\n* get initial indexes sort of working\r\n\r\n* correct snapping again on mobile with initial index\r\n\r\n* almost\r\n\r\n* next and prev buttons should work\r\n\r\n* improved styling\r\n\r\n* upgrade to 1.7.2\r\n\r\n* no caret\r\n\r\n* add in caret only in root\r\n\r\n* initial working\r\n\r\n* initial working in all snap modes\r\n\r\n* carousel docs\r\n\r\n* add in changeset\r\n\r\n* remove annoying acorn stuff\r\n\r\n* handle resize\r\n\r\n* remove md",
         "verified_at": "2024-11-13T06:58:57Z"
@@ -20422,8 +20422,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/914aa40a8afc6f3a22c7f3dcba5272ce1f129b0b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmqTZ7CRC1aQ7uu5UhlAAAyUsQAB7BK4pzw2nRBDjz0ONAIw6o\nqnc1BYyc+luQAHMV+9hZ5RRwkgCreyL54Ojras0ph4IjlATVnNvC/mAt8M2BDYMP\nFQ7+pSY4Zq98v24NvuCnGYXg46EHPWM8Zg8SMqt5+B0VQoRmTc52RTmMV1WQUzyt\nfPe3Fy9GRUSEiECg4E+vvUw0Ej/eQlrVOexJK9KD7H+zUfSU8aFX2NFZt1Silic4\n+eNax8wnTzgt3KDricysYejnRQW+1BTcrRnaOnebccxnVCRBYeZkCXq+W7bVwqRc\nUloSRTXwc8Z4WlURudwXoW4Iu5nsMhVEVXyus+KK/eukGkt6JXK6eIeZL6BpB+T+\nfdoKHtK+fJujB2CFfuSNUWidOFSdNfyK2pTU94AOX+GiVlaE7byITFQkT/w39nY8\ndxx13Zb6mEWq05yg5m8ydekLHzZkXWEEXiXY/XLPhloaFlE8AZzO/Wh/atcbJHrq\ne7NLpMg5ZyYj0HO6hqkVbNYKFdubDEahKWpDHhFO8286aVpSxjtfWKt3YkD2YwCS\n1k7GO1cAZnS40xUI+8jp0qp5xeWyBvKiF1EWsPh7YqEAGyEYIrLwGAxyxc+gP4X6\noTg8YxBuJF43sEP0QUtzUVU7zAPeHladM/pPs66yeql9da1nqTd0kYiRQFJBq1l3\n9rnmSH+tWN+uqx9C+5by\n=YSac\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 21568604c48a7e861550cb4bd1bf94d13d3b273f\nparent ff7fade0fa37ef5390dd1fcea308e958222971ee\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1722365563 -0500\ncommitter GitHub <noreply@github.com> 1722365563 -0500\n\nremove info import",
         "verified_at": "2024-11-13T06:58:57Z"
