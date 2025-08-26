@@ -68,7 +68,7 @@
     "deployments_url": "https://api.github.com/repos/QwikDev/qwik/deployments",
     "created_at": "2021-05-19T15:33:32Z",
     "updated_at": "2025-08-26T16:27:54Z",
-    "pushed_at": "2025-08-26T16:19:17Z",
+    "pushed_at": "2025-08-26T18:41:47Z",
     "git_url": "git://github.com/QwikDev/qwik.git",
     "ssh_url": "git@github.com:QwikDev/qwik.git",
     "clone_url": "https://github.com/QwikDev/qwik.git",
@@ -88,7 +88,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 261,
+    "open_issues_count": 260,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -107,7 +107,7 @@
     ],
     "visibility": "public",
     "forks": 1368,
-    "open_issues": 261,
+    "open_issues": 260,
     "watchers": 21595,
     "default_branch": "main",
     "permissions": {
