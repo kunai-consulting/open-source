@@ -232,7 +232,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4,
+    "open_issues_count": 5,
     "license": null,
     "allow_forking": true,
     "is_template": false,
@@ -245,7 +245,7 @@
     ],
     "visibility": "public",
     "forks": 6,
-    "open_issues": 4,
+    "open_issues": 5,
     "watchers": 15,
     "default_branch": "v2-migration",
     "permissions": {
