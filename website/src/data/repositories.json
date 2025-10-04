@@ -67,16 +67,16 @@
     "releases_url": "https://api.github.com/repos/QwikDev/qwik/releases{/id}",
     "deployments_url": "https://api.github.com/repos/QwikDev/qwik/deployments",
     "created_at": "2021-05-19T15:33:32Z",
-    "updated_at": "2025-10-04T13:13:54Z",
-    "pushed_at": "2025-10-04T09:14:11Z",
+    "updated_at": "2025-10-04T13:58:21Z",
+    "pushed_at": "2025-10-04T14:07:58Z",
     "git_url": "git://github.com/QwikDev/qwik.git",
     "ssh_url": "git@github.com:QwikDev/qwik.git",
     "clone_url": "https://github.com/QwikDev/qwik.git",
     "svn_url": "https://github.com/QwikDev/qwik",
     "homepage": "https://qwik.dev",
     "size": 61478,
-    "stargazers_count": 21708,
-    "watchers_count": 21708,
+    "stargazers_count": 21704,
+    "watchers_count": 21704,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -88,7 +88,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 111,
+    "open_issues_count": 112,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -107,8 +107,8 @@
     ],
     "visibility": "public",
     "forks": 1373,
-    "open_issues": 111,
-    "watchers": 21708,
+    "open_issues": 112,
+    "watchers": 21704,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -141,7 +141,7 @@
       "site_admin": false
     },
     "network_count": 1373,
-    "subscribers_count": 139
+    "subscribers_count": 138
   },
   {
     "id": 840899523,
