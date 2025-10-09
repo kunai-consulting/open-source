@@ -400,7 +400,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 149,
+    "forks_count": 148,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -426,7 +426,7 @@
       "ui"
     ],
     "visibility": "public",
-    "forks": 149,
+    "forks": 148,
     "open_issues": 68,
     "watchers": 681,
     "default_branch": "main",
@@ -460,7 +460,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 149,
+    "network_count": 148,
     "subscribers_count": 15
   },
   {
