@@ -88,7 +88,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 111,
+    "open_issues_count": 110,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -107,7 +107,7 @@
     ],
     "visibility": "public",
     "forks": 1373,
-    "open_issues": 111,
+    "open_issues": 110,
     "watchers": 21716,
     "default_branch": "main",
     "permissions": {
@@ -390,7 +390,7 @@
     "clone_url": "https://github.com/qwikifiers/qwik-ui.git",
     "svn_url": "https://github.com/qwikifiers/qwik-ui",
     "homepage": "https://qwikui.com",
-    "size": 20939,
+    "size": 21174,
     "stargazers_count": 681,
     "watchers_count": 681,
     "language": "TypeScript",
