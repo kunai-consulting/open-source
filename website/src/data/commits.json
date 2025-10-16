@@ -15143,6 +15143,88 @@
     ]
   },
   {
+    "sha": "3da57422650ac1563b52fe73d29cd46cfe4fe952",
+    "node_id": "C_kwDOMh8bw9oAKDNkYTU3NDIyNjUwYWMxNTYzYjUyZmU3M2QyOWNkNDZjZmU0ZmU5NTI",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
+        "date": "2025-10-16T14:52:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-16T14:52:35Z"
+      },
+      "message": "feat: support icons mdx parsing + correct handling of a11y attributes (#297)\n\n* feat: working mdx parsing\n\n* reusable\n\n* feat: use oxc-walker for mdx\n\n* add remark deps\n\n* feat: more refactoring\n\n* refactor: improved icon maintenance\n\n* feat: improved structure\n\n* fix: icon types\n\n* fix: icon generation tests and remove cruft\n\n* fix: format\n\n* changeset\n\n* fix: bugbot bug\n\n* feat: fix unused integration tests\n\n* feat: fully support title and description\n\n* fix: format\n\n* fix: bug bot bug\n\n* changeset\n\n* fix: bug bot edge case",
+      "tree": {
+        "sha": "69886281440b47df639d746ad84e7fdacb680229",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/69886281440b47df639d746ad84e7fdacb680229"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/3da57422650ac1563b52fe73d29cd46cfe4fe952",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo8QazCRC1aQ7uu5UhlAAA9BEQAKxSKL2fPLKYJOF06jgj68Zb\n3U+BuGrjiBkHvJAy7hcSYhGuTUXx/jJrpy2U01ar8hSeykh5U1z7J6dZ7TPrT6C7\nzoYxQoPqrJ6dftPdlNktEjxe7yYNz60khgkVwjjJ9JN5PPTHON4WwOiQ7KEElsg/\nPADY2LXnu/TFx5f9oKHF0Z28xmpiNmLMiv+kbKPA/BtWmFWbk0f4PSYfql9jkxsK\nd9FU5PFFHaqHr5SlNABZ5fHg/2ng8sY7lsg0hQegW0GffFZcMR5uEF5C+OnHtBNj\n7gD+RLJ8Ppm1iSJ00H647Ck4eAr0zZVRrJmJaZqqbXvGyW892LQfLEd+P9vXGURs\nFwkjQKLfFuS+CeTX2MJsNmF/w6aFy0SxunGSmhhoR5ct9Za1meYWLcUyV4NSpRB5\nisuVtm+NVA7bO405tK1+rbFdYf8LfKwHXkPyBapEAaym92YK/BdOZPxxmhL3JkO4\nxyWmDsLMbXum4G2GSjRM3w7w0N0zA0Y/CNLfWjN5zdMSfq/G/Me10kPISaqgmQy/\nP/3oyzJZy1XcsuYzDAAWfiGN2HuNu80pDBmzemaHC9auTUWgl0G0beByopw9mP30\nWQjWaYhT/fsBHJ6j5xdE50MWb2GJhke93hmaePdlsU3rooJSMACMwuHlNNgK2t8B\nJhSk/m9KUDW0UXW5GRxq\n=aaqj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 69886281440b47df639d746ad84e7fdacb680229\nparent ae0e4bfece289574bf972e8e22ae6cdfb79261d4\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1760626355 -0500\ncommitter GitHub <noreply@github.com> 1760626355 -0500\n\nfeat: support icons mdx parsing + correct handling of a11y attributes (#297)\n\n* feat: working mdx parsing\n\n* reusable\n\n* feat: use oxc-walker for mdx\n\n* add remark deps\n\n* feat: more refactoring\n\n* refactor: improved icon maintenance\n\n* feat: improved structure\n\n* fix: icon types\n\n* fix: icon generation tests and remove cruft\n\n* fix: format\n\n* changeset\n\n* fix: bugbot bug\n\n* feat: fix unused integration tests\n\n* feat: fully support title and description\n\n* fix: format\n\n* fix: bug bot bug\n\n* changeset\n\n* fix: bug bot edge case",
+        "verified_at": "2025-10-16T14:52:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3da57422650ac1563b52fe73d29cd46cfe4fe952",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/3da57422650ac1563b52fe73d29cd46cfe4fe952",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3da57422650ac1563b52fe73d29cd46cfe4fe952/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae0e4bfece289574bf972e8e22ae6cdfb79261d4",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/ae0e4bfece289574bf972e8e22ae6cdfb79261d4",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/ae0e4bfece289574bf972e8e22ae6cdfb79261d4"
+      }
+    ]
+  },
+  {
     "sha": "3758533cb2e1aff9783019e0b80c38213d388654",
     "node_id": "C_kwDOMh8bw9oAKDM3NTg1MzNjYjJlMWFmZjk3ODMwMTllMGI4MGMzODIxM2QzODg2NTQ",
     "commit": {
@@ -17517,88 +17599,6 @@
         "sha": "a0b3a77054490ff9da7072d487273f072a0ec1b7",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a0b3a77054490ff9da7072d487273f072a0ec1b7",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/a0b3a77054490ff9da7072d487273f072a0ec1b7"
-      }
-    ]
-  },
-  {
-    "sha": "a0b3a77054490ff9da7072d487273f072a0ec1b7",
-    "node_id": "C_kwDOMh8bw9oAKGEwYjNhNzcwNTQ0OTBmZjlkYTcwNzJkNDg3MjczZjA3MmEwZWMxYjc",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
-        "date": "2025-08-07T03:57:51Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-08-07T03:57:51Z"
-      },
-      "message": "V2 radio group tests (#247)\n\n* fix: radio group label handling\n\n* feat: more tests passing\n\n* feat: get axe working\n\n* add type module\n\n* some browser fixes\n\n* fix: aria hidden and visibility\n\n* fix: correct assertion in test\n\n* fix: hidden input component handling\n\n* feat: prevents test from failing on 2nd run\n\n* remove log\n\n* feat: clear description on root\n\n* feat: remove isDescription\n\n* feat: adding more correct tests\n\n* feat: external changes\n\n* feat: improved tests\n\n* fix: test description\n\n* feat: remove the unused test files\n\n* fix: lint",
-      "tree": {
-        "sha": "18e54dab19c28c758160c6f54917821c0cdb2847",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/18e54dab19c28c758160c6f54917821c0cdb2847"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/a0b3a77054490ff9da7072d487273f072a0ec1b7",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJolCQ/CRC1aQ7uu5UhlAAAGlEQAHs74zJH3W2mYWvxvE1dWYBI\nP+IwJbGvao7YfUOFtKo2IGAZpyfl7r6mrVFcPrCJh/AWh57Q1RNnJKxuExz2fIIz\nKbu6opeSTYBZZWPbtriiLYm1gj5wT4t0Ix7XRkpFycdYtbW3XFRsDNIkLW0iCE3o\nAfhm2LyCyErBuOmInALGUL9nBDBXpOVpVLLl+1Xsq4Oak65rXpe+BQ7mT5PtwWTj\n/bVmn+bLtMWjf6raGk3PwIcOJLF1+NtjJDzWX2wdnXtL793EEn2PKWPhJjpAHDoa\nw39xiXlNK+2iOIsEgQcHsipg7Of8gcph0j913+zTuuoEP7N8AleuHZx02ynfjX8k\nDg5UyaXJ00lkOo8ZK0rykkEeeEx1MTZwMpmRX/qaduMfwo0Ax1GI2xmhIJH0D25P\nqUG9mwrIIPa+xg2MOxi6mGOHVVWleIdSGPzkr6qM9pB0d9dgfeDlWfySCgEHYYhH\noiheN8727Ru60FTKXoPGQoW4jZzHdu7g98kclb3dD+ak4aHrRCWKpOBxyukAbKz3\nBgSwfnckSu/BKNbl8Noe6kf62GnnbDSKeq+LzENBfbinQLoghnUGExfTAM1keWP7\nX2Lbh5OVqm6xYAUOC0JECfJZUy2M4g0/KUJK8IlUoo10FHczXxEEQTDgfZ4Ytb82\nIEURXizFqBP2rPaYg3xs\n=mfb9\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 18e54dab19c28c758160c6f54917821c0cdb2847\nparent 09cdc48d5e66e8a3ca8725ca16c7bae83962ba9c\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1754539071 -0500\ncommitter GitHub <noreply@github.com> 1754539071 -0500\n\nV2 radio group tests (#247)\n\n* fix: radio group label handling\n\n* feat: more tests passing\n\n* feat: get axe working\n\n* add type module\n\n* some browser fixes\n\n* fix: aria hidden and visibility\n\n* fix: correct assertion in test\n\n* fix: hidden input component handling\n\n* feat: prevents test from failing on 2nd run\n\n* remove log\n\n* feat: clear description on root\n\n* feat: remove isDescription\n\n* feat: adding more correct tests\n\n* feat: external changes\n\n* feat: improved tests\n\n* fix: test description\n\n* feat: remove the unused test files\n\n* fix: lint",
-        "verified_at": "2025-08-07T03:57:52Z"
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a0b3a77054490ff9da7072d487273f072a0ec1b7",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/a0b3a77054490ff9da7072d487273f072a0ec1b7",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a0b3a77054490ff9da7072d487273f072a0ec1b7/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "09cdc48d5e66e8a3ca8725ca16c7bae83962ba9c",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/09cdc48d5e66e8a3ca8725ca16c7bae83962ba9c",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/09cdc48d5e66e8a3ca8725ca16c7bae83962ba9c"
       }
     ]
   },
