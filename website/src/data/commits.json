@@ -7708,6 +7708,88 @@
     ]
   },
   {
+    "sha": "f1c801c2934027ec58c8c7e7a2fae6e18be2a020",
+    "node_id": "C_kwDOMh8bw9oAKGYxYzgwMWMyOTM0MDI3ZWM1OGM4YzdlN2EyZmFlNmUxOGJlMmEwMjA",
+    "commit": {
+      "author": {
+        "name": "toan-kunaico",
+        "email": "122486240+toan-kunaico@users.noreply.github.com",
+        "date": "2025-10-21T04:20:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-21T04:20:12Z"
+      },
+      "message": "Update package dependencies and pnpm lockfile (#305)",
+      "tree": {
+        "sha": "6a5aedccda1b15718c624993a21406cdde399caf",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/6a5aedccda1b15718c624993a21406cdde399caf"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/f1c801c2934027ec58c8c7e7a2fae6e18be2a020",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo9wn8CRC1aQ7uu5UhlAAAnGwQAHJhMMyHxbgiNVGqCO4ZxFpp\njIe6Rnq7H0StmtEmmMz0mWW7NiFekCE29WFB5fbkeEVATM5TSEPTkW4vkLusVbuL\nDaG8c0IuocgdMfgPa4mih5cPVVDehRxd1eylcnB8fAPweE8DiLpi8sl5NFrzdQP8\nuTIkAQEXlcRbWF60Sljo1uiaplwFdsAOMzdz6YSMkacQ9xBXvwL+ouzYLFtuI6mj\nDXMrUS9tjT4HBlitKKa93gnna/uZLTeOYB5noKa0yuMz2BLDMZlJVZOf+V4xra4P\nkrjUu2vxrTosSvj5wQke5PBqF/ZHlinnxfJorapDkdj098aG92RxUMxwJsnboIGE\nXV7z/M/J+N77Wxu1r4yuuEvQHY51JDXPIkdnIaa8MjYX5a3OBD2M5KXQFviKkggp\nZp0aPFpmAe1WJV1NMPjVrsFVHSjNez/gdSkI8NQ1VQ0gjgtIC0L21DyjuppTIO6T\nankCD/DFVurd38uwelUf9Eji2f/H8JsHGa/ahQBikgd3kiHuOX0c+df08Ihb/2ro\nTO2x/u3WlaPvOxPRxAyYSHku0ntm4DH7ZsbrBI62EuH2VA3XjmfwI1DTzELmjZrz\n7ozsMkG4LHm6bQEq4TwegVWTXxZOYuFiAQHrFJdr5992Xto7Zkl1NhfON2OjlQ/V\nea3nXnY5qN+unIGJdWSB\n=W7Sa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6a5aedccda1b15718c624993a21406cdde399caf\nparent 127ee24e09fa088057768376564aa73f747c2487\nauthor toan-kunaico <122486240+toan-kunaico@users.noreply.github.com> 1761020412 -0700\ncommitter GitHub <noreply@github.com> 1761020412 -0500\n\nUpdate package dependencies and pnpm lockfile (#305)\n\n",
+        "verified_at": "2025-10-21T04:20:13Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/f1c801c2934027ec58c8c7e7a2fae6e18be2a020",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/f1c801c2934027ec58c8c7e7a2fae6e18be2a020",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/f1c801c2934027ec58c8c7e7a2fae6e18be2a020/comments",
+    "author": {
+      "login": "toan-kunaico",
+      "id": 122486240,
+      "node_id": "U_kgDOB0z94A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122486240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toan-kunaico",
+      "html_url": "https://github.com/toan-kunaico",
+      "followers_url": "https://api.github.com/users/toan-kunaico/followers",
+      "following_url": "https://api.github.com/users/toan-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toan-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toan-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toan-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/toan-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/toan-kunaico/repos",
+      "events_url": "https://api.github.com/users/toan-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toan-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "127ee24e09fa088057768376564aa73f747c2487",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/127ee24e09fa088057768376564aa73f747c2487",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/127ee24e09fa088057768376564aa73f747c2487"
+      }
+    ]
+  },
+  {
     "sha": "462802d0b5d1195f4d71f30d9e4ec2cb48c535be",
     "node_id": "C_kwDOMh8bw9oAKDQ2MjgwMmQwYjVkMTE5NWY0ZDcxZjMwZDllNGVjMmNiNDhjNTM1YmU",
     "commit": {
@@ -10087,88 +10169,6 @@
         "sha": "3686b290fdd88a551c231e4529bf81e46473b8c1",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3686b290fdd88a551c231e4529bf81e46473b8c1",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/3686b290fdd88a551c231e4529bf81e46473b8c1"
-      }
-    ]
-  },
-  {
-    "sha": "a62d2c8f29b01dda9334219e9b16b21f164fe7ab",
-    "node_id": "C_kwDOMh8bw9oAKGE2MmQyYzhmMjliMDFkZGE5MzM0MjE5ZTliMTZiMjFmMTY0ZmU3YWI",
-    "commit": {
-      "author": {
-        "name": "toan-kunaico",
-        "email": "toan@kunaico.com",
-        "date": "2025-01-08T20:16:58Z"
-      },
-      "committer": {
-        "name": "toan-kunaico",
-        "email": "toan@kunaico.com",
-        "date": "2025-01-08T20:16:58Z"
-      },
-      "message": "Refactor datepicker",
-      "tree": {
-        "sha": "f1f45975f4d404269b9b20732a8c2a6a484b55eb",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/f1f45975f4d404269b9b20732a8c2a6a484b55eb"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/a62d2c8f29b01dda9334219e9b16b21f164fe7ab",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a62d2c8f29b01dda9334219e9b16b21f164fe7ab",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/a62d2c8f29b01dda9334219e9b16b21f164fe7ab",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/a62d2c8f29b01dda9334219e9b16b21f164fe7ab/comments",
-    "author": {
-      "login": "toan-kunaico",
-      "id": 122486240,
-      "node_id": "U_kgDOB0z94A",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122486240?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/toan-kunaico",
-      "html_url": "https://github.com/toan-kunaico",
-      "followers_url": "https://api.github.com/users/toan-kunaico/followers",
-      "following_url": "https://api.github.com/users/toan-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/toan-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/toan-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/toan-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/toan-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/toan-kunaico/repos",
-      "events_url": "https://api.github.com/users/toan-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/toan-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "toan-kunaico",
-      "id": 122486240,
-      "node_id": "U_kgDOB0z94A",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122486240?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/toan-kunaico",
-      "html_url": "https://github.com/toan-kunaico",
-      "followers_url": "https://api.github.com/users/toan-kunaico/followers",
-      "following_url": "https://api.github.com/users/toan-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/toan-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/toan-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/toan-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/toan-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/toan-kunaico/repos",
-      "events_url": "https://api.github.com/users/toan-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/toan-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "829ecf4b40d053bbc3cb34127a75f5310862c743",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/829ecf4b40d053bbc3cb34127a75f5310862c743",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/829ecf4b40d053bbc3cb34127a75f5310862c743"
       }
     ]
   },
