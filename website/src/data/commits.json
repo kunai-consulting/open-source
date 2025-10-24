@@ -15128,6 +15128,88 @@
     ]
   },
   {
+    "sha": "5d199cbde3367ad3d8f0ca42ccafeb9be6fc4f48",
+    "node_id": "C_kwDOMh8bw9oAKDVkMTk5Y2JkZTMzNjdhZDNkOGYwY2E0MmNjYWZlYjliZTZmYzRmNDg",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
+        "date": "2025-10-24T21:36:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-24T21:36:04Z"
+      },
+      "message": "feat: until-found on collapsible, collapsible attrs, fix test flakiness, fix not selector for styles (#318)\n\n* feat: updated collapsible attrs\n\n* test: browser tests\n\n* feat: hidden until found behavior\n\n* feat: collapsible data attrs\n\n* fix: types\n\n* feat: until found behavior of collapsible\n\n* fix: tree example\n\n* changesert",
+      "tree": {
+        "sha": "3b4eae30cce3dabebdccb5f0c1762db98ae7e608",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/3b4eae30cce3dabebdccb5f0c1762db98ae7e608"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/5d199cbde3367ad3d8f0ca42ccafeb9be6fc4f48",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo+/FECRC1aQ7uu5UhlAAAH/8QAKsYUwcVwWYrELf93OrFypAk\ntqYOcXHTgbBwdlZv2EE+xYGcXb0xEZHD8YfGkMI0LNfOSlO7QEySsRzHEdozN00v\ntTtoFnRx04++7njAQOjv/I+3CXUUAJAk60wEZCCcSsXseC0PM+nIxkkFRYAG9xqs\nQb7ykd8eXaJK4cW26/4thdsHbhYE7srpe7b9muMZAV5lQo+F5kD2FbnFc1c9rlFy\n0YbQGq2eK5tF5qGicwM1spknA85LMzd9test2RnZls4pZsSl6pQKRiMjELpwQvZH\nq+4TcMQZjlQQA+iGEajrdtKz/QFPlrjNvoRaIwzCZGybJ5UEZ6fTivU3LTRer1EZ\n+9J1o00LtJP/L1pHksPqtZkVMD7D4rBVSzIw3m2dnujljmmPCUJFtWKhsgTQ6O/R\nyF/XrjhVxDO0ORpBezCbC05jHfLCZl0k6uZHheSFoHdTmGVrlZUDxzAh+Tef1H8b\nxLs9GCymxMFiyZAB9LmtpBzovepAY0C3O90FBj5is9r4D6i0X9rikJ53SebSRO1U\nHHBl8QizUOzvUdB1j+pzUQB+UuXZw+qyCICiKT8WXi2w4FM5XW1xBO9C42YB4znU\n4zJIvFXyAUXcHKfsEfwVzuUjKWintgJg8wOdTct+h8j304Ydt6pwxjuzGKen4ORv\ncqWKiDqSeXfftUpU5sTi\n=GuGT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3b4eae30cce3dabebdccb5f0c1762db98ae7e608\nparent 7d9b34b099ba7fc55bc88f2a19395ca15cfe97ab\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1761341764 -0500\ncommitter GitHub <noreply@github.com> 1761341764 -0500\n\nfeat: until-found on collapsible, collapsible attrs, fix test flakiness, fix not selector for styles (#318)\n\n* feat: updated collapsible attrs\n\n* test: browser tests\n\n* feat: hidden until found behavior\n\n* feat: collapsible data attrs\n\n* fix: types\n\n* feat: until found behavior of collapsible\n\n* fix: tree example\n\n* changesert",
+        "verified_at": "2025-10-24T21:36:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/5d199cbde3367ad3d8f0ca42ccafeb9be6fc4f48",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/5d199cbde3367ad3d8f0ca42ccafeb9be6fc4f48",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/5d199cbde3367ad3d8f0ca42ccafeb9be6fc4f48/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d9b34b099ba7fc55bc88f2a19395ca15cfe97ab",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/7d9b34b099ba7fc55bc88f2a19395ca15cfe97ab",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/7d9b34b099ba7fc55bc88f2a19395ca15cfe97ab"
+      }
+    ]
+  },
+  {
     "sha": "5e5aae75bd891ea9028a3e05785f21112141a8a4",
     "node_id": "C_kwDOMh8bw9oAKDVlNWFhZTc1YmQ4OTFlYTkwMjhhM2UwNTc4NWYyMTExMjE0MWE4YTQ",
     "commit": {
@@ -17502,88 +17584,6 @@
         "sha": "7624ba1762176faa78289752b5ffe0ef60a32c83",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/7624ba1762176faa78289752b5ffe0ef60a32c83",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/7624ba1762176faa78289752b5ffe0ef60a32c83"
-      }
-    ]
-  },
-  {
-    "sha": "7624ba1762176faa78289752b5ffe0ef60a32c83",
-    "node_id": "C_kwDOMh8bw9oAKDc2MjRiYTE3NjIxNzZmYWE3ODI4OTc1MmI1ZmZlMGVmNjBhMzJjODM",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
-        "date": "2025-10-05T04:38:38Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-10-05T04:38:38Z"
-      },
-      "message": "v2: site redesign + critical components (#271)\n\n* feat: initial hero\n\n* feat: hero background\n\n* feat: homepage mix blend\n\n* feat: hero desktop\n\n* feat: button animations\n\n* initialtext animation\n\n* feat: correct shimmer\n\n* refactor: split out into hero and decor\n\n* refactor: organize hero\n\n* refactor: barrel fle\n\n* feat: purple gradient\n\n* feat: mobile menu\n\n* feat: initial navbar implementation\n\n* feat: popover browser tests\n\n* feat: initial mega menu\n\n* fix: icons can handle multiple instances\n\n* feat: update mega menu markup\n\n* fix: proper semantic markup\n\n* feat: mega menu anchoring\n\n* refactor: map over navbar jsx\n\n* feat: navbar disclosure styling\n\n* feat: proper animation\n\n* fix: blinking light\n\n* feat: initial images\n\n* feat: improved navigation menu item links\n\n* feat: represents selected state\n\n* feat: radial gradient meets linear gradient\n\n* feat: improved header\n\n* feat: proper spacing\n\n* feat: simpler markup\n\n* feat: proper border\n\n* feat: rest of mega menu images\n\n* feat: proper spacing on tools disclosure\n\n* feat: content grid fit\n\n* feat: mega menu helper fns\n\n* feat: consolidate gradients and better naming\n\n* feat: improve collision handling\n\n* feat: hover handling\n\n* fix: mega menu positioning on firefox\n\n* feat: do not execute the anchor polyfill for fixed position popovers\n\n* feat: better bridge\n\n* feat: improved menu state\n\n* feat: fixed hover styles on links\n\n* feat: make bridge cursor pointer\n\n* feat: simpler animation\n\n* feat: update tagline\n\n* feat: don't lazy load the images\n\n* feat: delay on hover mode\n\n* feat: improve close delay to 300 for wcag 2.1 conformance\n\n* feat: proper handling of hover state in popovers\n\n* fix: use pointer id instead\n\n* wip page\n\n* fix: build\n\n* fix: lint",
-      "tree": {
-        "sha": "6573c269a4c91007aece63dd9989d4445b76d62a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/6573c269a4c91007aece63dd9989d4445b76d62a"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/7624ba1762176faa78289752b5ffe0ef60a32c83",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo4fZOCRC1aQ7uu5UhlAAAZHMQAFAS+Z/Xo21da3+Z1DQv5vOq\nFyJ+e3VYY66dhYhlUIMIZDZjUvuQKfCEjxrA8YZdcAiTagcWNmMUXJZkNJd68EtX\n8ZUSAtTkMeNKVxrwiH5fUC5HTukZVvqe9dUT9AfUoysqO33AlZkblPeneTV43LaA\n80+U26DRe1aIbbhrt2gNmZ0nRGhEeYPiJbbqx31n/3OQP/3XKzTQG8GRK35pB+32\n8GlGWw/njm3nVUGCtu9bNgAJoTEqn2IRzEpVFFzi05qhM3ut8yPIHgQbBxQ7jgEp\nGfCKaDo4q2hfZV/ARz+twa6o0jONUYGfVIk8rRqZf+M+rD/2uvYWLuXydYlutkqU\nOoPMWRUGLsagjIRvu+MW3sKD69ETQ47JdA3GZqRU9rGMhiBc+SELOfOo81J7wAHy\nHBbdy+kWNvwaUL4Q9tTSNPsCj8wKiclgomSCPyVCT4a7vq1ohNfBPVMz/n+pSciF\n+7RXrbtGawCmXreGxsboM+x1/iSoTtiw+lTQfURLEMWr2l+livCQB3jSbpmX7Qya\nrvXJziZGNn5Xmwrli2jFmYcAe1FM52+MtaLtM7Bjg7i+4Y9rdSbqqwhsk4yxjjCv\nx+1/j0ZuWjjy6PwIN217KEu/HFrTZbcrhrYzc4rnPj4tnhC1+YLKE+tAXv9u3Kaf\nOOWuqy1DGRk91okvXlYk\n=5OJW\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 6573c269a4c91007aece63dd9989d4445b76d62a\nparent 5db85bf1710ac41ad5eb7a4cf5ecddc70daf080a\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1759639118 -0500\ncommitter GitHub <noreply@github.com> 1759639118 -0500\n\nv2: site redesign + critical components (#271)\n\n* feat: initial hero\n\n* feat: hero background\n\n* feat: homepage mix blend\n\n* feat: hero desktop\n\n* feat: button animations\n\n* initialtext animation\n\n* feat: correct shimmer\n\n* refactor: split out into hero and decor\n\n* refactor: organize hero\n\n* refactor: barrel fle\n\n* feat: purple gradient\n\n* feat: mobile menu\n\n* feat: initial navbar implementation\n\n* feat: popover browser tests\n\n* feat: initial mega menu\n\n* fix: icons can handle multiple instances\n\n* feat: update mega menu markup\n\n* fix: proper semantic markup\n\n* feat: mega menu anchoring\n\n* refactor: map over navbar jsx\n\n* feat: navbar disclosure styling\n\n* feat: proper animation\n\n* fix: blinking light\n\n* feat: initial images\n\n* feat: improved navigation menu item links\n\n* feat: represents selected state\n\n* feat: radial gradient meets linear gradient\n\n* feat: improved header\n\n* feat: proper spacing\n\n* feat: simpler markup\n\n* feat: proper border\n\n* feat: rest of mega menu images\n\n* feat: proper spacing on tools disclosure\n\n* feat: content grid fit\n\n* feat: mega menu helper fns\n\n* feat: consolidate gradients and better naming\n\n* feat: improve collision handling\n\n* feat: hover handling\n\n* fix: mega menu positioning on firefox\n\n* feat: do not execute the anchor polyfill for fixed position popovers\n\n* feat: better bridge\n\n* feat: improved menu state\n\n* feat: fixed hover styles on links\n\n* feat: make bridge cursor pointer\n\n* feat: simpler animation\n\n* feat: update tagline\n\n* feat: don't lazy load the images\n\n* feat: delay on hover mode\n\n* feat: improve close delay to 300 for wcag 2.1 conformance\n\n* feat: proper handling of hover state in popovers\n\n* fix: use pointer id instead\n\n* wip page\n\n* fix: build\n\n* fix: lint",
-        "verified_at": "2025-10-05T04:38:38Z"
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/7624ba1762176faa78289752b5ffe0ef60a32c83",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/7624ba1762176faa78289752b5ffe0ef60a32c83",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/7624ba1762176faa78289752b5ffe0ef60a32c83/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "5db85bf1710ac41ad5eb7a4cf5ecddc70daf080a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/5db85bf1710ac41ad5eb7a4cf5ecddc70daf080a",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/5db85bf1710ac41ad5eb7a4cf5ecddc70daf080a"
       }
     ]
   },
