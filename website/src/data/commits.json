@@ -15128,6 +15128,416 @@
     ]
   },
   {
+    "sha": "1f47d27d7dca936abb3c2c614425e3fa21b9163b",
+    "node_id": "C_kwDOMh8bw9oAKDFmNDdkMjdkN2RjYTkzNmFiYjNjMmM2MTQ0MjVlM2ZhMjFiOTE2M2I",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
+        "date": "2025-10-29T00:43:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-29T00:43:07Z"
+      },
+      "message": "v2: fix pipeline (#338)\n\n* refactor: remove incremental builds\n\n* refactor: decouple from pathe",
+      "tree": {
+        "sha": "23410b54086d2638709a4169a843285e5c804eec",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/23410b54086d2638709a4169a843285e5c804eec"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/1f47d27d7dca936abb3c2c614425e3fa21b9163b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpAWMbCRC1aQ7uu5UhlAAAtiQQAB2wQkoh7lkGYQBAvJ7EXcTH\njlxioe5+4qJbGjEur8fLP0bEJ91tFksl4jtehCMpVwVIFLZSgi5L9tNy4Fmszvce\n0jEfwFwaobidLYhg8mS11RaK7aYYLapuPdmHPCxpgL5m67ZjNyb9rlw1105pOnll\nvyZuMh61eklETHVml9GpuoOhFJ/WwPwqIKZFdail+Kw5s5Eat3vxhPFd/Gxrwfeu\nchvA8ZtHqQdXJfX8ClhNYlpYXB0+8+UaC/AtiXBkFFR0q3kpcnR4LjkyIA0OW+xg\nASXJyvZxie4K7iGX56pJP8bdLVQ+OD7okU3cL8yBTBFdIZdmMytIBteyYOy+a9Xi\nceNT6ckIQ+XiB248DYv+If+H5yK5rtGt3DLkJKSwkt1uJ+HYd2u5yE3+5N4X4Ytq\nJt16AqbSyYm9lbR1pjgUX6AfHa65Q/A9lm7h5mMW0nKUUoe3DRTr36YDg7zthGuB\nOgt32qDiXn/Uze2CVL4KGR8FXbFw9FTMjZzqQHd19GRh2pzgGYwciLTDZJ8w88ka\ng6rLT1T2TkSsbq6UMRRhzNdSYRB3YI8BjBWBeVz+q68s23A+hRJWHOv00Umjsm9U\nGxkpVbtyUbCGDPgaONlU4xj9MShIFY4kQoDgvg5ZwROGmAVruWMyea9TV8jKmo33\nomjw7YFxmZwgfzMauDkW\n=QCgL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 23410b54086d2638709a4169a843285e5c804eec\nparent 92714a4859385c52f8f0c9d520c8540c050a8d1e\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1761698587 -0500\ncommitter GitHub <noreply@github.com> 1761698587 -0500\n\nv2: fix pipeline (#338)\n\n* refactor: remove incremental builds\n\n* refactor: decouple from pathe",
+        "verified_at": "2025-10-29T00:43:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/1f47d27d7dca936abb3c2c614425e3fa21b9163b",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/1f47d27d7dca936abb3c2c614425e3fa21b9163b",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/1f47d27d7dca936abb3c2c614425e3fa21b9163b/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "92714a4859385c52f8f0c9d520c8540c050a8d1e",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/92714a4859385c52f8f0c9d520c8540c050a8d1e",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/92714a4859385c52f8f0c9d520c8540c050a8d1e"
+      }
+    ]
+  },
+  {
+    "sha": "92714a4859385c52f8f0c9d520c8540c050a8d1e",
+    "node_id": "C_kwDOMh8bw9oAKDkyNzE0YTQ4NTkzODVjNTJmOGYwYzlkNTIwYzg1NDBjMDUwYThkMWU",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-29T00:00:41Z"
+      },
+      "committer": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-29T00:00:41Z"
+      },
+      "message": "fix: create release script",
+      "tree": {
+        "sha": "ed205ea13222b92fff87d3c78588f618699da43e",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/ed205ea13222b92fff87d3c78588f618699da43e"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/92714a4859385c52f8f0c9d520c8540c050a8d1e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/92714a4859385c52f8f0c9d520c8540c050a8d1e",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/92714a4859385c52f8f0c9d520c8540c050a8d1e",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/92714a4859385c52f8f0c9d520c8540c050a8d1e/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f96aca45ac70fd24f027a503db2d625068813d5b",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/f96aca45ac70fd24f027a503db2d625068813d5b",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/f96aca45ac70fd24f027a503db2d625068813d5b"
+      }
+    ]
+  },
+  {
+    "sha": "f96aca45ac70fd24f027a503db2d625068813d5b",
+    "node_id": "C_kwDOMh8bw9oAKGY5NmFjYTQ1YWM3MGZkMjRmMDI3YTUwM2RiMmQ2MjUwNjg4MTNkNWI",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-28T23:57:49Z"
+      },
+      "committer": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-28T23:57:49Z"
+      },
+      "message": "chore: release v0.5.0",
+      "tree": {
+        "sha": "50135c79f6494fb7c04815930bb4cefe5b5d5d72",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/50135c79f6494fb7c04815930bb4cefe5b5d5d72"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/f96aca45ac70fd24f027a503db2d625068813d5b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/f96aca45ac70fd24f027a503db2d625068813d5b",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/f96aca45ac70fd24f027a503db2d625068813d5b",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/f96aca45ac70fd24f027a503db2d625068813d5b/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d20704afa5717099fae3ffa187b88b1706863695",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d20704afa5717099fae3ffa187b88b1706863695",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d20704afa5717099fae3ffa187b88b1706863695"
+      }
+    ]
+  },
+  {
+    "sha": "d20704afa5717099fae3ffa187b88b1706863695",
+    "node_id": "C_kwDOMh8bw9oAKGQyMDcwNGFmYTU3MTcwOTlmYWUzZmZhMTg3Yjg4YjE3MDY4NjM2OTU",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-28T23:57:41Z"
+      },
+      "committer": {
+        "name": "thejackshelton-kunaico",
+        "email": "jack.shelton@kunaico.com",
+        "date": "2025-10-28T23:57:41Z"
+      },
+      "message": "refactor: update release script",
+      "tree": {
+        "sha": "56ea7d88c346ec1d989c802c52b121f6f139eea9",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/56ea7d88c346ec1d989c802c52b121f6f139eea9"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/d20704afa5717099fae3ffa187b88b1706863695",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d20704afa5717099fae3ffa187b88b1706863695",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d20704afa5717099fae3ffa187b88b1706863695",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d20704afa5717099fae3ffa187b88b1706863695/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d95454d420c51240c2e937231f245d88915b3199",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d95454d420c51240c2e937231f245d88915b3199",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d95454d420c51240c2e937231f245d88915b3199"
+      }
+    ]
+  },
+  {
+    "sha": "d95454d420c51240c2e937231f245d88915b3199",
+    "node_id": "C_kwDOMh8bw9oAKGQ5NTQ1NGQ0MjBjNTEyNDBjMmU5MzcyMzFmMjQ1ZDg4OTE1YjMxOTk",
+    "commit": {
+      "author": {
+        "name": "thejackshelton-kunaico",
+        "email": "167572331+thejackshelton-kunaico@users.noreply.github.com",
+        "date": "2025-10-28T23:55:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-28T23:55:57Z"
+      },
+      "message": "feat: migrate all packages to rolldown + typescript compiler optimizations (#337)\n\n* feat: move tools package over to consistent tooling\n\n* feat: migrate utils library over to rolldown\n\n* fix: ci ignore package failing build\n\n* fix: formatter in ci\n\n* fix: remove require from package json\n\n* feat: tell rolldown which mainFields\n\n* feat: try optimize deps to fix ci\n\n* fix: update preserve module root\n\n* refactor: remove unused vitest config\n\n* feat: improve tsc performance",
+      "tree": {
+        "sha": "cc7090514750395e0dcc4199cedbf73716337e7d",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/cc7090514750395e0dcc4199cedbf73716337e7d"
+      },
+      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/d95454d420c51240c2e937231f245d88915b3199",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpAVgNCRC1aQ7uu5UhlAAA0R4QAFrFkcxoc/cim6FNx6bAL9d9\n+4wOoSZQEFySte/ZncGv6Gce/vt78XutAqIcDhLum7r1oSVtpsyntC9lfUTptRtZ\n5TrtWbhvyWBfpEUR8uNzSVveEEluhS0hvXrBT6arHX7JbvZUUwLmMi5uFFKR7QCC\n+/9RMLF6CK51+pfBBnOgPXma66PTd6tjNHLAKO8EqFlAoVDt8zvo4EgflIibsrG8\nSuCCrF7ashoF52GQlcw2yRiHWKa+TFKkoXeg5n5OYaqY5XP9GGpaktZ3PNKzir5j\nkdsAjrF6Z0C+orikIee3UQewe13Ju9efNrcxBkt5WSsAqoK3TrozMnTe0pKQt1jr\nLnngG8quxXP3R9hamP5tZxNptmfl0AGphk4CLK6PyHg+V82DPJD4J82PdI7dtYhc\nA9/0qd4wjoHKE8Yg6ZnDuZO7qFmb54PNkBS48/9T5lH0smmbn018gExsa96brSV/\nL8r+CbUR8oT+DUFkQo8731hkGPQWy3PczcmQSXLv60yDBDZ4kmHbAEuBDS8Xv5nl\nREawqRzx0W/YQJUu0frWYAXiMEL51CQylxfHqIjtf8a31nur4HTaoYXOwzLUQrFS\n58tywEueiZW1k05/99xV7YilnOA5nwU6qRxtgpOIps/WlRI16jXf3cKca+3NyUsI\nU9xb4sczpmtvhCeLeMqp\n=TFaF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cc7090514750395e0dcc4199cedbf73716337e7d\nparent b219c12072ad4d32aff5eda5fb895f197fd50312\nauthor thejackshelton-kunaico <167572331+thejackshelton-kunaico@users.noreply.github.com> 1761695757 -0500\ncommitter GitHub <noreply@github.com> 1761695757 -0500\n\nfeat: migrate all packages to rolldown + typescript compiler optimizations (#337)\n\n* feat: move tools package over to consistent tooling\n\n* feat: migrate utils library over to rolldown\n\n* fix: ci ignore package failing build\n\n* fix: formatter in ci\n\n* fix: remove require from package json\n\n* feat: tell rolldown which mainFields\n\n* feat: try optimize deps to fix ci\n\n* fix: update preserve module root\n\n* refactor: remove unused vitest config\n\n* feat: improve tsc performance",
+        "verified_at": "2025-10-28T23:55:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d95454d420c51240c2e937231f245d88915b3199",
+    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d95454d420c51240c2e937231f245d88915b3199",
+    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d95454d420c51240c2e937231f245d88915b3199/comments",
+    "author": {
+      "login": "thejackshelton-kunaico",
+      "id": 167572331,
+      "node_id": "U_kgDOCfzzaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thejackshelton-kunaico",
+      "html_url": "https://github.com/thejackshelton-kunaico",
+      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
+      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
+      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
+      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
+      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b219c12072ad4d32aff5eda5fb895f197fd50312",
+        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/b219c12072ad4d32aff5eda5fb895f197fd50312",
+        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/b219c12072ad4d32aff5eda5fb895f197fd50312"
+      }
+    ]
+  },
+  {
     "sha": "b219c12072ad4d32aff5eda5fb895f197fd50312",
     "node_id": "C_kwDOMh8bw9oAKGIyMTljMTIwNzJhZDRkMzJhZmY1ZWRhNWZiODk1ZjE5N2ZkNTAzMTI",
     "commit": {
@@ -17174,416 +17584,6 @@
         "sha": "d3fef52f540e42d6a68bc98b4d544086b6081b7d",
         "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d3fef52f540e42d6a68bc98b4d544086b6081b7d",
         "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d3fef52f540e42d6a68bc98b4d544086b6081b7d"
-      }
-    ]
-  },
-  {
-    "sha": "d3fef52f540e42d6a68bc98b4d544086b6081b7d",
-    "node_id": "C_kwDOMh8bw9oAKGQzZmVmNTJmNTQwZTQyZDZhNjhiYzk4YjRkNTQ0MDg2YjYwODFiN2Q",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:16:37Z"
-      },
-      "committer": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:16:37Z"
-      },
-      "message": "fix: correct script",
-      "tree": {
-        "sha": "3a76ff230b07a7143a1a34d99d75fad5cf2fd334",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/3a76ff230b07a7143a1a34d99d75fad5cf2fd334"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/d3fef52f540e42d6a68bc98b4d544086b6081b7d",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d3fef52f540e42d6a68bc98b4d544086b6081b7d",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d3fef52f540e42d6a68bc98b4d544086b6081b7d",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d3fef52f540e42d6a68bc98b4d544086b6081b7d/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/16be4a7e44f84059c71dd2ae269fbc68362ae76a"
-      }
-    ]
-  },
-  {
-    "sha": "16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-    "node_id": "C_kwDOMh8bw9oAKDE2YmU0YTdlNDRmODQwNTljNzFkZDJhZTI2OWZiYzY4MzYyYWU3NmE",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:14:52Z"
-      },
-      "committer": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:14:52Z"
-      },
-      "message": "chore: release v0.4.11",
-      "tree": {
-        "sha": "730bd8df59d4a471e3549c1f0ae48dce1182a6b6",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/730bd8df59d4a471e3549c1f0ae48dce1182a6b6"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/16be4a7e44f84059c71dd2ae269fbc68362ae76a",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/16be4a7e44f84059c71dd2ae269fbc68362ae76a/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "3d72c7d24b9f6253e60dda10742f834895fd791d",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3d72c7d24b9f6253e60dda10742f834895fd791d",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/3d72c7d24b9f6253e60dda10742f834895fd791d"
-      }
-    ]
-  },
-  {
-    "sha": "3d72c7d24b9f6253e60dda10742f834895fd791d",
-    "node_id": "C_kwDOMh8bw9oAKDNkNzJjN2QyNGI5ZjYyNTNlNjBkZGExMDc0MmY4MzQ4OTVmZDc5MWQ",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:14:48Z"
-      },
-      "committer": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:14:48Z"
-      },
-      "message": "update publish",
-      "tree": {
-        "sha": "100e05cf0439aed8c0dcccc7a28d749e7d4eb532",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/100e05cf0439aed8c0dcccc7a28d749e7d4eb532"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/3d72c7d24b9f6253e60dda10742f834895fd791d",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3d72c7d24b9f6253e60dda10742f834895fd791d",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/3d72c7d24b9f6253e60dda10742f834895fd791d",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/3d72c7d24b9f6253e60dda10742f834895fd791d/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "e7407495f0b25373a29937f00696b2b9c30eef21",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/e7407495f0b25373a29937f00696b2b9c30eef21",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/e7407495f0b25373a29937f00696b2b9c30eef21"
-      }
-    ]
-  },
-  {
-    "sha": "e7407495f0b25373a29937f00696b2b9c30eef21",
-    "node_id": "C_kwDOMh8bw9oAKGU3NDA3NDk1ZjBiMjUzNzNhMjk5MzdmMDA2OTZiMmI5YzMwZWVmMjE",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:13:37Z"
-      },
-      "committer": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:13:37Z"
-      },
-      "message": "chore: release v0.4.10",
-      "tree": {
-        "sha": "223f12461cc3b0d12cc7258523607f98fd179de8",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/223f12461cc3b0d12cc7258523607f98fd179de8"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/e7407495f0b25373a29937f00696b2b9c30eef21",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/e7407495f0b25373a29937f00696b2b9c30eef21",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/e7407495f0b25373a29937f00696b2b9c30eef21",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/e7407495f0b25373a29937f00696b2b9c30eef21/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d280c885983f1be3126d73cdc2bed035e5f6660a",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d280c885983f1be3126d73cdc2bed035e5f6660a",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d280c885983f1be3126d73cdc2bed035e5f6660a"
-      }
-    ]
-  },
-  {
-    "sha": "d280c885983f1be3126d73cdc2bed035e5f6660a",
-    "node_id": "C_kwDOMh8bw9oAKGQyODBjODg1OTgzZjFiZTMxMjZkNzNjZGMyYmVkMDM1ZTVmNjY2MGE",
-    "commit": {
-      "author": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:13:16Z"
-      },
-      "committer": {
-        "name": "thejackshelton-kunaico",
-        "email": "jack.shelton@kunaico.com",
-        "date": "2025-10-27T23:13:16Z"
-      },
-      "message": "update script",
-      "tree": {
-        "sha": "88c0b89c4c9a02225272a7c52a51af7241671c82",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/trees/88c0b89c4c9a02225272a7c52a51af7241671c82"
-      },
-      "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/git/commits/d280c885983f1be3126d73cdc2bed035e5f6660a",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d280c885983f1be3126d73cdc2bed035e5f6660a",
-    "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/d280c885983f1be3126d73cdc2bed035e5f6660a",
-    "comments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/d280c885983f1be3126d73cdc2bed035e5f6660a/comments",
-    "author": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "thejackshelton-kunaico",
-      "id": 167572331,
-      "node_id": "U_kgDOCfzzaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167572331?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/thejackshelton-kunaico",
-      "html_url": "https://github.com/thejackshelton-kunaico",
-      "followers_url": "https://api.github.com/users/thejackshelton-kunaico/followers",
-      "following_url": "https://api.github.com/users/thejackshelton-kunaico/following{/other_user}",
-      "gists_url": "https://api.github.com/users/thejackshelton-kunaico/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/thejackshelton-kunaico/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/thejackshelton-kunaico/subscriptions",
-      "organizations_url": "https://api.github.com/users/thejackshelton-kunaico/orgs",
-      "repos_url": "https://api.github.com/users/thejackshelton-kunaico/repos",
-      "events_url": "https://api.github.com/users/thejackshelton-kunaico/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/thejackshelton-kunaico/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "13afcd1baf3deb09f01e21ae44df43947396a464",
-        "url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/commits/13afcd1baf3deb09f01e21ae44df43947396a464",
-        "html_url": "https://github.com/kunai-consulting/qwik-design-system/commit/13afcd1baf3deb09f01e21ae44df43947396a464"
       }
     ]
   },
