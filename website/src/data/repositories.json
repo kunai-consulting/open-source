@@ -74,7 +74,7 @@
     "clone_url": "https://github.com/QwikDev/qwik.git",
     "svn_url": "https://github.com/QwikDev/qwik",
     "homepage": "https://qwik.dev",
-    "size": 62833,
+    "size": 62759,
     "stargazers_count": 21770,
     "watchers_count": 21770,
     "language": "TypeScript",
@@ -84,11 +84,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 1378,
+    "forks_count": 1379,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 122,
+    "open_issues_count": 123,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -106,8 +106,8 @@
       "web"
     ],
     "visibility": "public",
-    "forks": 1378,
-    "open_issues": 122,
+    "forks": 1379,
+    "open_issues": 123,
     "watchers": 21770,
     "default_branch": "main",
     "permissions": {
@@ -140,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 1378,
+    "network_count": 1379,
     "subscribers_count": 136
   },
   {
@@ -212,7 +212,7 @@
     "deployments_url": "https://api.github.com/repos/kunai-consulting/qwik-design-system/deployments",
     "created_at": "2024-08-11T03:12:30Z",
     "updated_at": "2025-11-08T17:12:13Z",
-    "pushed_at": "2025-11-08T17:13:32Z",
+    "pushed_at": "2025-11-08T21:16:28Z",
     "git_url": "git://github.com/kunai-consulting/qwik-design-system.git",
     "ssh_url": "git@github.com:kunai-consulting/qwik-design-system.git",
     "clone_url": "https://github.com/kunai-consulting/qwik-design-system.git",
