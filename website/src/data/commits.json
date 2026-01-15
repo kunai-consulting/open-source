@@ -20489,8 +20489,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/b1b4ad60e25f4cc7df8f361783815c869c104c7e",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8/lXCRC1aQ7uu5UhlAAAUXMQAGb0zShbZZinBhS0W3YDUOFu\ne2zSEhDPVe5cTDICJlCbbkCVjZ1w+XG5+NqiceXmS2wAqKT8oFLR1Xhc7jlH4UpX\nRuzMdL6grFga/9aSY6n4kreXA+IrtBL+tCLM3lEauqMudJ+le95vtnY2KU4UrO3J\nTmVvI8KaNsrgz5UVp/oXtxU/CiyR8idUztLS9OUblI2K7CZOwhdmkBB2VTwISzdm\nP4MrbqJ7O0l92kjp+w9UL9KISQjytSMW+032uxc8Xb85pSuw8X47w7wmlKRvkD3B\nbbG7OXcGCgYOzpeetXpL4EEBTi2KTWGbYDjJ39E9SdHftWvQCB2m1ls+P/0rzGee\nFeSbJmKuekJMdtUosYeO+xv3SArDOeVvZi+NugibtudiTRok8ASLeISzv1oPUac0\ndfXbJYjPOWfDWqBPMOyvrkeCg16dYEgkSvEuEnqojzkyT0duY3i+iTMHLfivKdZK\n5l+ExWyV5i7uUzEgGqZU9e37FhC3PrZwniEX6mUj67SYZWX6GAIiRN6suSGKDr0V\n12Se/RQ1J89kmh3kysJoLIkjXqs9Ca3KaDdZnHRZQ0ToFtjQVRi1gWWnAKK8IAkk\nYV0ixnJXcTZGfR3N3wKZeXODEzgrsk67NvR+ivB1FJOH7L4/lykwVXfOCp31UoOU\n0asfFHwXaJpc8FS2gYlc\n=gH8y\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 042faea6c08ef0fb1ec6e2a5330f8f6b000eaa8d\nparent 0545946401b5ae382510e8838e2d47b2f3e3c1bf\nauthor Oleksandr Zainetdinov <zaynet.ua@gmail.com> 1744042327 +0300\ncommitter GitHub <noreply@github.com> 1744042327 -0500\n\nAdd sponsors section to the Readme (#1064)\n\n",
         "verified_at": "2025-04-07T16:17:10Z"
@@ -20571,8 +20571,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/203dc994d38eb1ced3db22d90db095192b311a7b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmc/8eCRC1aQ7uu5UhlAAA2ksQAG1u3NFBKwUrjrDKoOGtyxzp\n9EviaOn6g7WFLNPXtWl6xwpdYB0uBi69otRwMNGfMOBaJ4JsL2aoqsbYZvaOVcFT\nS82GtrrH+zkT3HVQhQ5E0GbJI2DG61OUpfAfQuPg6EN9xJSOjHNxbdqgM7XKsQwK\nWH7b123tPxv8wDym+Crcufn71/ra2WFLJnIaRps0/KjNWivvPxoCkwZ1cYVq5bNH\nBJVwz/ic22eomNkZIyJswF5hwoLYs9d+LmYL2P8jo8nlLfz5KWG3UDGP1zOhgf3y\nGujX5yWcrbmxj1EjYt+1y20JQ58NBK2MQNl6Lcy7NrtLCpgO30DRwPZH4L8NIzKf\nXeRmu9mnJfwzEV2AXoiIrSyw9J/95jmY0LpyXYJdKH+EpMPYKhksdayVPhJsNoA6\nBD26fdopq8rcH3F44PcubdLGDPBJVTLaMrPHGvvsncWg0a+oy3Degudm7V7ECWcM\ncPQEPxHrh1c13silx67KQh2uSvZPz5F6U3AlHM/0U7tOf0xo2wTKOsttM7ygDUWb\nWjGkSWvo8PvBoOp2cjrlvfiK1bPg+aI+wfW6w4jU/xPRv7MHKjNUgcRte5Edz5QR\nJjl+N1upv/K/PPZFjPPL0utUgh1fZkB8cOhGxl5fw1P5m0W9IVPlDPkYD0uQ6/By\nKtKh+gjf5BnBSUUP6DYt\n=uD3s\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 25ef820e54858299744e540ef2f77d6c8fac1b30\nparent ff367f56384b42fe98981a61c23250fa729f2c07\nparent cf91aa514f728b8f51834c03c53e60969781fef1\nauthor Aleksandr Zainetdinov <zaynet.ua@gmail.com> 1718877982 +0300\ncommitter GitHub <noreply@github.com> 1718877982 +0300\n\nMerge branch 'main' into progress",
         "verified_at": "2024-11-07T17:31:25Z"
@@ -20658,8 +20658,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/ff367f56384b42fe98981a61c23250fa729f2c07",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmcbZSCRC1aQ7uu5UhlAAAL1IQABLgZZVfz9HJLdbLxPTbdOcY\n0yaEHzT25hSXnj0F4ABcqczemy3WZstbzrYOJy5BNBKO6GjjNcyJJ3xeWYS/3pNE\nKj2WjZjK9zlP0m5rcQCOKktLHw7ZSBgywWs6btxRdTexp5d3ly16Ux+6CuXoRirv\n04N8EJmKcuPJwQKESz1uo+XkIwr2C/zAKP+Mvi8q4lzP5+QtJwrWuihQPc5IsbT4\nL/3hGugNzDYfClwHTiLlHzyWW3vovwzRfprHBgIQwjFjRk0XCpCmMNfR5twGTwKU\nysx5M2ohBKwJkjzHiyavPrG1CajteEM+V1Goen1w3T0lrpSsjEg9mcq3P/I5QrnN\nsjVAxjgr2Ej7A9RdHi/v54x8Fz4qVf2N11+Old1+nmTh0XgEA4tY/Z5rZU8rkg1+\nHdC6P0a0WLuQE0u5bDgy0zf0BXoMKhFBWYA8NSfJKpjbIAJXXYivRDiBj/aCvzdU\nf+CoHpPhJjr42KbE/p8ne1JVSYuZ3CE9dulFugIFYNf6x4NgB+cvbnFpRGVO198t\nccIN80AWHp7jwQY7MVD3KO2AxQ9OpazNeRCjMTYe+W5GV4ISFFfaIwcxi4itXSFx\nxbn1tPrPIHAwHBfRTUE7P0Z+sLHezvmZM+FJ1cAEyabKaxo4lpzDWmQT7LQLyW1w\nSLh1yDGFpA0tgBpSAtOl\n=3Cvb\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 86a66612edc36d59cdc085fe039d1488a708f011\nparent 63db509023fd066c70be49a69f770778ed5a9b6e\nparent a05560bfbe96158491bf5d5cc7ecd3aee47cb284\nauthor Aleksandr Zainetdinov <zaynet.ua@gmail.com> 1718728274 +0300\ncommitter GitHub <noreply@github.com> 1718728274 +0300\n\nMerge branch 'main' into progress",
         "verified_at": "2024-11-07T17:31:25Z"
@@ -20745,8 +20745,8 @@
       "url": "https://api.github.com/repos/qwikifiers/qwik-ui/git/commits/efbce7296ff1e68cb7a2b538451f34512575eff2",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmaxmLCRC1aQ7uu5UhlAAAx7AQABOdIHoiNA4Bjjsfid2qrphV\nGKjIuXWIuhCRAPsNaNySpH/OdBZQ6UorQ37uTPoNlw42n9vg92Ps7uRm2fFxBgiT\n22vtoU+8DmZ2f/e1KJtObeH77/aLzvrPrRNan27w0r/MJxQq5dA3BWkOeAHkLN5g\n6CfMET9G65dNohjzf6H4EhkHbp5fNOk42ezsdjCaMORCOYSI3jJKso4rYHGObBIP\n94aAR6C4xIl5IjixugCweBM++odkv7weAMirT25BmgA0jpXQFQEAtnTP+g6kxW6l\nxrdW1vTl9JTtXxm7HY2dz4SoAn6v5/tMaa1A/clgU7OPLKq7ixotQXXupfITVVn2\nFpbyGjR31yOgd8ij1qZ7n2eIOSajr0DVKnu++GlHIN+WbjXMRWtHbv0x8QXW0c1O\nnxZflYhi6avCuL9ujdEeJNHshuDuwoyXCDM91zoH3mQOtnTDGgt6Ti4+MWWBZ/GT\nl35p7D2rnv9Uc1rKaNH3Hl2hiO93r47j/HAImnOw5RxGQD2F5oCQJSzXvJikBNUO\nfkrz73IjdBqDDTG2RgdVsv5F4ORtWfImLuJWOhD0CWkQaA/jkx+YtfPboRAWDyi3\nQFAcbg0RQkkWcOPc2gIRJ2ARcgGdeKuVu8d8uPG06fxY+FhL/wW4m7JHFC8+0ZWi\ng1KNZkEi4sIb8UjocmkB\n=PbSw\n-----END PGP SIGNATURE-----\n",
         "payload": "tree da4dfa340895cfd027ddfe76f1bcb7f65c227b35\nparent 424080077e3e84359439919e4c2860c45c60afa9\nparent 32f6468cba5b75ce4217de8cf3efaf0697cfa976\nauthor Aleksandr Zainetdinov <zaynet.ua@gmail.com> 1718294923 +0300\ncommitter GitHub <noreply@github.com> 1718294923 +0300\n\nMerge branch 'main' into progress",
         "verified_at": "2024-11-07T17:31:25Z"
