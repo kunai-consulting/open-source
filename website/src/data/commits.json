@@ -2481,8 +2481,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/f7a4ed10682d821d4f65521d17f56b09d1b8f299",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoJl+tCRC1aQ7uu5UhlAAAhAYQAFDPRKrKgQNZLaqORHY2xiqE\n1qTZbOl38NfFy2QEDbS/bn4IDHQGOvX9TgWeOqlt7wILI4YeTk8WKCL6qmz5ZEDd\n6e58zJLKE43b6VKs9BzQsDjdrrkR0kQORktKadnNbaRSgFFKa35gkROIyNoeMsUf\nXElPIf3nxnUaX59OTKk4IJqBuTHY7xUtBuKG9i3VJNQ4CklKWE3PewDUwCuUJyl4\nny4Qit+BecNFtRdbXyYdlk+F5PNSszfxosskSvJfyM3cj1loDhJDiePRZFZpqteX\nM2e5Jf9aFXypQJhlP4OPf68WDLaPovBCo4erP8orQBWIGuebnt+nBaDmifSaZt6F\nSBGM8V2PzKAbb4CHki+XBOFwk8DwwyW8uk2DRUrSPf4JHwhxuFD8sZhfDsuz/O5w\nrvN2ir5knrp2C25zGTHrLQvWQoCP4DZXUt/gS0t9o6AAz279hsxaDSjLNgLcHyXy\nvjdC5fA17YjogV9BJasj85kwKhuh23Fkl6IBd9Tz/1Hu2GCV1UXtk8G7eFeJl6Jh\nOdToWY7qQkudZsKgjQ+EjQAqDdodIKjrOCDynbFlKJ8NYp4h/FvCvnZmOVFE8Gr0\nZvESEM/Ld4CkgimX3GjdcUpYaKQxTWVM8AolhJyU2obrw+d69ieqesyrX1jNpCeR\nh+QwRwOxp9hMv7HDmCA0\n=tSTf\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 57a405b514e1a9e423740940c550618359b5f8d3\nparent 915e7bba334cfb0924c31ea1fee357952469f026\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1747345325 -0500\ncommitter GitHub <noreply@github.com> 1747345325 -0500\n\nfeat: disable font preloading option in qwikVite (#7297)\n\n",
         "verified_at": "2025-05-15T21:42:09Z"
@@ -2563,8 +2563,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/68b2bd9eba2d0e6f2bd325c104e041ede273442a",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnxqtTCRC1aQ7uu5UhlAAAz7sQAJZOqMRjo1hbpj/kaotK9nDi\nuBaW7t8X3daOkHy488+jgcBhnDV57dqsgo5sVpEf00SFiKeG91TH6FJvOTmAqp5b\nAbGKQxkoLOQmCj3zATtDDchXIN1ck8dwUlJWnpYbfhXwy8g4YBaEqTQzBOMNb/3h\nbVwpQH1nq0Ea8j6z/LxptIjPV3//MxZkOuIJVP4feXutWd/1GEbjOYfKgCufbj6z\nPYOcGFv/rP3sNYKBLVF5xXspGttlxd9hggx+NQzN8TPPbRIdS8+z/bATAA8KUI1/\nDGtGZ08uwFO2ehDhCSmUEiV2a4/sykVOGpnm3T7u9RtAEkaBfyPWFMq1iyYtXzoc\n6bhxxDnVMv5R1Rq9OHeUqI4VS2XvSlvVUjQDM+Xe62EIW5g0E+p6ft5tvB9XOeyJ\noC9oo7UM68uHJ2+/7L3MxIe+7bDBMFsnHLDaXA7dc7UZTIZLS/zwL2aMGbrySW8f\n3KvNFs5Pbq2+ITb7kM+vyE6ZLYdzL3pUMWn5k6jlSeCZXBtTyQLAz4Et4kQbiZ2v\nml9o697KPdEWQGFbIEjrfMF6rs+U+SI5TV2vAMRZlsIEptdv2CQDuYd7VcHW/zaI\nJgsku31PjME0USL53drRNIAsk1tT4BSLWuTLu1mld1Sv6DfCrt1sJ9xTH7FvyrjF\nqqXdQ/cXvwduBstIYoL+\n=rMS/\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 804bf0eadcd59d7ae3b2379249417d4692dde7b3\nparent c51aaabfa9c74786833acaddc8e9add80b44d1c6\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1741073235 -0600\ncommitter GitHub <noreply@github.com> 1741073235 +0100\n\ndev server: handle hmr and css importer persistence (#7389)\n\n* handle hmr and css importer persistence\n\n* changeset",
         "verified_at": "2025-03-04T07:27:19Z"
@@ -2645,8 +2645,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/0a752dc6dd4c7b0000aa6a1d17f3ccfcee89fc7f",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnm8AoCRC1aQ7uu5UhlAAAKj0QAJjcw/RGYwf2xa1WndKxoqdV\nAebpbj6pgs4nYWcVWFw+8Vz6z3FP7yW7CqhW2sUg17EkGofO0dkMJUikG+53nQ77\nQH/pElK70k8LNn+CZEmH+j8adnecT2hZQHYytSHPsHoXht1kBq9onvC4pVagaHXg\ns4Ie8Npw0jC3YwuY/sF77iP2wDDgi0Um7YP0d6DIlFxR0Sn+wIypWGM6D2GVxQ7A\npuFSSA4JDNHG0UAd2m2WsaBrAze+RiunBkGxSGsizVhZpMPWo9py2jAWmEnbLKbX\nQ5cMi8vCEl9IfCVB0jhNLE+cp9EX331T4ls0cjwH4kjPx94QFOHKROZBftzvikp3\n9qLKqZ8qJtrmStTOwm4io2jVibm6tBfvzqwWqUR/9UlS6To/Lxto46md4E8khmIa\nBXlfIbJj8b4c65SwDl+riBVyIAah9YZl902HiwjFL/Qm3dRWkiWbzTG8KJitSTfk\nxGsDx1/ShacOEQ36S1UzHBS9GQTMwye26QLTct91Zp9/+gKvQ+aRcocziO6dbT9H\n6ea9wVrnvPZAAj57o0tJvqbydMVgkhMYxeQz34FolLwnOdsiXZD++gfcacTe4XSh\nPQQAyQUh+0IVfCYAB7NzKQCgq0KWGbmnCGYKkLLpEnbGK1MOxE5wY8Q8vpq9UyFI\nmkYmFoyThG90ojYuisLv\n=sQ5+\n-----END PGP SIGNATURE-----\n",
         "payload": "tree b36d94f7d28c656a48e203d703b252d12ed694c4\nparent 684fe2b64cef5a40de25b8078acf95c78290e979\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1738260520 -0600\ncommitter GitHub <noreply@github.com> 1738260520 +0100\n\nfix: build types (#7266)\n\n",
         "verified_at": "2025-01-30T18:08:44Z"
@@ -2727,8 +2727,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/684fe2b64cef5a40de25b8078acf95c78290e979",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnm7ESCRC1aQ7uu5UhlAAADvoQAFs6KxAf/rm4lMY3x2sM7PUO\nzXETWWp3v51vHRcU/H8MH1/mgpFMsjs4Z176Wky1tKl2Ngchggb5Y3cQIUOhGlU+\n9TIp2nMEaHDgD+GEhrLCPyfbnJreMmvXlgEGckGewyny9hHaUgs7xLH+kW7j3QeK\nHLV62HJ5bRseuQEYWq6KJdW3wappAuNwj1Ya8N1l+f3DRlr719NMXzDuj6ly80OC\nkfD0wzFi0h/u4tJBmik5E6NltXi51hNcf3H3y1MqM2JBwpCzDWQ9m0qHVdpR1UFF\neRe6EgCp3h3D2gbPX01Q09T5QrkH/DwfyNJiuOJui1TO1mgfzXdLBfPJH/46mQMf\nDymfXNAPmNhZ+36eqL1D1F3wWEeVBCgfeU+GE0f15j8a7OVXxo/hrjHIoZJ/2K+/\n+AIY4SbFWSulrC5903w90yQ4pW/gDBYD/AxR1Q8s6lz3pmQzP7Bfa1wJ6DKX0SdG\n73MlK/Go2t/l1lK6keM7I3304a/Bw5ScQh35LTCAUc2CfFSFwVY+N/xuY92B7MJH\n4LBBu6KPX1/mNdR88mAmeyqq6OL+OSzu6xMuc9/FSPrYXKgTmByrsafKM7aAZJrX\ncT9gU6J4FTI1eah2XIbRSMEpmvV1IM2QT82ojxOgWQ3MzBEy1oBuIRXqyqSkjBCo\nz/LUoKwWa/aC8/cwmp99\n=K5IQ\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 8ae6fe56e42148ff3925e3af214043d90e3b11e7\nparent da69196d773c6c007123dde66d538de70ae0c292\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1738256658 -0600\ncommitter GitHub <noreply@github.com> 1738256658 +0100\n\nfix(dev): only inject css link tags that have js importers (#7267)\n\n* fix: build types\r\n\r\n* fix: only inject link atrributes that have a js importer\r\n\r\n* Update api.json\r\n\r\n* copy api json from main\r\n\r\n* disable formatter\r\n\r\n* add regex\r\n\r\n* run api update\r\n\r\n* revert binding map\r\n\r\n* feat: generate list of css on each update and then check injections\r\n\r\n* move into segment check\r\n\r\n* revert\r\n\r\n* fix: overfetching\r\n\r\n* handle after render again",
         "verified_at": "2025-01-30T17:04:32Z"
@@ -2809,8 +2809,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/426ba597c377bca0bdbe69d82dc8622b8dad9f37",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm8sp5CRC1aQ7uu5UhlAAAPYMQACYAXD3lnzcZmx9M9Io+qKtg\naajcMVekvWJVHtwPH40QnZ+xsGmc8ojs8levifTyFouQbt5ZXZure4qDZL9QewuE\n+PaqeSeGSnX/ke02KzMvVDWaeZ9g3fSex6/So1AAx2LKftAx/tCdrAa3K51kz1PW\nz/L7vu/kIPKr889PbiadvyhjgKsUyvU5N7Jp2l2avYGguPzBp1Zg9KV/at9wSkFi\n/O6ms+UscW6Ek/Ma6LPyp12jXUNK0eVBGDCweHYaz10A7JCHmggx6l+QSmGIoU7X\nFiF1YNdFemQ8QX127PfzDCAsDCOVtwb2G+Nx9F6eslWzlDPuTsvKf3bbBotv9jYO\nH7ofgAQXANG2Hu0bPwVrdYFp8Ci+b/kcEyDOAzGf78Z69JwqtLEQ0c8IjITWG1A7\neiOaoKfHTdQ/5gWMmr+ENBwmUYBF9I0IJCjhXKVbemaPTt4VMcxH+UupcygxdfPV\nZmg6Tof7eOBXTm/cYtT4/0B6+ayEgpjtOTZ1/JI21sUMXuyqy7c8MtiWWvIq2Mi9\nCsKFDCwoCq+tLILQx35oql7i2tjBKoh9NpYS3jL0VhuXHSv3xaD9R1H/FGgVkQ5L\nyd2eGwCLOHaDf9mW4E0Al+BphwYip/d8BYcGRuWxB9/XTw6idv3NB68cr+F9OGqD\np+pifrbJmwBbvkkpL0Rz\n=BScR\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 50f9dbd15e3952aad50aa1113870cc93afbd1690\nparent cdc9cd8a8aefa83eec697e4720bdc6ef0728352b\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1727187577 -0500\ncommitter GitHub <noreply@github.com> 1727187577 -0500\n\nManaging multiple redirects in Qwik (#6909)\n\n* Managing multiple redirects in Qwik\r\n\r\n* Update packages/docs/src/routes/docs/(qwikcity)/guides/redirects/index.mdx\r\n\r\nCompletely agree. I also realized that mapping is due to historical reasons and to meet a specific app structure, so I think this is simpler.\r\n\r\nCo-authored-by: Ian Létourneau <letourneau.ian@gmail.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Ian Létourneau <letourneau.ian@gmail.com>",
         "verified_at": "2024-11-07T05:58:51Z"
@@ -2891,8 +2891,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/44df8d757a52a2a66b3a905d0965582fa73606de",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm3X6QCRC1aQ7uu5UhlAAA5M0QAKs/HFVk+Rc3QdSNvvnG0J4A\nglCiq51G9o1fdg9pBA6LDOVc1nSV8MhzXpgpDqEMdfsKYZnpIXk7U6D+57uYk/pR\nHoZzpGn2WqAKDZsboYNFQnEaEjQKxPonZ112ogv/6YTlLSeW5F66gxB2mj/OQ46N\nUI5ug2r4m7H/+wfRhEiGODZ1LtczFMZKU05nBr4hQTAiiztjWCgR1/gWo5H2mOAs\ncEwpk4P6AKS9h0zuOH34bGXt2F4p/NzpHfRoTLopEszyFl+WDynPlf04wGDc+BG1\nxWAYFaB9Mb8D2Qjc64S9oIUqv/BUeBI3LsGC6a6we9dAOuVKDmyomoXNM4ePnpaG\n3D5ybRuFZyRvlLNEhDgbfwnqJZHlWWsuDk76YdzupW+W1YtV4AryyMED1uSPRZxf\nutoXddb+Ddimpurxsm2nw6KzCZ816Loee+kNiXNh9Zr0A87jPsQMJ6lxCDr2fLQd\nGBMir72B+ftPnj+SLuI2xbwaPLdeLMb0lB2McqiUz0JVy5M8u9W789diWAX+A3b5\n9lpyIt/+gHHfsaukdQMoiwTjaFXUjyoQ5fMRylsm4BYgU94y3kHMPpHTyBE69GsE\nYuUA/hk+M5atPe7eYHIY3qHSDimiA6jevB24oXJlqPIdsoIv8WUKIv5Vm5afYlnW\nLBCOWclZbik2PBhhhgZI\n=zKSq\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 19152ba1221d7352797329ecb19dbc95bd56c445\nparent 521f3e12eccc9cddc66d919199121e291cbeb466\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1725791888 -0500\ncommitter GitHub <noreply@github.com> 1725791888 +0000\n\nrefactor: update tailwind starter deps (#6783)\n\n",
         "verified_at": "2024-11-05T13:03:37Z"
@@ -2973,8 +2973,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/5ecf01a8ff4c131e618a2b5e8a02ca3d285dbf68",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm1pfcCRC1aQ7uu5UhlAAACVcQADCZwZM6q+ClqWfVhLCRnj5c\nu3wwJivHCA7IBS7LrrGtl8QxIHb6PoiDNRVR2BB0G6OKkVhLJISIxMJMRSPBr3q9\nSrKhhXz2sRBQd9M5D+tBuNr8IuUT/ozCgZAHm5s6iOc34lPO8ABmo3SHpZBqcvrM\n9J8IgSrKnb0t5Z5VSzfQeYXiJ+Aed1WViYFjYnTqlP4fMiYvX2pZ+Acbj69gBf1g\nnDe5IV9L/92Lj3GG76qKVf/6rIt/pVtLmjyxcNu1VmP2gqWRdiHAFYfLJM0qvDtC\nH1H9+h7SZjmTJ+8O9rYwgtNtyBDV0Gst1EARhFBvzhlqvS2e3gmSNk3OM8vmJCZ6\ngnPqqO3wQJLEYD9q2FC1Y+JEFxfqzXG9z7Lul3DBNiGJLBpeDq/49CNWWLg1pIaI\nEXmitN631AtuHhkNRBi4XQBCxOZBba/wko558ddgkl04TqwI56gw2GoJZFii0Mgd\ntkkdM2GLLDqx3mykLAPCwGmJ+VZCb5kfY6kdMxF4TyWtBOg5vkkRX7UjwFAKmTF2\nGNXVGsJrMA9NrkbqGRfKI7lC/4jgjT5de56+ue7zlACk1cyDaSjXfRCdhHfWcP20\ns1A4LbtSEGGexOczPE3JCaa8yk483Xm2qFK1Ba8jbuyoBDAFnIMFDzuZw0t0Xl24\nkv4qEinVRpJUbBULOHOQ\n=PVS8\n-----END PGP SIGNATURE-----\n",
         "payload": "tree a3f38cd6e5d1dd0bd28234d0766553438ef2da1f\nparent 16863546e548e3057e56afd2facd79a039158174\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1725339612 -0500\ncommitter GitHub <noreply@github.com> 1725339612 +0200\n\nfix: qwikVite transforming id's with ?raw (#6854)\n\n",
         "verified_at": "2024-11-07T05:58:50Z"
@@ -3301,8 +3301,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/05a52c3f0978edb8cdf999bbc59ffca025ab9c61",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmj2WBCRC1aQ7uu5UhlAAAHZ0QAGs/F8ynCdW15i8VKxMdtG46\nMR3di8XhaKmzZWLGqDqWClIoRdxKqaWJRaQp0h90JoIc8apzQs+iVyFCnH3b6339\nqDaowEdLNyEGoUWmFxjc0gv0yU/lwpn51QXA4ma64T39bNv1YXTXzAh9Xs1nPp0n\nJf0BT+wGM2oSxiAOBdr6QOTIL5QV5f0VFZeR2YaQg+RJyuS8sjC7NB8HIgGq5HX8\nNQxAvpbuJikqbm3Bl73U58qLhhRdvPJMgXDwN8h4m1hr/UOTIWT2d+rND48tgzz8\nd2+uFohxX5DAhvkUerS9aLjRwpCi9lriPx4oxpvSr7mBi3dlc+7vfQ8/v1DvxjMp\nx6/mOZS6aEBjma05FIpt9cNzF9ARUAMjf/o9fVBK71qXj55aXw6tLBahH/cnvwBd\n6nROABLtPSHp/tZGhYdz+IxeH2lK2koUkI7Rid29F2BdCUllYdUknSnQ31vvzh/W\niIkSTz34HPPY3U0lmoTvy6inmE3d7x0JFz8s7KUIcXqfQ0r+Km2nlFtlRFMhOuvj\nbCGtSAfPAXVzl7NON1UsqdNdo2CJ/NheRB4gYw5ZubjglWyg83n82v7y66/evV90\ncOBNbovpxVtKHO1LYsgJ+oLIerslXQNah5III5kGrVg8BhywjRzfz2DfWHV/mtiF\nIbQS05ofBB7XesLwLyvQ\n=eFzR\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 8caad38f4c94617bd998864201d2a561326543c5\nparent ba0dc30474f0b115dcd0d28db8a6cdac061c52ce\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1720673664 -0500\ncommitter GitHub <noreply@github.com> 1720673664 -0700\n\ndocs: update readme footer logo (#6668)\n\n",
         "verified_at": "2024-11-07T19:09:12Z"
@@ -3465,8 +3465,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/220536fa8d938209d26fa654ad4add5971c3b506",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmhMZsCRC1aQ7uu5UhlAAAfyoQACvkc6XuJp9jNKaHRyssxakW\n+viCV47wJXGdul+R5ujXBFLNyh+mjqDuOW6PMYpioVTrg0BG0qCwlVck+hkapMjb\n394PJiAMvlYW9TjjK9MUxl+JERLIVrYioRKstoh0fyDQVGSIK6PADY1Pl/RBIyp0\nq9cmemCMWa3KTMTR9tWXf4KSYgMwZQC0qtwk+9+lKvaiCfDGgPFH5iG51InUi0F0\neD9Kkj0KK0r769JSRoNkxouDHDuKGrMAmSU80ibT1tjzjqecngCc+eR/FEyJVDwv\nrWuRJP4i56XC/JxnbEyJP4KhGAcwABZNefdKNIGbhD6D7yprQ5DWVVB4uRbU/mmf\nDJOB+/DnL+FmSz18LkJg1Z9abi3xaixUTwYD52Dt4YgCGwD3rDCh63BUfPWlWgCo\nd4tWyEbya5+xou+0ldCF0Q3U/r1N733IVogqGFh9Ih9b+9QYKKUl53Ll+QR6hYRv\n2yKBB/4XWogq4XoQ5gMqTV5h6STUOfd4O6BV3om1Q3IWvnYN3ppCLZMHvQPBepHb\ndCdZ0h2Gks48CxboMcBNQLJKdR7jADfJR8jg+y7g/+2J0qjp1FiVG098MBTt40a7\nhIJUnNiCfTObBu7mC7jGzzrDUwpM9MHrEm0tV/FRY01fqcOWafVx+7QPicB48kj4\n1AO57urbJSBBGW9POYaa\n=Yn98\n-----END PGP SIGNATURE-----\n",
         "payload": "tree a1ee08e909d71ce035fe743c9b5b00564f3464c0\nparent 8a5ef13c27a41a3521cfdaef87d9d39b7ddb2d86\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1719977580 -0500\ncommitter GitHub <noreply@github.com> 1719977580 +0200\n\nrefactor: simplify CLI starters (#6632)\n\n",
         "verified_at": "2024-11-07T19:09:12Z"
@@ -3547,8 +3547,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/79b2048c68a513e3830e567c2d3f0e842ea1deb6",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmcGKsCRC1aQ7uu5UhlAAATqIQABSM37PmQmgzneFYkqU2Qzci\n4bO00eGtSCEnY94LEvwsr8u5CzxCaG/fFd/EP48Stx3Dy7vOD4cu/2soa7w8IY9k\nKEMruU47nXHsyeIwefYdxLjZJU0SG7saMkmopFVCnKDuaLh4kcLwuQRdFdZ3Oryg\nfn75hUCJwxSgoaFbN6LmkCD2ePeghDjz84cKWcK8+w+nbuksFKz02qMh0FlrkO0S\nMBYUue3Ww2P+/OM38DSA/sWoS+zLoEr5edzaCzkI2vVuCY03vcbdKlzZPjTiFiy4\ny5HNqSdkGqF+DdVpFs845zmnD2UgVkvCO679/H4zrPclUzJcAdnmjIU6KLvbT+hL\n6c41qR7vt51L/E7Eqc/6gStqKgFuIOGob+oUrXby4hVbEIvObxvubiHwDMGfJ0ZQ\nroL1gPOVrCuOVPo97ROmP1j6HSZhFslKZGY84+JY31gVCiTnPy5hx9XqD0wxOtGd\nWFxwgrK5Pi4G3PcI3OXFN5ZuojCimYH2MxvYp997WHNwAtv1wR6TnbE1+GPs9AbH\nPLoSVJU3lAfcZoDBKizJFFlxgQTpGShA82iMcPBbCD1qakPpQcRChNXgxiY+Ttxv\nnCELTA2PIIfm9Zi23PUbeWXAOvMyESz9sixHOvhAIkbke+LfHGeTXQYIQRnTHfHL\nWcRbQWq/n9QCq0j+s4rr\n=AoCB\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 6f6fea745730fc2828c47b37afb239bb81f0144a\nparent e9b9abff7ec4eea08e8fac42f9920b19f2ed95fd\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1718641324 -0500\ncommitter GitHub <noreply@github.com> 1718641324 +0200\n\ndocs: fix aws logo color (#6565)\n\n",
         "verified_at": "2024-11-07T19:09:12Z"
@@ -3629,8 +3629,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/08d2a70d320f0454be1ef8c6870377a4020cd74c",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmbhonCRC1aQ7uu5UhlAAAD9wQACvpzheF5N9swm1B2wRAFG1Y\nclx9AxZWHmtL22dSqkg16hnBFiSrOtzrogXFUW4MwIJDVgXnUpwvVulVCvZXj6p0\nnZdcKuHlFgP87a6wisufCSuSrnyldMdLQbsaxdZJILOcTJeaCESuMb4EsWmREeJ0\nDJ+g4JMXp3wbXeCMQ36Op13Lb/Zdd8zsoJtSRxmiEo/TXE2E0ed3+/Ln3fy0MaM2\nqjKFxqf8KltU47YfAus8xZYu/HmTcsKuG45ObS2RjEBlyxqUQf8Sv4PvbIt/b/4Z\nYhquhav8gl4LWm3l0QaZ0eZVI8HTx0ohkBuU5S2REJbZkGL5t9GbScMpfhZ3JJNc\nc0SD3OUTrB0zLvjrz08zUQ2PnutcquIRwr8FR0uDIUnv8j6/ZB+s8DPf704JRTWY\nCV2UPxSveMtu6rQXRNPMGSOo7JEQsvC9b368nr0HVbUh5ExoADSXz/juD4JoOhKF\nu775G7DciutMUqqtUuGo5ozgZI5GxddUKWR2+KCGgfSnwPuU73fg409w6YDMyowz\nBayssN8KR940kquL8c6N9EpMEryO95d1oaBeKRgfsJ9jwYUG/AG061HvRF1uKxW7\nHG6JGXz9OFy2lNqTUo1xUIcfUO93u12j7jjw3m1d8GyZsSjx5C0GAmLb8giOLoYZ\ndsZ1mwEYeMIYWfzm6/Gg\n=QU4u\n-----END PGP SIGNATURE-----\n",
         "payload": "tree dc3077cbbe800cb646ddee9b13f7623aee09942c\nparent fadbc84807e5ee90f388f874844e5c7055563899\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1718491687 -0500\ncommitter GitHub <noreply@github.com> 1718491687 +0300\n\ndocs: comment out extra sponsor component (#6555)\n\ncomment out footer sponsors on homepage",
         "verified_at": "2024-11-07T19:09:12Z"
@@ -3711,8 +3711,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/a9c54a63b39c5352ab83ce30cfed4566073fdac0",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmak4HCRC1aQ7uu5UhlAAAu20QABNAyZGGHz+lLXM2xFHBfx8k\n/+CCvI5s3fFasJJ2UCy/mD06RdIp2cH8SLICTfvjr5bFLsSdvyjQlV/TMQY14PkY\ngjO1dYPxDHqCTOZ1kCPM1RGTYogMHVWcLtR6e/hiXaNX+SwfC65+5OvHJpb7I7js\nlTLLAIFD+xtJK7esHNqFXwTLSyETCPNj7AyAV6e5BRn9YtZzt/+UUuTLSdwik0LW\nEYSo8XBvTSA31952Bsn0zOBvVmtu4jGEUCwXjHc56EWgBKVVnv6wLxzPJ2PIHGGi\nj8xaljAh5Il456boKfDUBdpBBpXDP/1sbC1HdbwV2uzdgW6Xg7DNaXb/l/4lv4p4\nX5soFGAFj1RTnIn0wEDyaDIEGF/nNtqnjpQW2QqN8C9XBv94ax7fRwLDwO1jywyT\nXFma9VmQKvZAwHUWcKWWHUQmsdrgwkfEvIyQeV6AJH7sSPqHALHMFB6vUg4BsInE\ne11EUARu9kI1ZJYQuDVuegY1b78OLlp9TynQXF6GROP73teatuyUgmiMN+srSBU0\nGqG84bR6I3W+uGcBw5VHdn7h1FPOsq2/CuYMXdStJSdDUHg0rnV9O3t5svxucjig\nTMTgH2lalbvywA1en9m2Oey7hw5wV8xGWXrUjYgRIPNxMorJEb+7PpiMy0GMgfQy\nbwZ6j9eYvtk6M2SW6cus\n=CBUI\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 3e60fbe4bf52abe3f8ceb16030014896daa11ee1\nparent 932dcfc45c2e8fbc550d6e1e767e318a37b4d755\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1718242823 -0500\ncommitter GitHub <noreply@github.com> 1718242823 +0200\n\ndocs: improve debug mode docs (#6537)\n\nimprove debug mode docs",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -3793,8 +3793,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/932dcfc45c2e8fbc550d6e1e767e318a37b4d755",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmakWuCRC1aQ7uu5UhlAAA2+wQAHSo6OSNMm6unpyFkKinooIO\nZ60wHlAlMJV9k9aumoU96La3SsCk9pikPrACXvKTyciTZArSE/95sbUK8n6G18HL\nJVdgFK4+eL9zyLpVTd71VL+jrjSXpkDoT0r23NvteJ/Mo6yE8Y7yUIreB++odhoq\nmB+YOg6lGQVbji6hh6MuMoDXcvi5MfFEZC1Qn/XOltLcA3Io9uwXiqWw3sAVmUVV\nz7hCgjN6L86TNgzQNLdvetI2pXjXWdMu9Kf+oCfE0SJQqZVBJ6+qorSCN+sBmT0W\nWTO+8k1VqLtSKIg2EMd8euo+FjbvMtnbFAz4iLyLHhOAKxolqBy8GUcSg84iEEO+\nsQB2RuKFXMKnwPd9/6ZED7Yy5ODeeGT1++SvDoRjHWaYYa2ZC0Bz40wxVxo08MYu\nKPksUQbc+hPd4sCs0L2nFT7dpB3/Wb4lBzkdQBq1v43QXVbe5vllqGZN85trCheZ\nLDTzesiu8ZONjCk1GkZKemrMa2MUoCppqo5eE+e6EHwZYDLycXXSY2ApLzx4UPL0\nZhkDdO3AMHsDS1BhztlxhisfJUutNHaO10T19fq5rs5gd/1lNxGdfITeaoO7J4bu\nUBGzyWv6fS5/rw86P9BkSCj5R2oN5Kdi+KQ2TBIOKPD4hf8TB4PNO72tg8Z0To4Q\notYzRGUHDKuSYhVbOzaf\n=i1+X\n-----END PGP SIGNATURE-----\n",
         "payload": "tree e7646ac93197d4842bdac0c5f7b59f21da3f5441\nparent 81c61bc8b44556e901de675ec5fc670d4c3bab5d\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1718240686 -0500\ncommitter GitHub <noreply@github.com> 1718240686 +0000\n\ndocs: sw debug mode (#6536)\n\n",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -3875,8 +3875,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/96d804586d33961692ca41c09e4a0b762fe9579b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmahXhCRC1aQ7uu5UhlAAAdqwQAKASdgxD7agnF+T6WvEqc3NF\nmqo0ZtlQqhcc0xqMOgUEXGJ4QcwRHwyfQS9kkkZkJLw0djUhtBGVPsKPeGPDrEHH\nw/il3hO5JCx29Pcm7boSwqgJHMN9hVeFMZBin+c5VV/r8El3OKL9TyOFh5NcVLi0\nb7pLAXFbW8uIxQeikwQy0OJCUMc3g7FjKsJMFRNbhF6mFImkr15RHfeBOgfNYna8\nk6u6BjzJlL/FFHYbEGBCFYds4eEiYnEyNtzEDjtc/So6R0gmTfJa27nXNS5r5eIb\npJCVHnccRQk9AVzSmsos4Gb0FiEOIiKeADQqfQVHXBWdc5gzyeciIZX1OWG0SQWO\nZxmQVE7gsGYw4uecrqmIwckGIEiUxZarr9nsizyUStw4DdPml752WkXEtRxfsBZN\nVo0CoKwWLoAni96XoCXwokpZ8MtAjQaXJSKQBSd3gE1YXgumArwGjXMo1crOATR6\ndUTtM8TFpv7o1fq1/zTZC/+PkDoT2xZxrrbxbTcq17Zjqj4Ejv2OWA8pMpP9i0+s\nIi4gMOPMPPkGvAq39N9y9c9iwq7Ye24v+tWToOLv14ilj24R+rfQexHqV/BK4FYS\n+SdiVIVmEI6FBmFM6Vnsjy4EeiKUcXpHNsXHoeWhs0NnyqG/iEY4SjgQyiZk9M57\nfVnrGtm1EP5nmuTGJTWC\n=nQZ0\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 9d4efe5d6a2ba6cf7de4a1aa40ab2714dd04e6b2\nparent 3d242dfb66d0867fbe9b404240778ebb6d9959cd\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1718228449 -0500\ncommitter GitHub <noreply@github.com> 1718228449 +0200\n\ndocs: remove the custom portals section (#6525)\n\nRemove the custom portals section",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -3957,8 +3957,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/34274eda48eb4837488953814b018927010e0bae",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmZPDBCRC1aQ7uu5UhlAAAqH0QAJrn0IVQdt1nrWvJhoRSYCkH\nCH5eOIe3uek9juah+E/BSfedI1Br/omI5aB5ILe6cuQ4kyCxyx7aTMrTPI7qpr5j\n/depKs9DBibd4QD7c991yJOkIzVaTQ1yBqITKnVjuSjzSDWARR1aZyr0CutA2YHi\nRuAGL+cOM9OZYirVgVV81q5KOtcdIadOcyWuIMxQ4A53H5nOHhkakk71Tdmpj4TC\nDYJBh+NuxY4X4Lsz12mxMS7b3qZjQG6up8wpU21uwpBqEeNYIXvuNaNOFnwohnVq\nqV07Z541Z2h5PhVMBB+5lYEOk4JR3cY/3r2XcimJidjQOW28/R4+WVqbF/u1enTp\nwEwVGWalo4HJaFxyTOmz9WkFRIpI7OilnRwzi4dwyfcRtuBbXK/ITCmCFjJ8fJHw\nIyMohvz/8o9Y0DuE/Q41Tygu5+wfKjsh6twCZwmarYrQ5CZuCp4KR5JFcXc6H+l8\niDMClorKewHxeovUOh3eFqxRMI8f1P3cTpBG71w5E0kzUtu5l1j4NycDH2nv9QzP\njY76vZuvPeqNObxPW3OAE/ntVSEgTp46JL1r0opyDjTywbRJSEgG+P71PZK/n2m/\nOc6uE5fMtp0jreDtvrp6zjg6yIzatmBNPNiLNP73GzFcyC5mofZ/xWGJJA3lBzs7\n4DZziJJYqmWdMRiRZCWn\n=Cc0i\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 3914a391d9ad40dabdbf0f0fa30899fd8f88e9db\nparent 82ae67e7532dcf1b92e486405b6f1e8b4a3f9079\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1717891265 -0500\ncommitter GitHub <noreply@github.com> 1717891265 -0500\n\ndocs: add sponsors section to homepage (#6467)\n\n* add sponsors section to homepage\r\n\r\n* update layout",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -4039,8 +4039,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/f6fc2f855a11b541d383bf9b26db399dbb781a5a",
       "comment_count": 1,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmXWWiCRC1aQ7uu5UhlAAA8CcQAA5php1unsBDrUSOx1bBxHhC\nb903AS3SRvz4CuDQRsl+Yd9xYlppVUApRj0nyjWv+EEy2tkqSmSN/2l6QrQiTUR8\nBexuBwn925rCj7CY9If2QbNzvJBYR9NbkiHR+1UY42ZbbWhZET5iNGBVZd6B+Pni\nG/rFEc2az/tRNVjyZlyaNDrC1EamHaVZTWshYDyAVpDaOXGxeuy/Kf3/Pu4+ZW/k\n9d2rWuCRgXX+b9+6U97lfGV65S7FJeLtA4vs/eEy/CgZ24CoNNauiuDhBf7fQysv\naTcEknIi72mD4fZ5SIXobVqB2+itgqJs5ZRdsrNK1DHg/7iz0M4eyZLed99Mbw9I\nkFXBVCpKKC/+saUz1Tl/yYwfDbt1G1MbD3H/dpBCIOWemqEWttAunNq2pygbk3HW\na5xq5GBoBXJy/m9DLjPM20r31d3ud2WWdNN/w2ohU20geml+K+ZkAzEgvmPwi8G0\npe6HZONiJSlTLZAxD39L5OLLikJbFTGZatMZobLUwCU/Wm77f6KW5H2xxr1Z9wEn\nHNiIcrkwLNNPtuovo4VSHesSrEqX6so+XR5aChTRSqE5IikINoSGRwy2SNnBqmAt\nzQDf+Ouh8a/36xK0BzcYLQXwiIo6QGwK1KDYTs5VEsW9ljBFBxigRc9wOTMkIdUh\nkHK0z6xmhazfSJqAxdM7\n=TDFS\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 4f774cc4e8bc398cf826059bf174af209399a435\nparent 5244042790cee14fc28f00a5ca1a301d469da878\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1717396897 -0500\ncommitter GitHub <noreply@github.com> 1717396897 +0200\n\ndocs: update documented minim node version (#6448)\n\nUpdate documented minim node version",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -4121,8 +4121,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/728236f53b581dd572b843d1639d98c51255af65",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmXL2tCRC1aQ7uu5UhlAAAF7oQAI7knkwBhH1jdVV18meweCmR\nOjM1nGNEgDkvYBgdgr9MB8Ms1fFGAtPymPrNB944zkxtari3wnHHLy9bVfcLlSR+\ne+JwlXz4b4M/Cq//NtqPsGaI6jZNgazxqYSh/7YeBARzMLqaEA+tKixtxq+n9Yhv\nwqJ5w0eC5/8d/sbcMWc91xaONmJOAG29BjCc5Iw8gu+QkzHx7RyO7F2PggjgHQmE\n0jB+UGymRA8TZAPfzOvOQYNd3jjI9S9xCMZOP0dzT+n3ivPBg6HfajuyUhktutHF\nQU0HkTpRcK57Iv5mWcvvOOqcveNLAyLnkmAheT9dcdWzbBPf/mh8b2Bn8B4pZqVQ\nokRKxyTi/Utgiea31nrKwCxGqitK8dFMRWE40FT0gqXbplFd7RuO/dInGH9MbEJ5\npfsJyfOAO1AhwQQcJ99wNbgZsQdjw+78VaSY/7JXiVa5xmUkG6xMv9iHY8RQMF0i\n2ewMiM2ibMkF0ptUwSzs4xMFJC0zwVlIoH0ESYMR0oaGDEMQ74fiatsjCzWzF3vX\n45I4roOh9WYkS1mVUHY268PljfhOv2xAuRadTwF728gMwxnEot+2FY0vO/w/aaYM\nT3OAXJZG4bXCDAWozGmdlVG4KzKHdyrw7545MEaa9aFoMp57EL7bkpO6ZqJ/CgjB\nezcffTOiBTPBjfxQRDvK\n=9MeV\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 06987a1eed3872d6c82c1d62896d444cfbe05e29\nparent 08956fb069a2f7a13522c206af568e0920dcc3a5\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1717353901 -0500\ncommitter GitHub <noreply@github.com> 1717353901 +0200\n\ndocs: updating overview (#6446)\n\n",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -4203,8 +4203,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/08956fb069a2f7a13522c206af568e0920dcc3a5",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmXLjMCRC1aQ7uu5UhlAAAOMMQALFqffgRYOVNF+rsZUgvA6yT\nmNJXfbDorPpoDkBGRDmBcRxVE0DSV3TevGE4fQDZUqB47Hk+12eQsE8tDc0/0Lv9\nwgq4tYkiBrLOx53l1+hkfKkPW3sAd8JjF5hGCpw4QcUprqj8EK3wAD/ceeVwcKgf\nkQJkvIkjFjy7QYyAR+8YHHHRmqB3Pkv5rV+EjmoDYhKCoMODn7EB9PmNvvoNFJLY\nT2A5rrZZAmS/D044GJlNhah/XKffaI9nA47NPBhxHl9J5JCHCHO0Ztj0YECHzAo5\n92RFJTY5KaomB1pyZIZ69KPc0qVZEJQS5Pt3FJalVq+VAMZ1cTlg+AaGEMUmpDZU\ncSdOpufwPe4T42Eu/APaoHqECOlnyiKNjXPy3AyPIYRTO0Fsi48At2x2c520Bye1\nPekEyMMN0UYTJzw66PXwZJU/L6Y+JkePH0ICnWeU59VixVdnwy8j0vb+zjcTYCnX\nGEbZke7YfViYqFZX6++kA8tkZjlCoABseEV+3fEQXtJ+Uk34ZfYWi8S+w0TOF0Sq\n8qn4fZFgT2yYSLHryQB2PjcRW0J96sdKycK8wGdZ7wba8LmkardaOHFhNlsSJsyS\nEgGkwefDcaJ0VXIRt+XaiqzGsHwdoxEi0Wdj6Kyd460HmoUkhx2BTLrb92D9L7nS\ng2H0pHjXBXJ0eBcxsdAN\n=tg5B\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 955a8cc8cae64614cbbd5944f84c4916f78870e1\nparent 59bdcc9c64bb09dade931e5da741e0b83eababb7\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1717352652 -0500\ncommitter GitHub <noreply@github.com> 1717352652 +0200\n\ndocs: improve clarity in docs overview (#6445)\n\n",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -4285,8 +4285,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/e943b7384c1746e933969ee2f8700e69c5a2e6e9",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmXEPNCRC1aQ7uu5UhlAAATFkQAJN8RbxpspfWIoU/65MKzX0p\nep3+Am++FzMtNsVgpBtugzyc2GALfpMu8tfjx3WefNLjUs/OTOuFqpEsj69VkR8W\n9RcnnINzGN07wdzptmevpu9aE4R4nV/Vbk0t03by3LwgW5MtsY7wZgHdLce3I0q2\n+Sr0g0GWT3RoLgBzAWTcqgYYI7bFZpyVoEeEQrgIKZq2Q8mpZaMQVY4Qku99Vh/i\npsU8AnJRbfrtbAzx/mMs4aswYplLYJHa8TLBVCgpN/wUHdZAYhasUgdKjkxuli+v\nGc82r+0nn34hysChC1AjxTVAS5eewJAbwjpFHUG2m1jvbMDEmRmrVHIWYNPO9U/l\n6FaMyjY3T6MIQiij9wC6SHMsR9xnqv0guCvyImfU3qTD/MYQ3qNXi1OO/tRnXCGP\nzqUgnvroXVeluwey64Bm2iiFM5PGPZFB59m63WLzyMGkEhea1qXfS0cdIGTOCOAk\nxVhjX70AEQ2pFuLG8VHo0wO49lSU2R1bX17SvsAEBVKph76Z9PFN2+BRglS4MZgB\ngA1oxe+ey4YeA1LpQEOgX7wvYwgUIUzs2q//Wblbsh7HFwd5NQtQN/MzHSY5Y7yt\np0A9ftin5p41QgDdpN4lVFxW0b6b4rcanTMYA2Yu7rzWA7NCdCZOtCz0AqZvXXjX\nA4zrx17kkqnxoJhokaWD\n=+OLE\n-----END PGP SIGNATURE-----\n",
         "payload": "tree bc73dcd86c0ca98454df4eeea85ecc799962c13f\nparent a6a48651da58e27ec3a6a7832bb551ab84fff718\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1717322701 -0500\ncommitter GitHub <noreply@github.com> 1717322701 +0200\n\ndocs: site footer + banner changes (#6438)\n\n* remove top bar\r\n\r\n* feat: new footer\r\n\r\n* fix: links can be clicked\r\n\r\n* remove accidental import",
         "verified_at": "2024-11-07T19:09:13Z"
@@ -4367,8 +4367,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/51e9924a9fcf7f4369f0d5306774f3f37282ab28",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmOkqkCRC1aQ7uu5UhlAAAyMkQADoGcDW5rGKqlp3VrbifDIjB\nEY6msSYrg+xiSyoI2kn2vdI46QUIA/7f3XMKLJ2sqMzIVQslPAtm4QyHcvZok7hL\nT6oSsBaqtrVDLJ40DJqziri5+fvYwi8Bm+sr6x+iM/neTL7+3yId4BdAm1IOE9h2\nGNtxyD2nXHtwb8C5fEzYFa6j+wKBeigUeTjAhXukA+voNVQk30W4zRVrbWtM5ru+\n/TJADOeg98hzPzAUZE+Cxn4aRV2lRi/0BJyszwhegZRbMsih0kD4WsgpnV5mm39a\nfCoC7bi4WqMjML6TnTMP0rhlLfrq8RMMBgYxmUpT8qIwNj+5EzWPvqoM/Glyz1q+\nFSM1aEEtLXorD6JpAe0zQ/RBZ4g7a7ylas2JOrC3yYHp4lNuD/BCCB9DH0zhcrRH\nLTTEs5Xl/UOXtmgMNFfwKIRuiA4GbQvfTGLNCzx1q07wRRPTiS6C+gIJPj4601lo\nh/pJSzLl88TG7U61vq4hCgPAwoizwGxzpWgoXTXFJsCHH2qXuAuWx0EPVhy4U+pZ\nbwqwBSB9tnHKz18GpHEBRTLYhx/51PKd2S2PvzskHmcJNscxz4viTkLs1tU3lmj+\nSY6coEhtOkD9kJ0ssFB171paUxIUUD1bejDEUXNAmfIc0jwcox8SxQpKbsQ2eztI\nPva6E0X20W2v4B2kTUTn\n=rtES\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 6431b48e9d89dffb941b2e0184318581b792d43e\nparent 36437e83af22b413a68d98c76e973c025b4d7ed5\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1715096228 -0500\ncommitter GitHub <noreply@github.com> 1715096228 +0000\n\nrevert: bundle optimization improvements (#6265)\n\n",
         "verified_at": "2024-11-07T19:09:14Z"
@@ -4531,8 +4531,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/32425f94efa4d574bae99d7fb675fcc2e2542c82",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmHw6uCRC1aQ7uu5UhlAAAkSQQAKvP6bzwA+2BnQjAUFfd5xRc\n5BmnJgBwb/QmWwb4rfuMiv+2m9rmjB9s3r/1MRTd334sHpzsBo/3V4pBO2mTyRkB\nKFMRUUl8cn69ueKBXhiA4lFqH8Rc1MxOUWPq7Zq6vGEyyv+PRb5NVV5zd/uKSiv+\n/0PPo4Aye8/XN6TP5RggresNskbdfoA+0GL4XyejT1PSvVYXLSB3OKYb3hFDveVz\ndB++g7DI+Bb8OXyaQqj+oiNYQ/eOUR2CshOQbayN2qV10A6hUZ0bI14B7Cy86RKO\niSVXfgCWqCKPEtKQHpPM50hPn4nuYwRe//7Aqxp9rley31EevPd7/9RzHRwaU3HG\nyqOg1AnNR2kB3gePNOcSwRvy5IUFz6x9mkTdXTF5CHTzYN0LSjLcKSZ4HIN+xIcC\npMgC9+XPpmLXbNorinfnWoDYR1TCumolhC9+s+V/aPcTALf4DvThy7FES30Rtlt2\nFmqProxHFcSS3GCtGGSM9uqsBZsccCEpGL1ZqKLdMQu4L2jqBDFIIpZsrGfWtAel\nPg7RozYVMcz5Ju4OBEm6VWoUpaJKwtFrMi5saqS7EJhWHOBy5ua3k5rdahU9YhzQ\nwWBJsszs4lY16r9xXeClEAiTKB341aNA1o56PfZnWAu9LavC2vC15BT+Ul0u2U0F\n/2qPPC7PWS6SqU3Cmj0a\n=zA4s\n-----END PGP SIGNATURE-----\n",
         "payload": "tree bef90d5654ebe293b1f95a554ede24cc728b34cf\nparent 03b4b6f1a5602acb4edf085d3977045e0a90afd8\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1713311406 -0500\ncommitter GitHub <noreply@github.com> 1713311406 +0000\n\nfix: replace ev.cancelBubble w/ cancelBubble (#6127)\n\n* fix: replace ev.cancelBubble w/ cancelBubble\r\n\r\n* remove whitespace\r\n\r\ncorrects stopPropagation attribute",
         "verified_at": "2024-11-07T19:09:15Z"
@@ -4613,8 +4613,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/c5f9a12e6870538931d7dbad5d2e9ccb5923e5fa",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmEPjvCRC1aQ7uu5UhlAAAfQgQACmcWlpTkwI6PvpfNIbVK8FX\nfpYgo1hRjUNssrzVzHAbX/nhKSnsac0pmc7LbSEJSOErTgXgN/RMSHbkz12YaqBK\nlDf9Alm4X1xyTtu8lGmXqEnYcVHC3DN815L8lt3fCF6yvXeNFOaLtP4WIBUYnhJF\nJW4qailHuS/9QmEEmxlTbcYcazd6H8fwRr8oxvuzcnZNTEloFWpxfti1k7Fck0E/\n5WJMkaH8ID2eJdbKLBISp887l28kRt8I0HPX3otlhSSTnwaJ9ry1BcSUMenoAwzM\nrE+TYsJa1ndgR5igWwsMLVbs2GQDyQooanv0zKgqnMqh2G79o7YjXOU16KOrP+1j\n+S1K8pe0XgbQTdjkQBkVQaEu3dQ3k6MVE/KY0LnzC/qe6mkjv78zYyuez70A/q/k\nNxmGLxgvQ48xrzg6/8hbHmzM4OSKfQ3XDdss3eWTfEcFBhFDpV7BAEks+JkYOR2G\nidtSDAUuAHJ4HK6UANzklNlBkp/CDFUnUkyhz0e80K3o5gHBqRhUbJzPhgcBwEBA\nwbxtgmVoC0cOSJgrz8BZ209UW5xy+k4K65QEomkyAHk1Xn1NqbbHClwe9tFPwEjS\nG1LSa681u/QLxl1OEVfXKC6ddLsggjAJJUncK/Gf2e1AqzyPecMtdxiOcocKoNfs\nSiqcLBVP0gh0CL5o7r+a\n=EZ0u\n-----END PGP SIGNATURE-----\n",
         "payload": "tree aa3112e09b323cfe56cfeb9042a70fc903f00259\nparent adb4c0cb5d8c917eda42665130ff93b09174bfdb\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1712388335 -0500\ncommitter GitHub <noreply@github.com> 1712388335 +0200\n\nfix: extra null fetch from SW (#6092)\n\n",
         "verified_at": "2024-11-07T19:09:15Z"
@@ -4695,8 +4695,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/c25697e9359eab5e81a2495e804027bb87b72621",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl6mAdCRC1aQ7uu5UhlAAAJw4QABJmlJcSkl/O1R3tFIaoqbOS\nUorrj/vMnk/sTATGw+GIZTDV5Xt1Zs+c4DYxmZzQHP7KSMEBu7+IwZxgoht9d1iU\nLHcdxY/eV+oinupGJROb9vDYmITqYTMiDP3aT7H4LsqEe+BLE2jmZ5PtnDNds0h4\noav7UqMM34hsja5Hyyb85FkAyZTU3aGRzdWLOey5flhYFjezStF7vRgqW709wuIx\neTYQoTHB39PHgRahrTPC/ny88UIIZpUF9oPJn+SBiL1wWH2+rQ82fq5fNlqLAYbh\ncOLiYDWO3BgrNb6KnrKJkRcaS2LL7ZRpL5wdo6J4bl7E2rw9eW9v8R4jIgBzGbgc\nszOHVc/Aup6/DcyPJuIfUm6EMOtc7rETLcG7ueIlY79ZxYxd43Z79y9VtWoGr9PR\nDZIiyQQ6nuXswLFqdkjioIwfTOxRLgutk4ROuvoDtK6TYvfu4nM3Lm+bbbgJS1vc\nScJOX1x5/FomKvY6sQtZ/Of9+w63wToNBSR1VXRvQ4FDGfu0mJAUqDbpnIndtxTA\n9OJpwPPs/sZG6GfYm4sqoN8syKKMZs1vTw7hBupQbtpabyvglfQoQS+WHPm+Jx7x\nRRRnl2vD1XWqZh8hLKfw+S0zdneRzvGybSp/sdJP4B2VP/MUhppB6YmU/8Xs6vJP\nF1fDCGJgo4T+7Yzesald\n=OLus\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 925a0d9f26511ca4f0077becf026959e0e1505a6\nparent 2c7e4c701287f61fc54da92d0fe0c8971ad07dd7\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1709858845 -0600\ncommitter GitHub <noreply@github.com> 1709858845 -0600\n\ndocs: small changes to the debouncer cookbook (#5977)\n\nSmall changes to the debouncer cookbook",
         "verified_at": "2024-11-07T19:09:16Z"
@@ -4777,8 +4777,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/20af284eba25b7470844bb6e44bf0176c07ac18b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJltFN/CRC1aQ7uu5UhlAAAYBEQAJDQVQGR9NlQ0LFSyw2jH8XB\n9cWWPKyYI8hwmA0ZXbCq4wXKQn1wftU6i8DZWY+cmj5RrvPYsPgcHXu9MZByAqbF\nCUKsuS2ionrwfpk32QONh7Boe286xgiaDqoF+a/D53LPQD+zWSDwF9MEQVKeoVhU\nFYThnLjzjuDn4GZcd8uhD1d6r2C31+Wh+W275gSokSjD3d0qXe3oi+tO7Fcz2s8p\nQ1H+mF8v9jyG77K8UnkXPEhD/gar6F8oAIhAQuQFhvEYNyZaFCZBNxD+M45XsANg\nU2Wcd7vzzsSHNNP+PqvnoQKp3w+CFOfFRPrCkMBbllZKvV8bjNFiKxtOOupgJxRi\nC8sq6Qz3nwPbn+4suRocetFml908K2u7cQy/NTzXTZNNzLBtlwcRMkiGID8NtiYR\nYdrjes8eEYlB/KiPlpK0cUMCDhu4CZapNVKi8eXrNRvrlLUs4x+w8Edx4ynFE9M8\nC23aQhRIqId0cMQiF33RjCefVTqj9zzHL42gBxfgJudt73geOAnUFdFeg8/YAxya\nO2euIyoKWKyDUMi7TKkWoYxaqQAPRajogsgNtpWS1zCHbtFiuz39mp8BuYF+kJbw\nigYuJlwrm+zDiuCDeBGgkxsIAXYjsRz3bH2xJaTdTX+3iM4xUmoH2u7LE47oBInK\ner4bli3qNTC01kg9mlvI\n=s9Hq\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 5ed86fc594a0df7a77bf9714e4a734e90b88d322\nparent 857ebd6055cc2b794901ddcebfc0892800034ce6\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1706316671 -0600\ncommitter GitHub <noreply@github.com> 1706316671 -0600\n\nchore: 1.4.2 (#5781)\n\n",
         "verified_at": "2024-11-06T17:18:19Z"
@@ -4859,8 +4859,8 @@
       "url": "https://api.github.com/repos/QwikDev/qwik/git/commits/857ebd6055cc2b794901ddcebfc0892800034ce6",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJltEXkCRC1aQ7uu5UhlAAAB1MQACdKZi711X+cgCfWItZR1nrH\naE8LgK3wzxqziW5GpQqTHjWSDmaLaCEIQgLslTtPUPpAX7kKrKy0G1uGYb+JPPqj\nt0jx/yIqqWi1lxyy+MmX7hdL3R58qb2qfiTAeP7uAe0/JVkPJLguYgjVdxlhJpsI\ntx939NdD/DowMqm9ASpBdltR7oWU1zvj6pZwN/kcxsI8UxoWrXMw3LqtuIBRxZcL\n9nAg1cu/MHwzm/XnSqo4YYiLpSn9jaaADr8W4IB/UOxXBvwvbDgXn6uJUD2nRiXi\nLcqNVYyyvp2bSpdQuS5iOfhXU6D4s7yRGufrzld4OBZ0eubhLSx48AUSYO3kGT+S\n8qqBDOHDQ9Gh0rjUeJm9GoUWBJXcn+rstc4kJquLHU0Xr2MMU5CNWEg91kHgsUHY\ninKNxgwuAFFMsqHwRSTSrtuF1pJ2XnB4+NTaUxRfIbHKL9I7Y1Abe9BbzFJDsH/x\nqdun6g86ZzFRnXbcBRxd4S/Hdss0mMRa5UdwA1/Cs6sJKm+w9L9dJd8uwtmgU7nG\nVazuCljAwJQdl6EQ70vOJH+cLI/uYHC1mx6TmRL3x+xTOwA1YM+GBQmHmZrXxqEC\nkdk9efIWYhr8sTERMLewTOXZzLyXLrvo+AHSDzykfBjR/9nJ6GdQV1z/5sFhTAHL\n3vifoieTlGyDuFbclckc\n=JBcC\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 3b1613bbc57d100d85da2d08efe947d784a24fa1\nparent c87c8edb647016fea1c50354c94555833f5b7ac9\nauthor Jack Shelton <104264123+thejackshelton@users.noreply.github.com> 1706313188 -0600\ncommitter GitHub <noreply@github.com> 1706313188 -0600\n\nfix: SW cache race condition (#5780)\n\n* fix(sw): fix cache race condition\r\n\r\n* chore(lint): lint package\r\n\r\n* refactor(sw): remove excess logging from core",
         "verified_at": "2024-11-06T17:18:19Z"
