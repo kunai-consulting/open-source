@@ -74,7 +74,7 @@
     "clone_url": "https://github.com/QwikDev/qwik.git",
     "svn_url": "https://github.com/QwikDev/qwik",
     "homepage": "https://qwik.dev",
-    "size": 67397,
+    "size": 67398,
     "stargazers_count": 21916,
     "watchers_count": 21916,
     "language": "TypeScript",
@@ -218,7 +218,7 @@
     "clone_url": "https://github.com/kunai-consulting/qwik-design-system.git",
     "svn_url": "https://github.com/kunai-consulting/qwik-design-system",
     "homepage": "",
-    "size": 62016,
+    "size": 62020,
     "stargazers_count": 19,
     "watchers_count": 19,
     "language": "TypeScript",
@@ -399,7 +399,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 147,
+    "forks_count": 146,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -425,7 +425,7 @@
       "ui"
     ],
     "visibility": "public",
-    "forks": 147,
+    "forks": 146,
     "open_issues": 71,
     "watchers": 694,
     "default_branch": "main",
@@ -459,7 +459,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 147,
+    "network_count": 146,
     "subscribers_count": 15
   },
   {
